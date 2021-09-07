@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: src/people
-  label: People
-  create: all
-  match: "**/*"
-- type: heading
-  label: Team
 - type: document
   path: src/data/authors.json
   label: Authors Data
@@ -21,6 +14,13 @@ sections:
   match: "*.md"
   templates:
   - post
+- type: heading
+  label: Team
+- type: directory
+  path: src/people
+  label: People
+  create: all
+  match: "**/*"
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''
