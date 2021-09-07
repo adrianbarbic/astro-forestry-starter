@@ -12,6 +12,7 @@ fields:
   label: Blocks
   template_types:
   - footer
+  - content-media-block
   config:
     min: 
     max: 
