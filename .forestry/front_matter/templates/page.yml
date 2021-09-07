@@ -7,5 +7,12 @@ fields:
   config:
     required: true
   label: Heading
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - src/pages/homepage.md
