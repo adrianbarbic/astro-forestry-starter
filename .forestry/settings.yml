@@ -33,7 +33,6 @@ sections:
 - type: document
   path: src/globals
   label: Footer
-  match: "**/*"
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''
