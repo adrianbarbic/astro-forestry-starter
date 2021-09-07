@@ -1,5 +1,6 @@
 ---
 import Nav from '../components/Nav.astro';
+import ContentMediaBlock from '../components/ContentMediaBlock.astro';
 
 const { content } = Astro.props;
 ---
@@ -62,6 +63,23 @@ const { content } = Astro.props;
     </main>
 
     <article class="article">
+    {content.heading}<br />
+    {content.blocks[0].template}<br />
+    {content.blocks[0].footer_block}
+    {content.blocks.map((item) => {
+      switch(item.template) {
+        case 'foote':
+          return <p>footer block!</p>
+          break;
+        case 'contentMediaBlock':
+          return <ContentMediaBlock />
+          break;
+          ContentMediaBlock
+        default:
+          return <p>Default</p>
+      }
+    })}
+
       <slot />
     </article>
 
