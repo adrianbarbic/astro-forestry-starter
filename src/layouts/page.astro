@@ -1,0 +1,69 @@
+---
+import Nav from '../components/Nav.astro';
+
+const { content } = Astro.props;
+---
+
+<html>
+  <head>
+    <title>{content.title}</title>
+    <style lang="scss">
+      .title {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        font-size: 3em;
+        letter-spacing: -0.04em;
+        text-align: center;
+      }
+
+      .description {
+        margin-bottom: 4rem;
+        font-size: 1.4em;
+        font-weight: 400;
+        text-align: justify;
+        text-transform: uppercase;
+      }
+
+      .img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .article {
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+
+        :global(p) {
+          font-size: 1.3em;
+          line-height: 2;
+          margin-top: 2em;
+          margin-bottom: 2em;
+        }
+      }
+
+      .posts {
+        text-transform: uppercase;
+      }
+
+      .footer {
+        margin-top: 6rem;
+        padding-bottom: 6rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <Nav />
+
+    <main class="wrapper">
+      <h2 class="title">{content.title}</h2>
+    </main>
+
+    <article class="article">
+      <slot />
+    </article>
+
+  </body>
+</html>
