@@ -12,7 +12,7 @@ sections:
 - type: heading
   label: Blog
 - type: directory
-  path: src/pages/post
+  path: src/posts
   label: Posts
   create: documents
   match: "*.md"
