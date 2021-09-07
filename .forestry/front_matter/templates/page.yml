@@ -1,4 +1,9 @@
 ---
 label: Page
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: true
+  label: Heading
