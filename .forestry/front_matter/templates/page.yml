@@ -17,4 +17,5 @@ fields:
     min: 
     max: 
 pages:
+- src/pages/contact.md
 - src/pages/homepage.md
