@@ -15,23 +15,15 @@ const { content } = Astro.props;
   <body>
     <Nav />
 
-    <main class="bg-red-500">
-      <h2 class="title">{content.title}</h2>
-    </main>
-
     <article class="article">
-    {content.heading}<br />
-    {content.blocks[0].template}<br />
-    {content.blocks[0].footer_block}
     {content.blocks.map((item) => {
       switch(item.template) {
-        case 'footer':
-          return <p>footer block!</p>
-          break;
         case 'content-media-block':
           return <ContentMediaBlock content={item} />
           break;
-          ContentMediaBlock
+        case 'footer':
+          return <Footer />
+          break;        
         default:
           return <p>Default</p>
       }
