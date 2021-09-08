@@ -9,4 +9,3 @@ blocks:
   footer_block: This is text in the admin forestry!!!
 
 ---
-This is the index 

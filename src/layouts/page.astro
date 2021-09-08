@@ -23,13 +23,11 @@ const { content } = Astro.props;
           break;
         case 'footer':
           return <Footer />
-          break;        
+          break;
         default:
           return <p>Default</p>
       }
     })}
-
-      <slot />
     </article>
 
     <Footer />
