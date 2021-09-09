@@ -33,7 +33,6 @@ sections:
 - type: document
   path: src/globals/header.md
   label: Header
-  match: "**/*"
 - type: document
   path: src/globals/footer.md
   label: Footer
