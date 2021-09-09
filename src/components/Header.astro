@@ -1,3 +1,8 @@
+---
+const localData = Astro.fetchContent('../globals/header.md');
+console.log(localData)
+---
+
 <section class="relative w-full bg-top bg-cover md:bg-center" x-data="{ showMenu: false }" style="background-image:url('https://vigilant-pare-4810d2.netlify.app/assets/images/home.jpg')">
   <div class="absolute inset-0 w-full h-full bg-gray-900 opacity-25"></div>
   <div class="absolute inset-0 w-full h-64 opacity-50 bg-gradient-to-b from-black to-transparent"></div>
