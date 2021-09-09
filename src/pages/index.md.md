@@ -7,6 +7,6 @@ blocks:
   heading: mmmmmm
   text_area: nnnnnn
 - template: footer
-  footer_block: ''
+  footer_block: pop
 
 ---
