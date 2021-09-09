@@ -7,7 +7,5 @@ blocks:
 - template: content-media-block
   heading: mmmmmm
   text_area: nnnnnn
-- template: footer
-  footer_block: pop
 
 ---
