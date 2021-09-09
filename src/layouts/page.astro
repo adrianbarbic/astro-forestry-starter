@@ -1,7 +1,7 @@
 ---
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
+import Header from '../components/header-block.astro';
 import ContentMediaBlock from '../components/content-media-block';
 import '../styles/global.css';
 
@@ -15,11 +15,13 @@ const { content } = Astro.props;
 
   <body>
     <Nav uri={content.uri} />
-    <Header />
 
     <article class="article">
     {content.blocks.map((item) => {
       switch(item.template) {
+        case 'header-block':
+          return <HeaderBlock content={item} />
+          break;
         case 'content-media-block':
           return <ContentMediaBlock content={item} />
           break;
