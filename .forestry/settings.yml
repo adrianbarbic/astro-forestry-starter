@@ -31,6 +31,10 @@ sections:
 - type: heading
   label: Globals
 - type: document
+  path: src/globals/header.md
+  label: Header
+  match: "**/*"
+- type: document
   path: src/globals/footer.md
   label: Footer
 upload_dir: public/uploads

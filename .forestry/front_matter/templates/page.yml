@@ -11,8 +11,9 @@ fields:
   type: blocks
   label: Blocks
   template_types:
-  - footer
+  - header-block
   - content-media-block
+  - footer
   config:
     min: 
     max: 
