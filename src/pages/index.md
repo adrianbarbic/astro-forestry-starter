@@ -1,5 +1,6 @@
 ---
 layout: "../layouts/page.astro"
+uri: "/"
 heading: This is the page header
 blocks:
 - template: content-media-block

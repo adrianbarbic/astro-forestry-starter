@@ -3,6 +3,7 @@ import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 
 let title = "About";
+const path = Astro.site.pathname;
 ---
 <html>
   <head>
@@ -15,7 +16,7 @@ let title = "About";
     <Nav title={title} />
 
     <main class="wrapper">
-      <h2 class="title">{title}</h2>
+      <h2 class="title">{title} {path}</h2>
       <div class="hero">
         <img class="hero-img" src="/uploads/chapter-01.jpg" alt="">
       </div>

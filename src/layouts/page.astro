@@ -13,7 +13,7 @@ const { content } = Astro.props;
   </head>
 
   <body>
-    <Nav />
+    <Nav uri={content.uri} />
 
     <article class="article">
     {content.blocks.map((item) => {
