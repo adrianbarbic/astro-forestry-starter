@@ -1,5 +1,5 @@
 ---
 layout: "./footer-template.astro"
-heading: This is the page footer!!
+heading: "&copy; Copyright 2021 MAKE agency."
 
 ---
