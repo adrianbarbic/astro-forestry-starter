@@ -8,7 +8,7 @@ sections:
   path: src/pages
   label: Pages
   create: all
-  match: "**/*"
+  match: "*.md"
 - type: heading
   label: Blog
 - type: directory
