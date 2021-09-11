@@ -1,6 +1,6 @@
 ---
 layout: "../layouts/page.astro"
-uri: "contact"
+uri: contact
 heading: Contact
 blocks:
 - template: footer
