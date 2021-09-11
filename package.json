@@ -1,6 +1,6 @@
 {
-  "name": "@astrojs/example-blog",
-  "version": "0.0.2",
+  "name": "@make-veriosn-one",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "astro dev",
