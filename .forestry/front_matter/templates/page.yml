@@ -18,4 +18,5 @@ fields:
     min: 
     max: 
 pages:
+- src/pages/index.md
 - src/pages/test-page.md
