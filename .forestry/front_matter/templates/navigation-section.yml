@@ -1,0 +1,11 @@
+---
+label: Navigation Section
+hide_body: true
+fields:
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text for Nav
+pages:
+- src/globals/navigation-section.md
