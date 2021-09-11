@@ -17,3 +17,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- src/pages/test-page.md
