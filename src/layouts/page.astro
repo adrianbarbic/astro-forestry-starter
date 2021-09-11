@@ -1,8 +1,8 @@
 ---
-import Nav from '../components/Nav.astro';
+import NavigationSection from '../components/navigation-section.astro';
 import FooterSection from '../components/footer-section.astro';
 import HeaderBlock from '../components/header-block.astro';
-import ContentMediaBlock from '../components/content-media-block';
+import ContentMediaBlock from '../components/content-media-block.astro';
 import '../styles/global.css';
 
 const { content } = Astro.props;
@@ -15,7 +15,7 @@ const { content } = Astro.props;
   </head>
 
   <body>
-    <Nav uri={content.uri} />
+    <NavigationSection uri={content.uri} />
 
     <article class="article">
     {content.blocks.map((item) => {

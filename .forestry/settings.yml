@@ -19,10 +19,10 @@ sections:
 - type: heading
   label: Globals
 - type: document
-  path: src/globals/header.md
-  label: Header Section
+  path: src/globals/navigation-section.md
+  label: Navigation Section
 - type: document
-  path: src/globals/footer.md
+  path: src/globals/footer-section.md
   label: Footer Section
 upload_dir: public/uploads
 public_path: "/uploads"
