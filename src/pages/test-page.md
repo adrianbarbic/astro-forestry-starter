@@ -4,6 +4,6 @@ blocks:
 - template: header-block
   header: ''
   pill_text: ''
-  background_image: ''
+  background_image: "/uploads/home-energy-rated.jpg"
 
 ---
