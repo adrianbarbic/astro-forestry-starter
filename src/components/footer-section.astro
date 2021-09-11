@@ -2,10 +2,17 @@
 const content = Astro.fetchContent('../globals/footer-section.md')[0];
 ---
 
-<div class="py-6 bg-gray-100">
+<!-- <div class="py-6 bg-gray-100">
   <div class="container flex px-4 mx-auto">
     <div class="flex-2">
       <p class="text-sm text-gray-500 font-body">{content.copyright_text}</p>
     </div>
   </div>
-</div>
+</div> -->
+
+ <section class="text-gray-700 bg-white body-font">
+  <div class="container flex flex-col px-8 py-8 mx-auto max-w-7xl sm:flex-row">
+    <a href="/" class="text-xl font-black leading-none text-gray-900 select-none logo">buildmark<span class="text-green-500">.</span></a>
+    <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">{content.copyright_text}</p>
+  </div>
+</section>
