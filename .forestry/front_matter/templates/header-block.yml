@@ -1,6 +1,6 @@
 ---
 label: Header Block
-hide_body: false
+hide_body: true
 fields:
 - name: header
   type: text
