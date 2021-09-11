@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Footer text
+pages:
+- src/globals/footer-section.md
