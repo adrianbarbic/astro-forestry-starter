@@ -3,6 +3,8 @@ import NavigationSection from '../components/navigation-section.astro';
 import FooterSection from '../components/footer-section.astro';
 import HeaderBlock from '../components/header-block.astro';
 import ContentMediaBlock from '../components/content-media-block.astro';
+import FaqsBlock from '../components/faqs-block.astro';
+
 import '../styles/global.css';
 
 const { content } = Astro.props;
@@ -25,6 +27,9 @@ const { content } = Astro.props;
           break;
         case 'content-media-block':
           return <ContentMediaBlock content={item} />
+          break;
+        case 'faqs-block':
+          return <FaqsBlock content={item} />
           break;
         default:
           return <p>Default</p>
