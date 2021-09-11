@@ -2,11 +2,6 @@
 label: Page
 hide_body: true
 fields:
-- name: heading
-  type: text
-  config:
-    required: true
-  label: Heading
 - name: blocks
   type: blocks
   label: Blocks
