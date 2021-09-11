@@ -1,4 +1,5 @@
 ---
+layout: "../layouts/page.astro"
 heading: Test page
 blocks:
 - template: header-block
