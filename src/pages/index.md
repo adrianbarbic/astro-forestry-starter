@@ -5,7 +5,7 @@ blocks:
 - template: header-block
   header: 6 Star home energy ratings
   pill_text: Get a FREE quote!
-  background_image: ''
+  background_image: "/uploads/home-energy-rated.jpg"
 - template: content-media-block
   heading: This is some awesome content!
   text_area: This is some awesome content as well!
