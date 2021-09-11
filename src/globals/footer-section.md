@@ -1,4 +1,5 @@
 ---
-copyright_text: "&copy; Copyright 2021 Buildmark."
+copyright_text: 'COPYRIGHT © 2021 BUILDMARK PTY LTD. ALL RIGHTS RESERVED. ABN: 48
+  730 247 991.'
 
 ---
