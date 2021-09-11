@@ -1,6 +1,6 @@
 ---
 layout: "../layouts/page.astro"
-heading: index
+heading: Home
 blocks:
 - template: header-block
   header: 6 Star home energy ratings
