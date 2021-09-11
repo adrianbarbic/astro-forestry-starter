@@ -8,7 +8,7 @@ fields:
   template_types:
   - header-block
   - content-media-block
-  - faqs
+  - faqs-block
   config:
     min: 
     max: 
