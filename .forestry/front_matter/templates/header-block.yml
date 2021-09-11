@@ -12,3 +12,8 @@ fields:
   config:
     required: false
   label: Pill Text
+- name: background_image
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image
