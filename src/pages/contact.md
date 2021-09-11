@@ -4,6 +4,6 @@ uri: "contact"
 heading: Contact
 blocks:
 - template: footer
-  footer_block: ''
+  footer_section: ''
 
 ---

@@ -1,6 +1,6 @@
 ---
 import Nav from '../components/Nav.astro';
-import Footer from '../components/Footer.astro';
+import FooterSection from '../components/footer-section.astro';
 import HeaderBlock from '../components/header-block.astro';
 import ContentMediaBlock from '../components/content-media-block';
 import '../styles/global.css';
@@ -26,16 +26,13 @@ const { content } = Astro.props;
         case 'content-media-block':
           return <ContentMediaBlock content={item} />
           break;
-        case 'footer':
-          return <Footer />
-          break;
         default:
           return <p>Default</p>
       }
     })}
     </article>
 
-    <Footer />
+    <FooterSection />
 
   </body>
 </html>

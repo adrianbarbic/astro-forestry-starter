@@ -1,8 +1,8 @@
 ---
-label: Footer Block
+label: Footer Section
 hide_body: true
 fields:
-- name: footer_block
+- name: footer_section
   type: text
   config:
     required: false

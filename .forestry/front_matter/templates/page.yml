@@ -13,7 +13,7 @@ fields:
   template_types:
   - header-block
   - content-media-block
-  - footer
+  - footer-section
   config:
     min: 
     max: 
