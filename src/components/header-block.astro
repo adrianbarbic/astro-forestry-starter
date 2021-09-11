@@ -2,7 +2,7 @@
 const { content } = Astro.props
 ---
 
-<section class="relative w-full bg-top bg-cover md:bg-center" style="background-image:url({content.background_image})">
+<section class="relative w-full bg-top bg-cover md:bg-center" style={`background-image:url(${content.background_image})`}>
   <div class="absolute inset-0 w-full h-full bg-gray-900 opacity-25"></div>
   <div class="absolute inset-0 w-full h-64 opacity-50 bg-gradient-to-b from-black to-transparent"></div>
 
