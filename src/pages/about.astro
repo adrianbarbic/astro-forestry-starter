@@ -1,6 +1,5 @@
 ---
 import MainHead from '../components/MainHead.astro';
-import Nav from '../components/Nav.astro';
 
 let title = "About";
 const path = Astro.site.pathname;
@@ -14,7 +13,6 @@ const path = Astro.site.pathname;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <Nav title={title} />
 
     <main class="wrapper">
       <h2 class="title">{title} {path}</h2>
