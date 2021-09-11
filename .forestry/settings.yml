@@ -10,18 +10,6 @@ sections:
   create: all
   match: "*.md"
 - type: heading
-  label: Blog
-- type: directory
-  path: src/posts
-  label: Posts
-  create: documents
-  match: "*.md"
-  templates:
-  - post
-- type: document
-  path: src/data/authors.json
-  label: Authors Data
-- type: heading
   label: Team
 - type: directory
   path: src/people
@@ -32,10 +20,10 @@ sections:
   label: Globals
 - type: document
   path: src/globals/header.md
-  label: Header
+  label: Header Section
 - type: document
   path: src/globals/footer.md
-  label: Footer
+  label: Footer Section
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''

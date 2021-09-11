@@ -1,9 +1,0 @@
----
-label: Author Data
-hide_body: true
-fields:
-- name: authors
-  type: include
-  config: {}
-  template: author
-  label: Authors
