@@ -2,7 +2,7 @@
 label: Footer Section
 hide_body: true
 fields:
-- name: footer_section
+- name: copyright_text
   type: text
   config:
     required: false
