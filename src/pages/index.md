@@ -9,5 +9,7 @@ blocks:
 - template: content-media-block
   heading: This is some awesome content!
   text_area: This is some awesome content as well!
+- template: faqs
+  header: ''
 
 ---
