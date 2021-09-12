@@ -11,5 +11,7 @@ blocks:
   text_area: This is some awesome content as well!
 - template: faqs-block
   header: ''
+page_title: Buildmark pagetitle
+page_description: Buildmark page description
 
 ---
