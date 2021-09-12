@@ -2,6 +2,16 @@
 label: Page
 hide_body: true
 fields:
+- name: page_title
+  type: text
+  config:
+    required: false
+  label: Page title
+- name: page_description
+  type: text
+  config:
+    required: false
+  label: Page Description
 - name: blocks
   type: blocks
   label: Blocks
