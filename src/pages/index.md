@@ -11,6 +11,11 @@ blocks:
   text_area: This is some awesome content as well!
 - template: faqs-block
   header: Frequently Asked Questions
+  questions:
+  - question: This is the questions
+    answer: This is the Answer
+  - question: This is a new question
+    answer: This is the new answer
 page_title: Buildmark pagetitle
 page_description: Buildmark page description
 
