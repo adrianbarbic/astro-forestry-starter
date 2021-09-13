@@ -7,3 +7,21 @@ fields:
   config:
     required: false
   label: Header
+- name: questions
+  type: field_group_list
+  fields:
+  - name: question
+    type: text
+    config:
+      required: false
+    label: Question
+  - name: answer
+    type: text
+    config:
+      required: false
+    label: Answer
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Questions
