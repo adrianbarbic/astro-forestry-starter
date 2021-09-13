@@ -30,7 +30,7 @@ const { content } = Astro.props;
           return <ContentMediaBlock content={item} />
           break;
         case 'faqs-block':
-          return <FaqsBlock />
+          return <FaqsBlock content={item} />
           break;
         default:
           return <p>Default</p>
