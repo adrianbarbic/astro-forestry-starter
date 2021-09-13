@@ -12,6 +12,8 @@ blocks:
 - template: faqs-block
   header: Frequently Asked Questions
   questions:
+  - question: This is a new question
+    answer: This is the new answer
   - question: This is the questions
     answer: This is the Answer
 page_title: Buildmark pagetitle
