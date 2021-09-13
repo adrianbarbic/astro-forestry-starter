@@ -10,7 +10,7 @@ blocks:
   heading: This is some awesome content!
   text_area: This is some awesome content as well!
 - template: faqs-block
-  header: ''
+  header: Frequently Asked Questions
 page_title: Buildmark pagetitle
 page_description: Buildmark page description
 
