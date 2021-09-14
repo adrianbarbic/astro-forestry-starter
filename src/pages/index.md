@@ -29,9 +29,7 @@ blocks:
       National Construction Code. You will be required to submit an energy rating
       report completed by an Accredited Assessor to either your shire/council or building
       surveyor in order to achieve a building permit.
-- template: testimonial
-  name: Test name
-- template: testimonal-block
+- template: testimonial-block
   name: Sam Tram
   company: Insight
   quote: This is a mighty quote
