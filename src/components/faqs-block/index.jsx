@@ -1,6 +1,4 @@
-import React from 'react';
-
-const FaqsBlock = ({ content }) => {
+const FaqsBlock = ({ content }) => (
   <section class="py-24 bg-gray-900">
     <div class="max-w-3xl px-8 mx-auto lg:px-16">
       <h2 class="mb-2 text-xl font-bold text-white md:text-3xl">{content.header}</h2>
@@ -17,6 +15,6 @@ const FaqsBlock = ({ content }) => {
       </div>
   </div>
 </section>
-}
+)
 
-export default FaqsBlock;
+export { FaqsBlock };
