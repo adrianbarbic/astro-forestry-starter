@@ -4,7 +4,7 @@ import FooterSection from '../components/footer-section/index.astro';
 import { HeaderBlock } from '../components/header-block';
 import { ContentMediaBlock } from '../components/content-media-block';
 import { FaqsBlock } from '../components/faqs-block';
-import { Testimonial } from '../components/testimonial';
+import { TestimonialBlock } from '../components/testimonial-block';
 
 import '../styles/global.css';
 
@@ -33,8 +33,8 @@ const { content } = Astro.props;
         case 'faqs-block':
           return <FaqsBlock content={item} />
           break;
-        case 'testimonial':
-          return <Testimonial content={item} />
+        case 'testimonial-block':
+          return <TestimonialBlock content={item} />
           break;
         default:
           return <p>Default</p>
