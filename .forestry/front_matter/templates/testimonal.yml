@@ -1,0 +1,10 @@
+---
+label: Testimonal
+hide_body: true
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+
