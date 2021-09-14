@@ -7,6 +7,7 @@ export default {
     site: "http://example.com", // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
     // sitemap: true,      // Generate sitemap (set to "false" to disable)
   },
+  renderers: ['@astrojs/renderer-react'],
   devOptions: {
     port: 2000, // The port to run the dev server on.
     tailwindConfig: './tailwind.config.js',
