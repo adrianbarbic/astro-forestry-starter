@@ -19,6 +19,7 @@ fields:
   - header-block
   - content-media-block
   - faqs-block
+  - testimonal-block
   config:
     min: 
     max: 

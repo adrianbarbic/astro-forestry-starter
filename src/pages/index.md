@@ -13,13 +13,28 @@ blocks:
   header: Frequently Asked Questions
   questions:
   - question: What is a home energy rating?
-    answer: A home energy rating is an estimated calculation into a homes potential energy usage, which will determine the amount of heating and cooling required to make its occupants comfortable. It produces a star rating dependant on the amount of heating and cooling loads which will be required, from 0 to 10 stars.
+    answer: A home energy rating is an estimated calculation into a homes potential
+      energy usage, which will determine the amount of heating and cooling required
+      to make its occupants comfortable. It produces a star rating dependant on the
+      amount of heating and cooling loads which will be required, from 0 to 10 stars.
   - question: What information do I need to supply for an energy rating to be complete?
-    answer: The information we require to complete a full and comprehensive energy report are the following final working drawings in a PDF format. Site Plan, Floor Plan, Elevations, Sections, Lighting layout and window schedule (including sizes of the existing windows).
+    answer: The information we require to complete a full and comprehensive energy
+      report are the following final working drawings in a PDF format. Site Plan,
+      Floor Plan, Elevations, Sections, Lighting layout and window schedule (including
+      sizes of the existing windows).
   - question: Why and when do you need an energy rating?
-    answer: You will need a residential home energy rating if you are building a new home or undertaking major renovations. As it is a minimum standard which has been set to outline each state and territory minimum requirements based on the National Construction Code. You will be required to submit an energy rating report completed by an Accredited Assessor to either your shire/council or building surveyor in order to achieve a building permit.
-- template: testimonial-block
+    answer: You will need a residential home energy rating if you are building a new
+      home or undertaking major renovations. As it is a minimum standard which has
+      been set to outline each state and territory minimum requirements based on the
+      National Construction Code. You will be required to submit an energy rating
+      report completed by an Accredited Assessor to either your shire/council or building
+      surveyor in order to achieve a building permit.
+- template: testimonial
   name: Test name
+- template: testimonal-block
+  name: Sam Tram
+  company: Insight
+  quote: This is a mighty quote
 page_title: Buildmark pagetitle
 page_description: Buildmark page description
 
