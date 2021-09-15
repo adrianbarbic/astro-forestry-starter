@@ -5,6 +5,7 @@ import { HeaderBlock } from '../components/header-block';
 import { ContentMediaBlock } from '../components/content-media-block';
 import { FaqsBlock } from '../components/faqs-block';
 import { TestimonialBlock } from '../components/testimonial-block';
+import { PricingBlock } from '../components/pricing-block';
 
 import '../styles/global.css';
 
@@ -35,6 +36,9 @@ const { content } = Astro.props;
           break;
         case 'testimonial-block':
           return <TestimonialBlock content={item} />
+          break;
+        case 'pricing-block':
+          return <PricingBlock content={item} />
           break;
         default:
           return <p>Default</p>
