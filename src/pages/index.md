@@ -13,7 +13,9 @@ blocks:
   heading: Pricing
   price_tag:
   - heading: Price one
-    price: "$340"
+    price: "$190"
+    name: Units
+    description: This is for a simple one bedroom unit
 - template: faqs-block
   header: Frequently Asked Questions
   questions:
