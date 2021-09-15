@@ -36,6 +36,6 @@ fields:
     label: Price
   config:
     min: 
-    max: 
+    max: 3
     labelField: 
   label: Price Tag
