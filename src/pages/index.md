@@ -9,6 +9,11 @@ blocks:
 - template: content-media-block
   heading: This is some awesome content!
   text_area: This is some awesome content as well!
+- template: pricing-block
+  heading: Pricing
+  price_tag:
+  - heading: Price one
+    price: "$340"
 - template: faqs-block
   header: Frequently Asked Questions
   questions:
@@ -30,9 +35,10 @@ blocks:
       report completed by an Accredited Assessor to either your shire/council or building
       surveyor in order to achieve a building permit.
 - template: testimonial-block
-  name: Sam
-  company: Insight
-  quote: Some great quote
+  name: Sam Tram
+  company: Residential Space
+  quote: Highly recommended for anyone needing to get a home energy rating done. Always
+    a quick turnaround and very helpful feedback.
 page_title: Buildmark pagetitle
 page_description: Buildmark page description
 

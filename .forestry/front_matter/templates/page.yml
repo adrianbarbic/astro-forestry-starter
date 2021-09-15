@@ -20,6 +20,7 @@ fields:
   - content-media-block
   - faqs-block
   - testimonal-block
+  - pricing-block
   config:
     min: 
     max: 
