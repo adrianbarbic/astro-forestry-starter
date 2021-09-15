@@ -2,6 +2,15 @@
 label: Testimonal Block
 hide_body: true
 fields:
+- name: quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Quote
 - name: name
   type: text
   config:
@@ -12,12 +21,3 @@ fields:
   config:
     required: false
   label: Company
-- name: quote
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Quote
