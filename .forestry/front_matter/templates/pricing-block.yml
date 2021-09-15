@@ -7,3 +7,21 @@ fields:
   config:
     required: false
   label: Heading
+- name: price_tag
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: price
+    type: text
+    config:
+      required: false
+    label: Price
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Price Tag
