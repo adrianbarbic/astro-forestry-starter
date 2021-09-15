@@ -12,6 +12,10 @@ blocks:
 - template: pricing-block
   heading: Pricing
   price_tag:
+  - heading: Price Three
+    name: Double Story
+    description: This is for a double story house
+    price: "$430"
   - heading: Price Two
     name: Single Story
     description: This is for a single story house
