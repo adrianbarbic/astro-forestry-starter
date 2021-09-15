@@ -15,6 +15,20 @@ fields:
     config:
       required: false
     label: Heading
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
   - name: price
     type: text
     config:
@@ -22,6 +36,6 @@ fields:
     label: Price
   config:
     min: 
-    max: 
+    max: 3
     labelField: 
   label: Price Tag
