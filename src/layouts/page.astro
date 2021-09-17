@@ -3,7 +3,7 @@ import NavigationSection from '../components/navigation-section.astro';
 import FooterSection from '../components/footer-section/index.astro';
 import { HeaderBlock } from '../components/header-block';
 import { ContentMediaBlock } from '../components/content-media-block';
-import { FaqsBlock } from '../components/faqs-block';
+import { FaqsBlock } from '../components/faqs-block/index.jsx';
 import { TestimonialBlock } from '../components/testimonial-block';
 import { PricingBlock } from '../components/pricing-block';
 
@@ -32,7 +32,7 @@ const { content } = Astro.props;
           return <ContentMediaBlock content={item} />
           break;
         case 'faqs-block':
-          return <FaqsBlock content={item} />
+          return <FaqsBlock content={item} client:visible />
           break;
         case 'testimonial-block':
           return <TestimonialBlock content={item} />
