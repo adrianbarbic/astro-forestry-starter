@@ -19,7 +19,7 @@ fields:
   - header-block
   - content-media-block
   - faqs-block
-  - testimonal-block
+  - testimonial-block
   - pricing-block
   config:
     min: 
