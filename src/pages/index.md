@@ -8,7 +8,7 @@ blocks:
   background_image: "/uploads/home-energy-rated.webp"
 - template: content-media-block
   heading: This is some awesome content!
-  text_area: This is some awesome content as well!
+  text_area: <p>This is some awesome content as <a href="" title="" target="_blank">well</a>!</p>
 - template: pricing-block
   heading: Pricing
   price_tag:
