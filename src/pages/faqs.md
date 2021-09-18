@@ -5,9 +5,9 @@ blocks:
 - template: faqs-block
   header: Faqs
   questions:
-  - question: Question Two
-    answer: Answer two
   - question: Question one
     answer: Answer One
+  - question: Question Two
+    answer: Answer two
 
 ---
