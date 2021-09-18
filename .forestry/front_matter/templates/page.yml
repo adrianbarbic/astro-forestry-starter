@@ -24,6 +24,11 @@ fields:
   config:
     min: 
     max: 
+- name: page_template
+  type: include
+  config: {}
+  template: pricing-block
+  label: Page template
 pages:
 - src/pages/contact.md
 - src/pages/faqs.md
