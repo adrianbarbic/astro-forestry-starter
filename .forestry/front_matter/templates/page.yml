@@ -2,6 +2,13 @@
 label: Page
 hide_body: true
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: '"../layouts/page.astro"'
 - name: page_title
   type: text
   config:
@@ -24,11 +31,6 @@ fields:
   config:
     min: 
     max: 
-- name: page_template
-  type: include
-  config: {}
-  template: pricing-block
-  label: Page template
 pages:
 - src/pages/contact.md
 - src/pages/faqs.md
