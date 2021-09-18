@@ -8,7 +8,7 @@ fields:
     required: false
   label: Layout
   hidden: true
-  default: '"../layouts/page.astro"'
+  default: "../layouts/page.astro"
 - name: page_title
   type: text
   config:
