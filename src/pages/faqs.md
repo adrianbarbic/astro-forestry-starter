@@ -1,4 +1,5 @@
 ---
+layout: "../layouts/page.astro"
 page_title: Faqs
 page_description: This is the Faqs page
 blocks:
