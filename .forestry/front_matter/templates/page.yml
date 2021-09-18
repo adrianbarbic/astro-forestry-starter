@@ -33,5 +33,4 @@ fields:
     max: 
 pages:
 - src/pages/contact.md
-- src/pages/faqs.md
 - src/pages/index.md
