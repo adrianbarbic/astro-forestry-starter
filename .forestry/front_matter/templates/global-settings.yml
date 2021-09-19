@@ -8,4 +8,4 @@ fields:
     required: false
   label: name
 pages:
-- src/globals/settings.md
+- src/globals/settings.json
