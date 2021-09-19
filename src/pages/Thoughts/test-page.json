@@ -1,0 +1,8 @@
+{
+  "layout": "../layouts/page.astro",
+  "page_title": "Test",
+  "page_description": "Test",
+  "blocks": [
+
+  ]
+}

@@ -33,6 +33,7 @@ fields:
     min: 
     max: 
 pages:
+- src/pages/Thoughts/test-page.json
 - src/pages/bottle.md
 - src/pages/contact.md
 - src/pages/index.md
