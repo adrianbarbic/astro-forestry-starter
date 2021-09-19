@@ -1,9 +1,0 @@
----
-label: Global Settings
-hide_body: true
-fields:
-- name: email
-  type: text
-  config:
-    required: false
-  label: Email
