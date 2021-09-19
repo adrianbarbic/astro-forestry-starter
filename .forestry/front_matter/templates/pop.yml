@@ -1,9 +1,0 @@
----
-label: pop
-hide_body: true
-fields:
-- name: kkk
-  type: text
-  config:
-    required: false
-  label: kkk
