@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - page
 - type: heading
@@ -17,7 +17,6 @@ sections:
 - type: document
   path: globals/settings.json
   label: Global settings
-  match: "**/*"
 - type: document
   path: src/globals/navigation-section.md
   label: Navigation Section
