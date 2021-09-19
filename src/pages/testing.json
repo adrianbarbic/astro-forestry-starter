@@ -1,0 +1,13 @@
+{
+  "layout": "../layouts/page.astro",
+  "page_title": "test",
+  "page_description": "tst",
+  "blocks": [
+    {
+      "template": "testimonial-block",
+      "name": "Susan",
+      "company": "Blublock",
+      "quote": "poppoop"
+    }
+  ]
+}
