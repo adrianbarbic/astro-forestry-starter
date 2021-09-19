@@ -9,6 +9,7 @@ sections:
   label: Pages
   create: all
   match: "*.md"
+  new_doc_ext: ".json"
   templates:
   - page
 - type: heading
