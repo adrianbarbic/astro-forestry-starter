@@ -15,6 +15,10 @@ sections:
 - type: heading
   label: Globals
 - type: document
+  path: globals/settings.json
+  label: Global settings
+  match: "**/*"
+- type: document
   path: src/globals/navigation-section.md
   label: Navigation Section
 - type: document
