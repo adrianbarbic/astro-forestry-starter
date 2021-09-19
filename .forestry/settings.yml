@@ -15,7 +15,7 @@ sections:
 - type: heading
   label: Globals
 - type: document
-  path: src/globals/settings.md
+  path: src/globals/settings.json
   label: Global settings
 - type: document
   path: src/globals/navigation-section.md
