@@ -1,9 +1,0 @@
----
-label: Bolen
-hide_body: true
-fields:
-- name: fgd
-  type: text
-  config:
-    required: false
-  label: fgd
