@@ -1,4 +1,9 @@
 ---
 label: Global Settings
 hide_body: true
-fields: []
+fields:
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
