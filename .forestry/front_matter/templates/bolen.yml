@@ -1,4 +1,9 @@
 ---
 label: Bolen
 hide_body: true
-fields: []
+fields:
+- name: fgd
+  type: text
+  config:
+    required: false
+  label: fgd
