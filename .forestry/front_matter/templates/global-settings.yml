@@ -1,0 +1,9 @@
+---
+label: Global Settings
+hide_body: true
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
