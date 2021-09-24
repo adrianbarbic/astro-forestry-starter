@@ -28,5 +28,13 @@ fields:
   showOnly:
     field: links
   label: Link
+- name: oppo
+  type: blocks
+  label: oppo
+  template_types:
+  - page
+  config:
+    min: 
+    max: 
 pages:
 - src/globals/navigation-section.md
