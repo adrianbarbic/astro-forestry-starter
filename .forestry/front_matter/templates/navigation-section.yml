@@ -7,34 +7,5 @@ fields:
   config:
     required: false
   label: Text for Nav
-- name: links
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: pages
-      file: 
-      path: 
-  label: Links
-- name: link
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  showOnly:
-    field: links
-  label: Link
-- name: oppo
-  type: blocks
-  label: oppo
-  template_types:
-  - page
-  config:
-    min: 
-    max: 
 pages:
 - src/globals/navigation-section.md
