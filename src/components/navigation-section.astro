@@ -2,6 +2,7 @@
 const path = Astro.request.url.pathname;
 
 const content = Astro.fetchContent('../globals/navigation-section.md')[0];
+console.log('content: ', content);
 ---
 
 <!-- <nav class="bg-red-400">

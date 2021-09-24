@@ -1,8 +1,9 @@
 interface Content {
-  content: Items,
+  content: Data,
 }
 
-interface Items {
+interface Data {
+  template: string,
   header:  string,
   questions: Questions[],
 }
