@@ -7,5 +7,15 @@ fields:
   config:
     required: false
   label: Text for Nav
+- name: woohoo
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: pages
+  label: Woohoo
 pages:
 - src/globals/navigation-section.md
