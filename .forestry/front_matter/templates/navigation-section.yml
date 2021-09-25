@@ -19,5 +19,17 @@ fields:
       file: src/globals/navigation-section.md
       path: woohoo
   label: Woohoo
+- name: teddy
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: pages
+      file: 
+      path: 
+  label: teddy
 pages:
 - src/globals/navigation-section.md
