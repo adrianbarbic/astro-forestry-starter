@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
   templates:
   - page
 - type: heading
@@ -17,7 +17,6 @@ sections:
 - type: document
   path: src/data/team-profiles.json
   label: Profiles
-  match: "**/*"
 - type: heading
   label: Globals
 - type: document
