@@ -9,9 +9,15 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: json
+  new_doc_ext: ''
   templates:
   - page
+- type: heading
+  label: Team
+- type: document
+  path: src/data/team-profiles.json
+  label: Profiles
+  match: "**/*"
 - type: heading
   label: Globals
 - type: document
