@@ -31,5 +31,30 @@ fields:
       file: 
       path: 
   label: teddy
+- name: main_menu
+  type: field_group_list
+  fields:
+  - name: page_name
+    type: text
+    config:
+      required: true
+    label: Page name
+  - name: page_link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Page link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Main menu
 pages:
 - src/globals/navigation-section.md
