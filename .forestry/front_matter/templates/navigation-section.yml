@@ -14,8 +14,10 @@ fields:
     min: 
     max: 
     source:
-      type: pages
-      section: pages
+      type: documents
+      section: navigation-section
+      file: src/globals/navigation-section.md
+      path: woohoo
   label: Woohoo
 pages:
 - src/globals/navigation-section.md
