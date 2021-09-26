@@ -2,36 +2,7 @@
 label: Navigation Section
 hide_body: true
 fields:
-- name: text
-  type: text
-  config:
-    required: false
-  label: Text for Nav
-- name: woohoo
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: navigation-section
-      file: src/globals/navigation-section.md
-      path: woohoo
-  label: Woohoo
-- name: teddy
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: pages
-      file: 
-      path: 
-  label: teddy
-- name: main_menu
+- name: header_nav
   type: field_group_list
   fields:
   - name: page_name
@@ -54,7 +25,8 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
-  label: Main menu
+    labelField: page_name
+  label: Header nav
+  description: Add your header navigation here.
 pages:
 - src/globals/navigation-section.md
