@@ -2,7 +2,7 @@
 label: Navigation Section
 hide_body: true
 fields:
-- name: header_nav
+- name: primary_nav
   type: field_group_list
   fields:
   - name: page_name
@@ -26,17 +26,7 @@ fields:
     min: 
     max: 
     labelField: page_name
-  label: Header nav
+  label: Primary nav
   description: Add your header navigation here.
-- name: secondary_menu
-  type: include
-  config: {}
-  template: menus
-  label: Secondary menu
-- name: footer_menu
-  type: include
-  config: {}
-  template: menus
-  label: Footer menu
 pages:
 - src/globals/navigation-section.md
