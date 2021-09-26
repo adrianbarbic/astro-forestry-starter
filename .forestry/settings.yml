@@ -25,9 +25,6 @@ sections:
 - type: document
   path: src/globals/navigation.json
   label: Navigation
-- type: document
-  path: src/globals/footer-section.md
-  label: Footer Section
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''
