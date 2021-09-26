@@ -18,9 +18,9 @@ main_menu:
 header_nav:
 - page_link: []
 primary_nav:
-- page_name: Contact
-  page_link: src/pages/contact.md
 - page_name: Home
   page_link: src/pages/index.md
+- page_name: Contact
+  page_link: src/pages/contact.md
 
 ---
