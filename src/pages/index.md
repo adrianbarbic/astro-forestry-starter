@@ -49,7 +49,7 @@ blocks:
   company: Residential Space
   quote: Highly recommended for anyone needing to get a home energy rating done. Always
     a quick turnaround and very helpful feedback.
-page_title: Buildmark pagetitle
+page_title: Homepage
 page_description: Buildmark page description
 
 ---
