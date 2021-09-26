@@ -1,18 +1,10 @@
 ---
 const path = Astro.request.url.pathname;
 
-const content = Astro.fetchContent('../globals/navigation-section.md')[0];
-console.log('content: ', content);
+const content = Astro.fetchContent('../globals/navigation.json');
+import navItems from '../globals/navigation.json';
+console.log('content: ', content, navItems);
 ---
-
-<!-- <nav class="bg-red-400">
-  <h1 class="title">Make Agency {path}</h1>
-  <h2>{content.text}</h2>
-  <ul class="nav">
-    <li><a href="/" class={path === '/' && 'font-bold'}>Home</a></li>
-    <li><a href="/contact" class={path === '/contact' && 'font-bold'}>Contact</a></li>
-  </ul>
-</nav> -->
 
 <section class="w-full px-8 text-gray-700 bg-white">
   <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
@@ -21,6 +13,7 @@ console.log('content: ', content);
         <span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">buildmark<span class="text-green-500">.</span></span>
       </a>
       <nav class="flex flex-wrap items-center hidden mb-5 text-base sm:block md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
+        {navItems.primary_nav.map(item => <a href={item.page_link} class={`mr-5 leading-6 text-gray-600 active hover:text-gray-900 ${path === item.page_link ? 'font-bold' : 'font-medium'}`} aria-current="page">{item.page_name}</a>)}
         <a href="/" class={`mr-5 leading-6 text-gray-600 active hover:text-gray-900 ${path === '/' ? 'font-bold' : 'font-medium'}`} aria-current="page">Home</a>
         <!-- <a href="/about" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">About</a> -->
         <!-- <a href="/services" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Services</a> -->
