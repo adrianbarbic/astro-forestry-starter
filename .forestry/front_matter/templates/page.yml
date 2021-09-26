@@ -34,7 +34,12 @@ fields:
     max: 
 pages:
 - src/pages/Thoughts/test-page.json
+- src/pages/Thoughts/test-page.json
+- src/pages/bottle.md
 - src/pages/bottle.md
 - src/pages/contact.md
+- src/pages/contact.md
 - src/pages/index.md
+- src/pages/index.md
+- src/pages/tika.json
 - src/pages/tika.json

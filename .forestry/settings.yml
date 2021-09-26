@@ -21,7 +21,6 @@ sections:
   match: "**/*"
   templates:
   - page
-  - faqs-block
 - type: heading
   label: Team
 - type: document

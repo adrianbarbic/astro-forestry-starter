@@ -24,3 +24,4 @@ fields:
   label: Footer text
 pages:
 - src/globals/settings.json
+- src/globals/settings.json
