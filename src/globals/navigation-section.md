@@ -9,5 +9,9 @@ woohoo:
 - src/pages/404.md
 - src/pages/bottle.md
 - src/pages/Thoughts/test-page.json
+teddy: src/pages/Thoughts/test-page.json
+main_menu:
+- page_name: Contact
+  page_link: src/pages/contact.md
 
 ---
