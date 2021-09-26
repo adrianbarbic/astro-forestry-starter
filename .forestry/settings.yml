@@ -5,7 +5,7 @@ admin_path: "/public/admin"
 webhook_url: 
 sections:
 - type: document
-  path: src/data/test.md
+  path: src/data/test.json
   label: test section
 - type: directory
   path: src/pages
