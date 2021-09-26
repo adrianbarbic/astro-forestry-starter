@@ -12,8 +12,13 @@ sections:
   new_doc_ext: app
   templates:
   - page
-- type: heading
-  label: Thoughts
+- type: directory
+  path: ''
+  label: Projects
+  create: all
+  match: src/projects/**/*
+  templates:
+  - page
 - type: directory
   path: ''
   label: Posts
