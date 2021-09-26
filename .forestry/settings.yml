@@ -24,7 +24,7 @@ sections:
   label: Global settings
 - type: document
   path: src/globals/navigation.json
-  label: Navigation Section
+  label: Navigation
 - type: document
   path: src/globals/footer-section.md
   label: Footer Section
