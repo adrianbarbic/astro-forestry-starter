@@ -16,12 +16,12 @@ sections:
   path: ''
   label: Projects
   create: all
-  match: src/projects/**/*
+  match: "**/*"
   templates:
   - page
 - type: directory
   path: ''
-  label: Posts
+  label: Thoughts
   create: all
   match: "**/*"
   templates:
