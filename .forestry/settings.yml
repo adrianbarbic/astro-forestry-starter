@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: "/public/admin"
 webhook_url: 
 sections:
-- type: document
-  path: src/data/test.json
-  label: test section
 - type: directory
   path: src/pages
   label: Pages
@@ -26,7 +23,7 @@ sections:
   path: src/globals/settings.json
   label: Global settings
 - type: document
-  path: src/globals/navigation-section.md
+  path: src/globals/navigation-section.json
   label: Navigation Section
 - type: document
   path: src/globals/footer-section.md

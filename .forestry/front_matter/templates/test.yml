@@ -8,5 +8,3 @@ fields:
   config:
     required: true
   label: Test name
-pages:
-- src/data/test.json
