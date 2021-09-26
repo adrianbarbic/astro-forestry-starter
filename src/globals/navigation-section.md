@@ -11,6 +11,8 @@ woohoo:
 - src/pages/Thoughts/test-page.json
 teddy: src/pages/Thoughts/test-page.json
 main_menu:
+- page_name: Home
+  page_link: src/pages/index.md
 - page_name: Contact
   page_link: src/pages/contact.md
 
