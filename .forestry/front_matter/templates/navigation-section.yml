@@ -33,5 +33,10 @@ fields:
   config: {}
   template: menus
   label: Secondary menu
+- name: footer_menu
+  type: include
+  config: {}
+  template: menus
+  label: Footer menu
 pages:
 - src/globals/navigation-section.md
