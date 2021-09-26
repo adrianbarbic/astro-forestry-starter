@@ -46,8 +46,8 @@ fields:
       required: false
       options: []
       source:
-        type: simple
-        section: 
+        type: pages
+        section: pages
         file: 
         path: 
     label: Page link
