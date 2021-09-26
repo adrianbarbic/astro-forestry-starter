@@ -13,5 +13,8 @@
   },
   "snowpack": {
     "workspaceRoot": "../.."
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
