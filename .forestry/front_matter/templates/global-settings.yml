@@ -1,11 +1,26 @@
 ---
-label: Global Settings
+label: Settings
 hide_body: true
+display_field: name
 fields:
-- name: name
+- name: company_name
   type: text
   config:
+    required: true
+  label: Company name
+- name: email
+  type: text
+  config:
+    required: true
+  label: Email
+- name: footer_text
+  type: textarea
+  default: ''
+  config:
     required: false
-  label: name
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Footer text
 pages:
 - src/globals/settings.json
