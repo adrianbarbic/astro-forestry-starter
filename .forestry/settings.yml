@@ -20,11 +20,11 @@ sections:
 - type: heading
   label: Globals
 - type: document
-  path: src/globals/settings.json
-  label: Settings
-- type: document
   path: src/globals/navigation.json
   label: Navigation
+- type: document
+  path: src/globals/settings.json
+  label: Settings
 upload_dir: public/uploads
 public_path: "/uploads"
 front_matter_path: ''
