@@ -1,5 +1,5 @@
 ---
-label: Navigation Section
+label: Navigation
 hide_body: true
 fields:
 - name: primary_nav
@@ -28,5 +28,3 @@ fields:
     labelField: page_name
   label: Primary nav
   description: Add your header navigation here.
-pages:
-- src/globals/navigation-section.json
