@@ -23,7 +23,7 @@ sections:
   path: src/globals/settings.json
   label: Global settings
 - type: document
-  path: src/globals/navigation-section.md
+  path: src/globals/navigation-section.json
   label: Navigation Section
 - type: document
   path: src/globals/footer-section.md
