@@ -28,5 +28,10 @@ fields:
     labelField: page_name
   label: Header nav
   description: Add your header navigation here.
+- name: secondary_menu
+  type: include
+  config: {}
+  template: menus
+  label: Secondary menu
 pages:
 - src/globals/navigation-section.md
