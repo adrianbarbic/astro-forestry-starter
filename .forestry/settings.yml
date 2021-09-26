@@ -13,6 +13,16 @@ sections:
   templates:
   - page
 - type: heading
+  label: Thoughts
+- type: directory
+  path: ''
+  label: Posts
+  create: all
+  match: "**/*"
+  templates:
+  - page
+  - faqs-block
+- type: heading
   label: Team
 - type: document
   path: src/data/team-profiles.json
