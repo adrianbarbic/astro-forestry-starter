@@ -5,5 +5,5 @@ fields:
 - name: test_name
   type: text
   config:
-    required: false
+    required: true
   label: Test name
