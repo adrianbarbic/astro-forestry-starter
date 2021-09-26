@@ -21,7 +21,7 @@ sections:
   label: Globals
 - type: document
   path: src/globals/settings.json
-  label: Global settings
+  label: Settings
 - type: document
   path: src/globals/navigation.json
   label: Navigation
