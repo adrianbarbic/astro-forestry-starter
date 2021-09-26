@@ -21,7 +21,7 @@ sections:
   - page
 - type: directory
   path: src/blog
-  label: Thoughts
+  label: Blog
   create: all
   match: "**/*"
   templates:
