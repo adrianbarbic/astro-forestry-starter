@@ -13,14 +13,14 @@ sections:
   templates:
   - page
 - type: directory
-  path: ''
+  path: src/projects
   label: Projects
   create: all
   match: "**/*"
   templates:
   - page
 - type: directory
-  path: ''
+  path: src/blog
   label: Thoughts
   create: all
   match: "**/*"
