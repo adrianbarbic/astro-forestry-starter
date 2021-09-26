@@ -1,8 +1,0 @@
----
-primary_nav:
-- page_name: Home
-  page_link: src/pages/index.md
-- page_name: Contact
-  page_link: src/pages/contact.md
-
----
