@@ -34,6 +34,7 @@ fields:
     max: 
 pages:
 - src/pages/bottle.md
-- src/pages/contact.md
+- src/pages/contactt.app
+- src/pages/contactt.md
 - src/pages/index.md
 - src/pages/tika.json
