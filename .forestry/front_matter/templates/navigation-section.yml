@@ -28,3 +28,5 @@ fields:
     labelField: page_name
   label: Primary nav
   description: Add your header navigation here.
+pages:
+- src/globals/navigation.md
