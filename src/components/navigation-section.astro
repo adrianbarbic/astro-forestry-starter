@@ -2,7 +2,7 @@
 const path = Astro.request.url.pathname;
 
 const content = Astro.fetchContent('../globals/navigation.md');
-console.log('content: ', content);
+console.log('content: ', content[0]);
 ---
 
 <section class="w-full px-8 text-gray-700 bg-white">
@@ -12,7 +12,7 @@ console.log('content: ', content);
         <span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">buildmark<span class="text-green-500">.</span></span>
       </a>
       <nav class="flex flex-wrap items-center hidden mb-5 text-base sm:block md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
-        {content.primary_nav.map(item => {
+        {content[0].primary_nav.map(item => {
           const link = item.page_link.replace('src/pages', '');
           const newLink = link.replace('index.md', '');
           const finalLink = newLink.replace('.md', '');

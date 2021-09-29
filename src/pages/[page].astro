@@ -1,5 +1,17 @@
 ---
 // Example: src/pages/post/[pid].astro
+// const content = Astro.fetchContent('../data/*.md');
+export async function getStaticPaths() {
+  const content =  await Astro.fetchContent('../data/*.md');
+
+  return content.map((item) => { 
+    return { 
+      params: { page: item.pageurl }
+    };
+  });
+}
+
+
 const {page} = Astro.request.params;
 ---
 <p>Post: {page}</p>
