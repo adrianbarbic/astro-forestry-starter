@@ -33,6 +33,4 @@ fields:
     min: 
     max: 
 pages:
-- src/pages/contactt.md
-- src/pages/index.md
-- src/pages/tika.json
+- src/content/about.
