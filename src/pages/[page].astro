@@ -7,13 +7,64 @@ export async function getStaticPaths() {
 
 
   return content.map((item) => { 
-    return { 
-      params: { page: item.uri }
-    };
+    return [
+    { params: { page: item.uri }, props: { item }},
+  ];
   });
 }
 
+const { item } = Astro.props;
+console.log('item: ', item);
 
 const {page} = Astro.request.params;
+
+import NavigationSection from '../components/navigation-section.astro';
+import FooterSection from '../components/footer-section/index.astro';
+import { HeaderBlock } from '../components/header-block';
+import { ContentMediaBlock } from '../components/content-media-block';
+import { FaqsBlock } from '../components/faqs-block/index.jsx';
+import { TestimonialBlock } from '../components/testimonial-block';
+import { PricingBlock } from '../components/pricing-block';
+
+import '../styles/global.css';
 ---
-<p>Post: {page}</p>
+
+<html lang="en">
+  <head>
+    <title>{item.page_title}</title>
+    <meta name="description" content={item.page_description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//unpkg.com/alpinejs" defer></script>
+  </head>
+
+  <body>
+    <NavigationSection uri={item.uri} />
+
+    <article class="article">
+    {item.blocks.map((item) => {
+      switch(item.template) {
+        case 'header-block':
+          return <HeaderBlock content={item} />
+          break;
+        case 'content-media-block':
+          return <ContentMediaBlock content={item} />
+          break;
+        case 'faqs-block':
+          return <FaqsBlock content={item} client:visible />
+          break;
+        case 'testimonial-block':
+          return <TestimonialBlock content={item} />
+          break;
+        case 'pricing-block':
+          return <PricingBlock content={item} />
+          break;
+        default:
+          return <p>Default</p>
+      }
+    })}
+    </article>
+
+    <FooterSection />
+
+  </body>
+</html>
