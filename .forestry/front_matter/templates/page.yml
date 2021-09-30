@@ -20,6 +20,12 @@ fields:
   config:
     required: false
   label: Page Description
+- name: uri
+  type: text
+  config:
+    required: false
+  label: URI
+  default: "/"
 - name: blocks
   type: blocks
   label: Blocks
