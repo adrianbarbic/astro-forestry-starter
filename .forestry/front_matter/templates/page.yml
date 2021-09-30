@@ -25,7 +25,7 @@ fields:
   config:
     required: false
   label: URI
-  default: "/"
+  default: ''
 - name: blocks
   type: blocks
   label: Blocks
