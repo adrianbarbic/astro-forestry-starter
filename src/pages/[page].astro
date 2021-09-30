@@ -3,6 +3,8 @@
 // const content = Astro.fetchContent('../data/*.md');
 export async function getStaticPaths() {
   const content =  await Astro.fetchContent('../content/*.md');
+  console.log('page_content: ', content);
+
 
   return content.map((item) => { 
     return { 
