@@ -5,11 +5,11 @@ admin_path: "/public/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: src/pages
+  path: src/content
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: app
+  new_doc_ext: ''
   templates:
   - page
 - type: directory
