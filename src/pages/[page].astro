@@ -8,7 +8,7 @@ export async function getStaticPaths() {
 
   return content.map((item) => { 
     return { 
-      params: { page: item.url }
+      params: { page: item.uri }
     };
   });
 }

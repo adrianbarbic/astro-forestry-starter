@@ -7,6 +7,6 @@ blocks:
   header: This is the header for the about page
   pill_text: Some text
   background_image: "/uploads/home-energy-rated.webp"
-uri: "/my-about-page"
+uri: "my-about-page"
 
 ---
