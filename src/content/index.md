@@ -51,6 +51,6 @@ blocks:
     a quick turnaround and very helpful feedback.
 page_title: Homepage
 page_description: Buildmark page description
-uri: __HOME__
+uri: ''
 
 ---
