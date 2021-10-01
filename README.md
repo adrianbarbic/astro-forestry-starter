@@ -1,4 +1,4 @@
-# Astro Blog Example
+# Astro Blog Example!
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
