@@ -24,6 +24,11 @@ blocks:
     name: Double Story
     description: This is for a double story house
     price: "$430"
+- template: testimonial-block
+  name: Sam Tram
+  company: Residential Space
+  quote: Highly recommended for anyone needing to get a home energy rating done. Always
+    a quick turnaround and very helpful feedback.
 - template: faqs-block
   header: Frequently Asked Questions
   questions:
@@ -44,11 +49,6 @@ blocks:
       National Construction Code. You will be required to submit an energy rating
       report completed by an Accredited Assessor to either your shire/council or building
       surveyor in order to achieve a building permit.
-- template: testimonial-block
-  name: Sam Tram
-  company: Residential Space
-  quote: Highly recommended for anyone needing to get a home energy rating done. Always
-    a quick turnaround and very helpful feedback.
 page_title: Homepage
 page_description: Buildmark page description
 uri: __HOME__
