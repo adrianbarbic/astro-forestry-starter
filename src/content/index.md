@@ -11,6 +11,6 @@ blocks:
   text_area: <p>This is some awesome content as <a href="" title="" target="_blank">well</a>!</p>
 page_title: Homepage
 page_description: Buildmark page description
-uri: _HOME_
+uri: HOME
 
 ---
