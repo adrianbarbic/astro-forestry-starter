@@ -26,8 +26,8 @@ fields:
     required: true
   label: URI
   default: ''
-  description: Page uri <strong>without</strong> a leading or ending '<strong>/</strong>'
-    (ie. 'contact'). For Homepage set to '_HOME
+  description: Page uri <strong>without</strong> a leading or ending "<strong>/</strong>"
+    (ie. <strong>contact</strong>). For Homepage set to <strong>_HOME_</strong>
 - name: blocks
   type: blocks
   label: Blocks
