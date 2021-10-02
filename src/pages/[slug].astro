@@ -1,5 +1,5 @@
 ---
-import PageLayout from '../layouts/page.astro'
+// Render all the pages from the content folder
 export async function getStaticPaths() {
   const allContent = Astro.fetchContent('../content/*.md');
 
@@ -12,6 +12,7 @@ export async function getStaticPaths() {
   });
 }
 
+import PageLayout from '../layouts/page.astro'
 const { content } = Astro.props;
 ---
 
