@@ -26,7 +26,8 @@ fields:
     required: true
   label: URI
   default: ''
-  description: Page uri without any '/'. Home page to be set as '_HOME
+  description: Page uri <strong>without</strong> a leading or ending '<strong>/</strong>'
+    (ie. 'contact'). Home page to be set as '_HOME
 - name: blocks
   type: blocks
   label: Blocks
