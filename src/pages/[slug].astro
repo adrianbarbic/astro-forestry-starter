@@ -1,65 +1,18 @@
 ---
+import PageLayout from '../layouts/page.astro'
 export async function getStaticPaths() {
-  const content = Astro.fetchContent('../content/*.md');
+  const allContent = Astro.fetchContent('../content/*.md');
 
-  return content.map((item) => {
-    if(item.uri === "_HOME_" || item.uri === "404") return false
+  return allContent.map((content) => {
+    if(content.uri === "_HOME_" || content.uri === "404") return false
     return {
-      params: { slug: item.uri === "_HOME_" ? "index" : item.uri },
-      props: { item },
+      params: { slug: content.uri === "_HOME_" ? "index" : content.uri },
+      props: { content },
     };
   });
 }
 
-const { item } = Astro.props;
-
-import NavigationSection from '../components/navigation-section.astro';
-import FooterSection from '../components/footer-section/index.astro';
-import { HeaderBlock } from '../components/header-block';
-import { ContentMediaBlock } from '../components/content-media-block';
-import { FaqsBlock } from '../components/faqs-block/index.jsx';
-import { TestimonialBlock } from '../components/testimonial-block';
-import { PricingBlock } from '../components/pricing-block';
-
-import '../styles/global.css';
+const { content } = Astro.props;
 ---
 
-<html lang="en">
-  <head>
-    <title>{item.page_title}</title>
-    <meta name="description" content={item.page_description} />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="//unpkg.com/alpinejs" defer></script>
-  </head>
-
-  <body>
-    <NavigationSection uri={item.uri} />
-
-    <article class="article">
-    {item.blocks.map((item) => {
-      switch(item.template) {
-        case 'header-block':
-          return <HeaderBlock content={item} />
-          break;
-        case 'content-media-block':
-          return <ContentMediaBlock content={item} />
-          break;
-        case 'faqs-block':
-          return <FaqsBlock content={item} client:visible />
-          break;
-        case 'testimonial-block':
-          return <TestimonialBlock content={item} />
-          break;
-        case 'pricing-block':
-          return <PricingBlock content={item} />
-          break;
-        default:
-          return <p>Default</p>
-      }
-    })}
-    </article>
-
-    <FooterSection />
-
-  </body>
-</html>
+<PageLayout content={content} />
