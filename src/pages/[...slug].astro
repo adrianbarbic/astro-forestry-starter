@@ -1,13 +1,15 @@
 ---
 export async function getStaticPaths() {
-  const content =  await Astro.fetchContent('../content/*.md');
+  const content = Astro.fetchContent('../content/*.md');
   console.log('page_content: ', content);
 
 
-  return content.map((item) => { 
-    return [
-    { params: { page: item.uri }, props: { item }},
-  ];
+  return content.map((item) => {
+    console.log("home:", item.uri);
+    return {
+      params: { slug: item.uri === "_HOME_" ? "/" : item.uri },
+      props: { item },
+    };
   });
 }
 

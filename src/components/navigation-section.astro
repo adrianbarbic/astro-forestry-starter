@@ -13,7 +13,7 @@ const content = Astro.fetchContent('../globals/navigation.md');
       </a>
       <nav class="flex flex-wrap items-center hidden mb-5 text-base sm:block md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
         {content[0].primary_nav.map(item => {
-          const link = item.page_link.replace('src/pages', '');
+          const link = item.page_link.replace('src/content', '');
           const newLink = link.replace('index.md', '');
           const finalLink = newLink.replace('.md', '');
           return <a href={finalLink} class={`mr-5 leading-6 text-gray-600 active hover:text-gray-900 ${path === item.page_link ? 'font-bold' : 'font-medium'}`} aria-current="page">{item.page_name}</a>
