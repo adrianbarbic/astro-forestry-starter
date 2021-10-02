@@ -23,9 +23,10 @@ fields:
 - name: uri
   type: text
   config:
-    required: false
+    required: true
   label: URI
   default: ''
+  description: Page uri without any '/'. Home page to be set as '_HOME
 - name: blocks
   type: blocks
   label: Blocks
