@@ -1,22 +1,17 @@
 ---
 export async function getStaticPaths() {
   const content = Astro.fetchContent('../content/*.md');
-  console.log('page_content: ', content);
-
 
   return content.map((item) => {
     console.log("home:", item.uri);
     return {
-      params: { slug: item.uri === "_HOME_" ? "/" : item.uri },
+      params: { slug: item.uri === "_HOME_" ? "index" : item.uri },
       props: { item },
     };
   });
 }
 
 const { item } = Astro.props;
-console.log('item: ', item);
-
-const {page} = Astro.request.params;
 
 import NavigationSection from '../components/navigation-section.astro';
 import FooterSection from '../components/footer-section/index.astro';
