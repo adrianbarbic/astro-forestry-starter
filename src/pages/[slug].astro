@@ -3,7 +3,7 @@ export async function getStaticPaths() {
   const content = Astro.fetchContent('../content/*.md');
 
   return content.map((item) => {
-    console.log("home:", item.uri);
+    if(item.uri === "_HOME_" || item.uri === "404") return false
     return {
       params: { slug: item.uri === "_HOME_" ? "index" : item.uri },
       props: { item },

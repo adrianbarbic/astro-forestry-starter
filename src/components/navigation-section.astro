@@ -14,16 +14,11 @@ const content = Astro.fetchContent('../globals/navigation.md');
       <nav class="flex flex-wrap items-center hidden mb-5 text-base sm:block md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
         {content[0].primary_nav.map(item => {
           const link = item.page_link.replace('src/content', '');
-          const newLink = link.replace('index.md', '');
-          const finalLink = newLink.replace('.md', '');
+          const newLink = link.replace('src/pages', '');
+          const newnewLink = newLink.replace('index.md', '');
+          const finalLink = newnewLink.replace('.md', '');
           return <a href={finalLink} class={`mr-5 leading-6 text-gray-600 active hover:text-gray-900 ${path === item.page_link ? 'font-bold' : 'font-medium'}`} aria-current="page">{item.page_name}</a>
           })}
-        <a href="/" class={`mr-5 leading-6 text-gray-600 active hover:text-gray-900 ${path === '/' ? 'font-bold' : 'font-medium'}`} aria-current="page">Home</a>
-        <!-- <a href="/about" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">About</a> -->
-        <!-- <a href="/services" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Services</a> -->
-        <!-- <a href="/testimonals" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">Testimonals</a> -->
-        <!-- <a href="/faqs" class="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900">FAQs</a> -->
-        <a href="/contact" class={`mr-5 leading-6 text-gray-600 active hover:text-gray-900 ${path === '/contact' ? 'font-bold' : 'font-medium'}`}>Contact</a>
       </nav>
     </div>
   </div>
