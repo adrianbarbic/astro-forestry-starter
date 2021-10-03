@@ -1,7 +1,7 @@
 ---
 layout: "../layouts/page.astro"
 page_title: Post title
-page_description: POst description
+page_description: Post description
 uri: blog/postone
 blocks:
 - template: header-block
