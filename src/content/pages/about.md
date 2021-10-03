@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/page.astro"
 page_title: About
 page_description: about
 blocks:

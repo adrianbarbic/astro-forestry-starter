@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/page.astro"
 uri: contact
 heading: Contact
 blocks:

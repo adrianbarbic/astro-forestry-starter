@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/page.astro"
 heading: Home
 blocks:
 - template: header-block

@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/page.astro"
 page_title: Post title
 page_description: Post description
 uri: blog/postone
