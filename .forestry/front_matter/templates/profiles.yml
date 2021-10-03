@@ -16,5 +16,3 @@ fields:
     schema:
       format: html-blocks
   label: Bio
-pages:
-- src/data/team-profiles.json
