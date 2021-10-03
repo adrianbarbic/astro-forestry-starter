@@ -18,7 +18,7 @@ fields:
       options: []
       source:
         type: pages
-        section: ''
+        section: pages
         file: 
         path: 
     label: Page link
