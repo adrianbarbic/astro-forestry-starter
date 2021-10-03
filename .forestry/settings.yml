@@ -20,7 +20,7 @@ sections:
   templates:
   - page
 - type: directory
-  path: src/blog
+  path: src/content/blog
   label: Blog
   create: all
   match: "**/*"
