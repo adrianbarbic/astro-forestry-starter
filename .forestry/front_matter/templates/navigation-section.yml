@@ -18,7 +18,7 @@ fields:
       options: []
       source:
         type: pages
-        section: thoughts
+        section: ''
         file: 
         path: 
     label: Page link
