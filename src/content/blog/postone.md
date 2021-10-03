@@ -5,8 +5,8 @@ page_description: POst description
 uri: blog/postone
 blocks:
 - template: header-block
-  header: ''
-  pill_text: ''
+  header: aaaaa
+  pill_text: ssssss
   background_image: ''
 
 ---
