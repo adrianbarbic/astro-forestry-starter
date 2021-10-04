@@ -16,3 +16,8 @@ fields:
     schema:
       format: html-blocks
   label: Bio
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: Photo
