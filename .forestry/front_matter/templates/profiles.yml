@@ -1,6 +1,6 @@
 ---
 label: Profiles
-hide_body: false
+hide_body: true
 fields:
 - name: name
   type: text
