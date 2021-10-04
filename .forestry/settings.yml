@@ -28,9 +28,13 @@ sections:
   - page
 - type: heading
   label: Team
-- type: document
-  path: src/data/team-profiles.md
+- type: directory
+  path: src/content/profiles/**/*
   label: Profiles
+  create: documents
+  match: "**/*"
+  templates:
+  - profiles
 - type: heading
   label: Globals
 - type: document
