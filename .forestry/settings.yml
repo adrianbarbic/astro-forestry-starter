@@ -34,7 +34,6 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - page
   - profiles
 - type: heading
   label: Globals
