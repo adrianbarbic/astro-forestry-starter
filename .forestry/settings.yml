@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
   templates:
   - page
 - type: directory
