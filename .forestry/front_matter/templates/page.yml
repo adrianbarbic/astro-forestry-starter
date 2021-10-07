@@ -37,6 +37,7 @@ fields:
   - faqs-block
   - testimonial-block
   - pricing-block
+  - team-block
   config:
     min: 
     max: 
