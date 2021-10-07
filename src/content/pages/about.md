@@ -10,6 +10,8 @@ blocks:
   staff:
   - src/content/profiles/test.md
   - src/content/profiles/john-smith.md
+  tag:
+  - Staff
 uri: about
 
 ---
