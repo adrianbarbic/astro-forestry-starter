@@ -1,6 +1,7 @@
 ---
 import PageLayout from '../layouts/page.astro'
-const content = Astro.fetchContent('../content/pages/index.md')[0];
+const [content] = Astro.fetchContent('../content/pages/index.md');
+const data = Astro.fetchContent(['src/content/profiles/person1.md', 'src/content/profiles/person2.md']);
 ---
 
 <PageLayout content={content} />
