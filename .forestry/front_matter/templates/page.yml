@@ -20,6 +20,9 @@ fields:
   config:
     required: false
   label: Page Description
+- name: create_own_page
+  type: boolean
+  label: Create own page
 - name: uri
   type: text
   config:
@@ -28,6 +31,9 @@ fields:
   default: ''
   description: Page uri <strong>without</strong> a leading or ending "<strong>/</strong>"
     (ie. <strong>contact</strong>). Set '<strong>HOME</strong>' for the homepage.
+  showOnly:
+    field: create_own_page
+    value: true
 - name: blocks
   type: blocks
   label: Blocks
