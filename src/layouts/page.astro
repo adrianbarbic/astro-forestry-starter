@@ -11,8 +11,10 @@ import { TeamBlock } from '../components/team-block';
 
 import '../styles/global.css';
 
+const allProfiles = Astro.fetchContent('../content/profiles/*.md');
+
 const { content } = Astro.props;
-console.log(content)
+// console.log('CONTENT: ', content)
 ---
 
 <html lang="en">
@@ -45,7 +47,7 @@ console.log(content)
           return <PricingBlock content={item} />
           break;
         case 'team-block':
-          return <TeamBlock content={item} />
+          return <TeamBlock content={item} allProfiles={allProfiles} />
           break;
         default:
           return <p class="p-4 m-2 text-xl text-red-700 border border-red-300 bg-red-50">Block <strong>{item.template}</strong> missing from <strong>src/layouts/page.astro</strong></p>

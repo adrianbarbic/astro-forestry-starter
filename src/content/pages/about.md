@@ -8,7 +8,6 @@ blocks:
   background_image: "/uploads/home-energy-rated.webp"
 - template: team-block
   staff:
-  - src/content/profiles/test.md
   - src/content/profiles/john-smith.md
   tag:
   - Staff

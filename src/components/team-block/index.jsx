@@ -1,7 +1,16 @@
+import { head } from 'lodash';
 
+const TeamBlock = ({content, allProfiles}) => {
+  const foo = allProfiles.filter(profile => {
+    const out = content.staff.map(doc => {
+      if(profile.file.pathname.includes(doc)){
+        return profile;
+      }
+      return false;
+    });
+    return head(out);
+  });
 
-const TeamBlock = ({content}) => {
-  console.log(content);
   return(
     <div className="bg-white">
       <div className="px-4 py-12 mx-auto text-center max-w-7xl sm:px-6 lg:px-8 lg:py-24">
@@ -17,10 +26,10 @@ const TeamBlock = ({content}) => {
             role="list"
             className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
           >
-            {/* {content.map((person) => (
+            {foo.map((person) => (
               <li key={person.name}>
                 <div className="space-y-6">
-                  <img className="w-40 h-40 mx-auto rounded-full xl:w-56 xl:h-56" src={person.imageUrl} alt="" />
+                  <img className="w-40 h-40 mx-auto rounded-full xl:w-56 xl:h-56" src={person.photo} alt="" />
                   <div className="space-y-2">
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <h3>{person.name}</h3>
@@ -51,7 +60,7 @@ const TeamBlock = ({content}) => {
                   </div>
                 </div>
               </li>
-            ))} */}
+            ))}
           </ul>
         </div>
       </div>
