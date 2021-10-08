@@ -15,11 +15,6 @@ fields:
   config:
     required: false
   label: Page title
-- name: page_description
-  type: text
-  config:
-    required: false
-  label: Page Description
 - name: create_own_page
   type: boolean
   label: Create own page
