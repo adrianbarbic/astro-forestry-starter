@@ -12,7 +12,3 @@ fields:
       type: pages
       section: profiles
   label: Staff
-- name: tag
-  type: tag_list
-  default: []
-  label: Tag
