@@ -14,13 +14,14 @@ import '../styles/global.css';
 const allProfiles = Astro.fetchContent('../content/profiles/*.md');
 
 const { content } = Astro.props;
+console.log(content);
 // console.log('CONTENT: ', content)
 ---
 
 <html lang="en">
   <head>
-    <title>{content.page_title}</title>
-    <meta name="description" content={content.page_description} />
+    <title>{content?.seo?.title || 'Yahoo!'}</title>
+    <meta name="description" content={content?.seo?.description || 'Yahoo!'} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="//unpkg.com/alpinejs" defer></script>
   </head>
