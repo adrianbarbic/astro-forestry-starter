@@ -9,8 +9,9 @@ blocks:
 - template: team-block
   staff:
   - src/content/profiles/john-smith.md
-  tag:
-  - Staff
+  - src/content/profiles/test.md
+  - src/content/profiles/john-smith.md
+  tag: []
 uri: about
 seo:
   title: This is the about page title seo
