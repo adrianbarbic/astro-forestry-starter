@@ -8,6 +8,11 @@ fields:
   config:
     required: true
   label: Name
+- name: position
+  type: text
+  config:
+    required: false
+  label: Position
 - name: bio
   type: textarea
   default: ''
@@ -22,3 +27,13 @@ fields:
   config:
     maxSize: 64
   label: Photo
+- name: linkedin_url
+  type: text
+  config:
+    required: false
+  label: LinkedIn URL
+- name: twitter_url
+  type: text
+  config:
+    required: false
+  label: Twitter URL
