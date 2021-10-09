@@ -10,7 +10,6 @@ blocks:
   staff:
   - src/content/profiles/john-smith.md
   - src/content/profiles/test.md
-  - src/content/profiles/john-smith.md
   tag: []
 uri: about
 seo:
