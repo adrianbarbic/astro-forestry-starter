@@ -9,7 +9,7 @@ const TeamBlock = ({content, allProfiles}) => {
       }
       return false;
     });
-    return head(out);
+    return out;
   });
 
   return(
