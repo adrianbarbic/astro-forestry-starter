@@ -2,8 +2,9 @@ import { head } from 'lodash';
 
 const TeamBlock = ({content, allProfiles}) => {
   const foo = allProfiles.filter(profile => {
+    console.log('profile: ', profile);
     const out = content.staff.map(doc => {
-      if(profile.file.pathname.includes(doc)){
+      if(profile.active === true && profile.file.pathname.includes(doc)){
         return profile;
       }
       return false;
