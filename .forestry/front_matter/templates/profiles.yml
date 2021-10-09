@@ -3,6 +3,11 @@ label: Profiles
 hide_body: true
 display_field: name
 fields:
+- name: active
+  type: boolean
+  label: Active
+  hidden: false
+  default: true
 - name: name
   type: text
   config:
