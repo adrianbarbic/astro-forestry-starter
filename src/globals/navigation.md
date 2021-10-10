@@ -1,5 +1,7 @@
 ---
 primary_nav:
+- page_name: Projects
+  page_link: src/content/pages/projects.md
 - page_name: Home
   page_link: src/pages/index.md
 - page_name: About
