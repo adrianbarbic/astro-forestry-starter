@@ -1,4 +1,30 @@
 ---
 label: Projects
 hide_body: true
-fields: []
+fields:
+- name: active
+  type: boolean
+  label: Active
+  default: true
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - header-block
+  - content-media-block
+  - pricing-block
+  - faqs-block
+  - testimonial-block
+  config:
+    min: 
+    max: 
