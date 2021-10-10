@@ -15,5 +15,6 @@ uri: about
 seo:
   title: This is the about page title seo
   description: This is the about page description seo
+draft: true
 
 ---
