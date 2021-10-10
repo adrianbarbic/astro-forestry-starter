@@ -10,6 +10,13 @@ fields:
   label: Layout
   hidden: true
   default: "../layouts/page.astro"
+- name: base_uri
+  type: text
+  config:
+    required: false
+  label: Base URI
+  hidden: true
+  default: projects
 - name: published
   type: boolean
   label: Published
@@ -46,3 +53,9 @@ fields:
   config: {}
   template: seo
   label: SEO
+- name: base_path
+  type: text
+  config:
+    required: false
+  label: Base path
+  hidden: true
