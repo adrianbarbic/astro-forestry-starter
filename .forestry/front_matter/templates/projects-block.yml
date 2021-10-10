@@ -1,6 +1,6 @@
 ---
 label: Projects Block
-hide_body: false
+hide_body: true
 fields:
 - name: projects
   type: list
