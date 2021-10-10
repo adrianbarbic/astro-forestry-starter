@@ -13,5 +13,6 @@ page_description: Buildmark page description
 uri: HOME
 create_own_page: true
 draft: true
+published: true
 
 ---
