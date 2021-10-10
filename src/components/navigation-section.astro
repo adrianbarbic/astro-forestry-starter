@@ -11,7 +11,8 @@ const [content] = Astro.fetchContent('../globals/navigation.md');
       </a>
       <nav class="flex-wrap items-center hidden mb-5 text-base sm:block md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
         {content.primary_nav.map(item => {
-          const link = item.page_link.replace('src/content', '');
+          console.log('item: ', item);
+          const link = item.page_link.replace('src/content/pages', '');
           const newLink = link.replace('src/pages', '');
           const newnewLink = newLink.replace('index.md', '');
           const finalLink = newnewLink.replace('.md', '');
