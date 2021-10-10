@@ -19,6 +19,11 @@ fields:
   config:
     required: true
   label: Name
+- name: uri
+  type: text
+  config:
+    required: false
+  label: URI
 - name: image
   type: file
   config:
