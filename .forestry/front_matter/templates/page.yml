@@ -10,7 +10,7 @@ fields:
   label: Layout
   hidden: true
   default: "../layouts/page.astro"
-- name: draft
+- name: live
   type: boolean
   default: true
   label: Live
