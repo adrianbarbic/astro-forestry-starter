@@ -10,14 +10,15 @@ fields:
   label: Layout
   hidden: true
   default: "../layouts/page.astro"
+- name: draft
+  type: boolean
+  default: true
+  label: Live
 - name: page_title
   type: text
   config:
     required: false
   label: Page title
-- name: create_own_page
-  type: boolean
-  label: Create own page
 - name: uri
   type: text
   config:
@@ -27,7 +28,6 @@ fields:
   description: Page uri <strong>without</strong> a leading or ending "<strong>/</strong>"
     (ie. <strong>contact</strong>). Set '<strong>HOME</strong>' for the homepage.
   showOnly:
-    field: create_own_page
     value: true
 - name: blocks
   type: blocks
