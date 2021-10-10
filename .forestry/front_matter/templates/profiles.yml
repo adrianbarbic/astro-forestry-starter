@@ -3,9 +3,9 @@ label: Profiles
 hide_body: true
 display_field: name
 fields:
-- name: active
+- name: published
   type: boolean
-  label: Active
+  label: Published
   hidden: false
   default: true
 - name: name
