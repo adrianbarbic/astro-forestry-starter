@@ -39,6 +39,7 @@ fields:
   - testimonial-block
   - pricing-block
   - team-block
+  - projects-block
   config:
     min: 
     max: 
@@ -47,5 +48,3 @@ fields:
   config: {}
   template: seo
   label: SEO
-pages:
-- src/content/pages/projects.app
