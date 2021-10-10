@@ -1,6 +1,6 @@
 ---
 active: true
-name: Test Project
+name: Project One
 image: "/uploads/home-energy-rated.webp"
 blocks:
 - template: content-media-block
