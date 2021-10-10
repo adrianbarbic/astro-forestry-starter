@@ -17,5 +17,6 @@ seo:
   description: This is the about page description seo
 draft: true
 live: true
+published: true
 
 ---
