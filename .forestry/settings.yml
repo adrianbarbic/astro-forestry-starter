@@ -18,7 +18,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - page
+  - projects
 - type: directory
   path: src/content/blog
   label: Blog
