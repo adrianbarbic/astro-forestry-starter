@@ -13,7 +13,7 @@ sections:
   templates:
   - page
 - type: directory
-  path: src/projects
+  path: src/content/projects
   label: Projects
   create: all
   match: "**/*"
