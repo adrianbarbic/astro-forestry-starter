@@ -10,10 +10,10 @@ fields:
   label: Layout
   hidden: true
   default: "../layouts/page.astro"
-- name: live
+- name: published
   type: boolean
   default: true
-  label: Live
+  label: Published
 - name: page_title
   type: text
   config:
