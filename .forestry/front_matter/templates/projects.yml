@@ -1,6 +1,7 @@
 ---
 label: Projects
 hide_body: true
+display_field: name
 fields:
 - name: active
   type: boolean
