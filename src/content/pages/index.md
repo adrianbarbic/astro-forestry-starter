@@ -12,5 +12,6 @@ page_title: Homepage
 page_description: Buildmark page description
 uri: HOME
 create_own_page: true
+draft: true
 
 ---
