@@ -41,3 +41,8 @@ fields:
   config:
     min: 
     max: 
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
