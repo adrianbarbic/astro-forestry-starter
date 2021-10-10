@@ -7,5 +7,6 @@ blocks:
   heading: This is the content media bock for the project
   text_area: "<p>This is the content media bock for the text area</p>"
 published: true
+uri: project-one
 
 ---
