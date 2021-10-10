@@ -6,8 +6,10 @@ export async function getStaticPaths() {
 
   return allContent.map((content) => {
     if(content.uri === "HOME" || content.uri === "404" || content.published !== true) return false
+    const uri = content.base_path ? `${content.base_path}/${content.uri}` : content.uri;
+    
     return {
-      params: { slug: content.uri },
+      params: { slug: uri },
       props: { content },
     };
   });
