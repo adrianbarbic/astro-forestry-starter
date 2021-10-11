@@ -1,4 +1,4 @@
-const ProjectsBlock = ({content}) => (
+const BlockProjects = ({content}) => (
   <section className="box-border py-8 leading-7 text-gray-900 bg-white border-0 border-gray-200 border-solid sm:py-12 md:py-16 lg:py-24">
     <div className="box-border max-w-6xl px-4 pb-12 mx-auto border-solid sm:px-6 md:px-6 lg:px-4">
         <div className="flex flex-col items-center leading-7 text-center text-gray-900">
@@ -13,4 +13,4 @@ const ProjectsBlock = ({content}) => (
   </section>
   );
   
-  export { ProjectsBlock };
+  export { BlockProjects };

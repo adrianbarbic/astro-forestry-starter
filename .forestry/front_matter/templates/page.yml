@@ -39,7 +39,7 @@ fields:
   - testimonial-block
   - pricing-block
   - team-block
-  - projects-block
+  - block-projects
   config:
     min: 
     max: 

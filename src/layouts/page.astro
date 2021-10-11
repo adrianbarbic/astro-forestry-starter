@@ -7,7 +7,7 @@ import { FaqsBlock } from '../components/faqs-block/index.jsx';
 import { TestimonialBlock } from '../components/testimonial-block';
 import { PricingBlock } from '../components/pricing-block';
 import { TeamBlock } from '../components/team-block';
-import { ProjectsBlock } from '../components/projects-block';
+import { BlockProjects } from '../components/block-projects';
 
 import '../styles/global.css';
 
@@ -48,8 +48,8 @@ const { content } = Astro.props;
         case 'team-block':
           return <TeamBlock content={item} allProfiles={allProfiles} />
           break;
-        case 'projects-block':
-          return <ProjectsBlock content={item} />
+        case 'block-projects':
+          return <BlockProjects content={item} />
           break;
         default:
           return <p class="p-4 m-2 text-xl text-red-700 border border-red-300 bg-red-50">Block <strong>{item.template}</strong> missing from <strong>src/layouts/page.astro</strong></p>

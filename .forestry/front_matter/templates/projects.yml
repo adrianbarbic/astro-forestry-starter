@@ -42,7 +42,7 @@ fields:
   template_types:
   - header-block
   - content-media-block
-  - projects-block
+  - block-projects
   - pricing-block
   - faqs-block
   - testimonial-block
