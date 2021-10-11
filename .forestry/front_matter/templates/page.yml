@@ -35,7 +35,7 @@ fields:
   template_types:
   - header-block
   - content-media-block
-  - projects-block
+  - block-projects
   - faqs-block
   - testimonial-block
   - pricing-block
