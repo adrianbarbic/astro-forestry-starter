@@ -8,8 +8,7 @@ blocks:
   pill_text: Some text
   background_image: "/uploads/home-energy-rated.webp"
 - template: block-projects
-  projects:
-  - src/content/projects/project-one.md
+  projects: []
 seo:
   title: ''
   description: ''
