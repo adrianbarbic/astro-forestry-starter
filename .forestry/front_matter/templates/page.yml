@@ -35,11 +35,11 @@ fields:
   template_types:
   - header-block
   - content-media-block
+  - projects-block
   - faqs-block
   - testimonial-block
   - pricing-block
   - team-block
-  - block-projects
   config:
     min: 
     max: 
