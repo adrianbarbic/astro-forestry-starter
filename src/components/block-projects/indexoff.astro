@@ -1,0 +1,27 @@
+---
+import { isEmpty } from 'lodash';
+import { Layout } from './view.jsx';
+const allProjects = Astro.fetchContent('../../../content/projects/*.md');
+console.log("!!!!: ", allProjects);
+
+const { content } = Astro.props;
+
+const projectsToShow = allProjects.filter(project => {
+  const out = content.staff.filter(doc => {
+    const projectFile = project.file.pathname.split('src/')[1];
+    const contentFile = doc.split('src/')[1];
+
+    return projectFile === contentFile && project.active === true;
+  });
+
+  const output = isEmpty(out) ? null : out;
+
+  console.log('output: ', output);
+
+  return output;
+});
+
+
+---
+
+<Layout content={content} allProjects={projectsToShow} />
