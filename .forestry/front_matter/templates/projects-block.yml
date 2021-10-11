@@ -1,5 +1,5 @@
 ---
-label: Projects Block
+label: Block - Projects
 hide_body: true
 fields:
 - name: projects
