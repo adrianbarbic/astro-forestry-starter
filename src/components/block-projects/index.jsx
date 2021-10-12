@@ -7,7 +7,6 @@ const BlockProjects = ({content, allProjects}) => {
         const contentFile = doc.split('src/')[1];
 
         const link = doc.replace('src/content/', '');
-        console.log('link: ', link);
         const newLink = link.replace('.md', '');
 
         project.link = newLink;
