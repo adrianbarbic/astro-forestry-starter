@@ -9,7 +9,7 @@ blocks:
   heading: This is some awesome blog content!
   text_area: <p>This is some awesome content as <a href="" title="" target="_blank">well</a>!</p>
 page_title: Blog
-page_description: Buildmark page description
+page_description: insight page description
 uri: blog
 
 ---

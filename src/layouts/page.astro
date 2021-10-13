@@ -11,8 +11,6 @@ import { BlockProjects } from '../components/block-projects';
 
 import '../styles/global.css';
 
-// const allProfiles = Astro.fetchContent('../content/profiles/*.md');
-
 import * as path from 'node:path';
 
 const mds = Astro.fetchContent('../content/*/*.md');
@@ -24,8 +22,8 @@ const { content } = Astro.props;
 
 <html lang="en">
   <head>
-    <title>{content?.seo?.title || 'Yahoo!'}</title>
-    <meta name="description" content={content?.seo?.description || 'Yahoo!'} />
+    <title>{content?.seo?.title || 'insight'}</title>
+    <meta name="description" content={content?.seo?.description || 'insight'} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="//unpkg.com/alpinejs" defer></script>
   </head>
