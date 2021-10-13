@@ -34,10 +34,10 @@ fields:
   label: Blocks
   template_types:
   - header-block
-  - content-media-block
+  - block-content-media
   - block-projects
   - block-faqs
-  - testimonial-block
+  - block-testimonials
   - pricing-block
   - team-block
   config:

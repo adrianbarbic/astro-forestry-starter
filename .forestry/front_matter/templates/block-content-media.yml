@@ -1,5 +1,5 @@
 ---
-label: Content Media Block
+label: 'Block: Content Media'
 hide_body: true
 fields:
 - name: heading

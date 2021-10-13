@@ -2,7 +2,7 @@
 uri: contact
 heading: Contact
 blocks:
-- template: content-media-block
+- template: block-content-media
 page_title: Contact
 page_description: sadf
 draft: true

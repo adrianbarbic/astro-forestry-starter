@@ -1,5 +1,5 @@
 ---
-label: Testimonial Block
+label: 'Block: Testimonials'
 hide_body: true
 fields:
 - name: name

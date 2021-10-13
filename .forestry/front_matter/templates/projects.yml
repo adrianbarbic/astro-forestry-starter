@@ -41,11 +41,11 @@ fields:
   label: Blocks
   template_types:
   - header-block
-  - content-media-block
+  - block-content-media
   - block-projects
   - pricing-block
   - block-faqs
-  - testimonial-block
+  - block-testimonials
   config:
     min: 
     max: 

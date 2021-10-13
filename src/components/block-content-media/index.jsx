@@ -1,4 +1,4 @@
-const ContentMediaBlock = ({content}) => (
+const BlockContentMedia = ({content}) => (
   <section className="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-white bg-cover lg:py-32 min-w-screen">
     <div className="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0">
         <div className="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
@@ -27,4 +27,4 @@ const ContentMediaBlock = ({content}) => (
 </section>
 )
 
-export { ContentMediaBlock };
+export { BlockContentMedia };
