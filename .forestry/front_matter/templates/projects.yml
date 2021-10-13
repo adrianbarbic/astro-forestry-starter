@@ -44,7 +44,7 @@ fields:
   - content-media-block
   - block-projects
   - pricing-block
-  - faqs-block
+  - block-faqs
   - testimonial-block
   config:
     min: 

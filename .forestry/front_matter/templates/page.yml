@@ -36,7 +36,7 @@ fields:
   - header-block
   - content-media-block
   - block-projects
-  - faqs-block
+  - block-faqs
   - testimonial-block
   - pricing-block
   - team-block

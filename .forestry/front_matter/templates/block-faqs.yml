@@ -1,5 +1,5 @@
 ---
-label: Faqs Block
+label: 'Block: Faqs'
 hide_body: true
 fields:
 - name: header

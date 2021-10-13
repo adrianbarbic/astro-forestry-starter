@@ -13,7 +13,7 @@ interface Questions {
   answer: string,
 }
 
-const FaqsBlock = ({ content }: Content) => (
+const BlockFaqs = ({ content }: Content) => (
   <section className="py-24 bg-gray-900">
     <div className="max-w-3xl px-8 mx-auto lg:px-16">
       <h2 className="mb-2 text-xl font-bold text-white md:text-3xl">{content.header}</h2>
@@ -33,4 +33,4 @@ const FaqsBlock = ({ content }: Content) => (
 </section>
 )
 
-export { FaqsBlock };
+export { BlockFaqs };
