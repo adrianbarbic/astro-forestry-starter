@@ -4,10 +4,13 @@
 
 Features:
 
--[] SEO-friendly setup with canonical URLs and OpenGraph data
--[] Full Markdown support
--[] RSS 2.0 generation
--[] Sitemap.xml generation
+- [x] Add pages
+- [x] Add team members
+- [x] Add projects
+- [x] Add 404 page
+
+Todo:
+- [ ] Add blog setup
 
 ## 🚀 Getting setup
 
