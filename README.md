@@ -4,10 +4,10 @@
 
 Features:
 
-- [] SEO-friendly setup with canonical URLs and OpenGraph data
-- [] Full Markdown support
-- [] RSS 2.0 generation
-- [] Sitemap.xml generation
+-[] SEO-friendly setup with canonical URLs and OpenGraph data
+-[] Full Markdown support
+-[] RSS 2.0 generation
+-[] Sitemap.xml generation
 
 ## 🚀 Getting setup
 
