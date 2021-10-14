@@ -24,6 +24,6 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-[Astro](https://astro.build)\
-[Forestry](https://forestry.io)\
-[Tailwind](https://tailwindcss.com)   
+Astro: https://astro.build\
+Forestry: https://forestry.io\
+Tailwind: https://tailwindcss.com   
