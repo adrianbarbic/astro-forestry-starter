@@ -1,5 +1,5 @@
 
-const HeaderBlock = ({ content }) => (
+const BlockHeader = ({ content }) => (
   <section className="relative w-full bg-top bg-cover md:bg-center" style={{backgroundImage: `url(${content.background_image})`}}>
     <div className="absolute inset-0 w-full h-full bg-gray-900 opacity-25"></div>
     <div className="absolute inset-0 w-full h-64 opacity-50 bg-gradient-to-b from-black to-transparent"></div>
@@ -34,4 +34,4 @@ const HeaderBlock = ({ content }) => (
   </section>
 )
 
-export { HeaderBlock };
+export { BlockHeader };

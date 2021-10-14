@@ -33,13 +33,13 @@ fields:
   type: blocks
   label: Blocks
   template_types:
-  - header-block
+  - block-header
   - block-content-media
   - block-projects
   - block-faqs
   - block-testimonials
-  - pricing-block
-  - team-block
+  - block-pricing
+  - block-team
   config:
     min: 
     max: 

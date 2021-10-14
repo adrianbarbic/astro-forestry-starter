@@ -1,6 +1,6 @@
 import { compact, isEmpty } from 'lodash';
 
-const TeamBlock = ({content, allProfiles}) => {
+const BlockTeam = ({content, allProfiles}) => {
   const foo = allProfiles.filter(profile => {
     const out = content.staff.filter(doc => {
       const profileFile = profile.file.pathname.split('src/')[1];
@@ -71,4 +71,4 @@ const TeamBlock = ({content, allProfiles}) => {
   )};
 
 
-export { TeamBlock };
+export { BlockTeam };

@@ -1,5 +1,5 @@
 ---
-label: Team block
+label: 'Block: Team'
 hide_body: true
 fields:
 - name: staff

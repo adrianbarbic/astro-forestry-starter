@@ -40,10 +40,10 @@ fields:
   type: blocks
   label: Blocks
   template_types:
-  - header-block
+  - block-header
   - block-content-media
   - block-projects
-  - pricing-block
+  - block-pricing
   - block-faqs
   - block-testimonials
   config:

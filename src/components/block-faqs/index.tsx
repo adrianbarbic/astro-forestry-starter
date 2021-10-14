@@ -1,24 +1,11 @@
-interface Content {
-  content: Data,
-}
-
-interface Data {
-  template: string,
-  header:  string,
-  questions: Questions[],
-}
-
-interface Questions {
-  question: string,
-  answer: string,
-}
+import { Content, Question } from './types';
 
 const BlockFaqs = ({ content }: Content) => (
   <section className="py-24 bg-gray-900">
     <div className="max-w-3xl px-8 mx-auto lg:px-16">
       <h2 className="mb-2 text-xl font-bold text-white md:text-3xl">{content.header}</h2>
       <div className="relative mt-8">
-        {content.questions.map((item: Questions) => (
+        {content.questions.map((item: Question) => (
           <div className="relative overflow-hidden text-white select-none">
             <h4 className="flex items-center justify-between py-5 text-lg font-medium text-gray-100 cursor-pointer sm:text-xl hover:text-white">
               <span>{item.question}</span>

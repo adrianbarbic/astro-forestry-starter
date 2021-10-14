@@ -1,5 +1,5 @@
 ---
-label: Header Block
+label: 'Block: Header'
 hide_body: true
 fields:
 - name: header

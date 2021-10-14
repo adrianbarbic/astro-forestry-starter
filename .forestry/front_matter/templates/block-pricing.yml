@@ -1,5 +1,5 @@
 ---
-label: Pricing Block
+label: 'Block: Pricing'
 hide_body: true
 fields:
 - name: heading

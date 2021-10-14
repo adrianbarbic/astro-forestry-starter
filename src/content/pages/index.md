@@ -1,7 +1,7 @@
 ---
 heading: Home
 blocks:
-- template: header-block
+- template: block-header
   header: 6 Star home energy ratings
   pill_text: Get a FREE quote!
   background_image: "/uploads/home-energy-rated.webp"
