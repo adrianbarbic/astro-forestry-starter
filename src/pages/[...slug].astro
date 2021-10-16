@@ -1,12 +1,12 @@
 ---
-// Render all the pages from the content folder
+// Render all the pages from the `src/content` folder
 export async function getStaticPaths() {
   const allContent = Astro.fetchContent('../content/**/*.md');
 
   return allContent.map((content) => {
     if(content.uri === "HOME" || content.uri === "404" || content.published !== true) return false
     const uri = content.base_path ? `${content.base_path}/${content.uri}` : content.uri;
-    
+
     return {
       params: { slug: uri },
       props: { content },
