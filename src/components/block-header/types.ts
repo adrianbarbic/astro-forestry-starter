@@ -3,7 +3,7 @@ export interface Content {
 }
 
 export interface Data {
-  header:  string,
+  heading:  string,
   pill_text: string,
   background_image: string,
 }

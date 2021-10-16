@@ -4,7 +4,7 @@ export interface Content {
 
 export interface Data {
   template: string,
-  header:  string,
+  heading:  string,
   questions: Question[],
 }
 

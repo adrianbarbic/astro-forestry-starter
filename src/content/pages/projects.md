@@ -4,7 +4,7 @@ page_title: Projects
 uri: projects
 blocks:
 - template: block-header
-  header: This is the header for the project block
+  heading: This is the header for the project block
   pill_text: Some text
   background_image: "/uploads/home-energy-rated.webp"
 - template: block-projects

@@ -2,11 +2,11 @@
 label: 'Block: Faqs'
 hide_body: true
 fields:
-- name: header
+- name: heading
   type: text
   config:
     required: false
-  label: Header
+  label: Heading
 - name: questions
   type: field_group_list
   fields:

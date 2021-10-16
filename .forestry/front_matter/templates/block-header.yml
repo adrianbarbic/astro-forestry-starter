@@ -2,11 +2,11 @@
 label: 'Block: Header'
 hide_body: true
 fields:
-- name: header
+- name: heading
   type: text
   config:
     required: false
-  label: Header
+  label: heading
 - name: pill_text
   type: text
   config:

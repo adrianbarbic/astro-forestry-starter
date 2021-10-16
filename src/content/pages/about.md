@@ -3,7 +3,7 @@ page_title: About
 page_description: about
 blocks:
 - template: block-header
-  header: This is the header for the about page
+  heading: This is the heading for the about page
   pill_text: Some text
   background_image: "/uploads/home-energy-rated.webp"
 - template: block-team

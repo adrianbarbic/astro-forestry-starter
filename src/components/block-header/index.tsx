@@ -15,7 +15,7 @@ const BlockHeader = ({ content }: Content) => (
             {content.pill_text}
           </p>
           <h1 className="text-6xl font-extrabold tracking-tight text-center text-white lg:text-left xl:pr-32">
-            {content.header}
+            {content.heading}
           </h1>
         </div>
         <div className="w-full max-w-sm mt-20 lg:mt-0 lg:w-1/3">
