@@ -8,7 +8,7 @@ blocks:
   custom_style: false
   position_image: Left
   style:
-    media_position: Left
+    media_position: Right
     background_color: "#D08A8A"
 - template: block-content-media
   heading: This is some awesome content!
