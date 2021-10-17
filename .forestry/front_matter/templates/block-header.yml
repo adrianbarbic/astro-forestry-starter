@@ -46,3 +46,28 @@ fields:
   showOnly:
     field: custom_style
     value: true
+- name: style
+  type: field_group
+  config: {}
+  fields:
+  - name: background_color
+    type: color
+    label: Background color
+    config:
+      required: false
+      color_format: Hex
+  - name: media_position
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Left
+      - Right
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Media position
+  label: Style
