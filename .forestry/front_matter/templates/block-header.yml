@@ -17,3 +17,32 @@ fields:
   config:
     maxSize: 64
   label: Background Image
+- name: custom_style
+  type: boolean
+  label: Custom style
+- name: background_color
+  type: color
+  label: Background color
+  config:
+    required: false
+    color_format: Hex
+  showOnly:
+    field: custom_style
+    value: true
+- name: position_image
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Position image
+  showOnly:
+    field: custom_style
+    value: true
