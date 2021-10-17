@@ -29,7 +29,7 @@ fields:
       color_format: Hex
   - name: media_position
     type: select
-    default: []
+    default: Right
     config:
       required: false
       options:
