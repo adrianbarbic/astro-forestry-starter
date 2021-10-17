@@ -18,6 +18,7 @@ const allProfiles = mds.filter(md => path.dirname(md.file.pathname).endsWith('pr
 const allProjects = mds.filter(md => path.dirname(md.file.pathname).endsWith('projects'));
 
 const { content } = Astro.props;
+console.log('content: ', content);
 ---
 
 <html lang="en">
