@@ -5,6 +5,11 @@ blocks:
   heading: 6 Star home energy ratings
   pill_text: Get a FREE quote!
   background_image: "/uploads/home-energy-rated.webp"
+  custom_style: false
+  position_image: Left
+  style:
+    media_position: Left
+    background_color: "#D08A8A"
 - template: block-content-media
   heading: This is some awesome content!
   text_area: <p>This is some awesome content as <a href="" title="" target="_blank">well</a>!</p>
