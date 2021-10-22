@@ -49,6 +49,11 @@ fields:
       max: 
       labelField: 
     label: Links
+  - name: link_section
+    type: text
+    config:
+      required: false
+    label: Link Section
   config:
     min: 
     max: 
