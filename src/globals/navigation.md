@@ -9,15 +9,17 @@ primary_nav:
 - page_name: Contact
   page_link: src/content/pages/contact.md
 navigation:
-- link_section: Footer Navigation
-  links:
-  - name: Terms & Conditions
-    link: terms
 - links:
   - name: 'About '
     link: about
   - name: Home
     link: HOME
   link_section: Header Navigation
+  name: Header Navigation
+- link_section: Footer Navigation
+  links:
+  - name: Terms & Conditions
+    link: terms
+  name: ''
 
 ---
