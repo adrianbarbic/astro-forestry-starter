@@ -31,6 +31,11 @@ fields:
 - name: navigation
   type: field_group_list
   fields:
+  - name: link_section
+    type: text
+    config:
+      required: false
+    label: Link Section
   - name: links
     type: field_group_list
     fields:
@@ -49,11 +54,6 @@ fields:
       max: 
       labelField: 
     label: Links
-  - name: link_section
-    type: text
-    config:
-      required: false
-    label: Link Section
   config:
     min: 
     max: 
