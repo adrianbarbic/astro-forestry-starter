@@ -31,20 +31,15 @@ fields:
 - name: navigation
   type: field_group_list
   fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
   - name: links
-    type: field_group
-    config: {}
-    fields:
-    - name: name
-      type: text
-      config:
-        required: false
-      label: Name
-    - name: link
-      type: text
-      config:
-        required: false
-      label: Link
+    type: text
+    config:
+      required: false
     label: Links
   config:
     min: 
