@@ -32,9 +32,19 @@ fields:
   type: field_group_list
   fields:
   - name: links
-    type: include
+    type: field_group
     config: {}
-    template: seo
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
     label: Links
   config:
     min: 
