@@ -1,0 +1,13 @@
+---
+label: Footer
+hide_body: true
+fields:
+- name: copyright_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Copyright Text

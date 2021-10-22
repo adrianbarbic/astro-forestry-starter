@@ -6,6 +6,8 @@ blocks:
   heading: This is the heading for the about page
   pill_text: Some text
   background_image: "/uploads/home-energy-rated.webp"
+  style:
+    media_position: Right
 - template: block-team
   staff:
   - src/content/profiles/john-smith.md

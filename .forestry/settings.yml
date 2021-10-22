@@ -41,6 +41,10 @@ sections:
   path: src/globals/navigation.md
   label: Navigation
 - type: document
+  path: src/globals/footer.md
+  label: Footer
+  match: "**/*"
+- type: document
   path: src/globals/settings.json
   label: Settings
 upload_dir: public/uploads

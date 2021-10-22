@@ -28,5 +28,43 @@ fields:
     labelField: page_name
   label: Primary nav
   description: Add your header navigation here.
+- name: navigation
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: links
+    type: field_group_list
+    fields:
+    - name: link_name
+      type: text
+      config:
+        required: false
+      label: Link Name
+    - name: link
+      type: select
+      default: []
+      config:
+        required: true
+        options: []
+        source:
+          type: pages
+          section: pages
+          file: 
+          path: 
+      label: Link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Links
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Navigation
 pages:
 - src/globals/navigation.md
