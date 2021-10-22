@@ -18,5 +18,6 @@ seo:
 draft: true
 live: true
 published: true
+page_name: About
 
 ---
