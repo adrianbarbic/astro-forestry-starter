@@ -39,15 +39,20 @@ fields:
   - name: links
     type: field_group_list
     fields:
-    - name: name
+    - name: link_name
       type: text
       config:
         required: false
-      label: Name
+      label: Link Name
     - name: link
-      type: text
+      type: list
       config:
-        required: false
+        use_select: true
+        min: 
+        max: 
+        source:
+          type: pages
+          section: pages
       label: Link
     config:
       min: 
