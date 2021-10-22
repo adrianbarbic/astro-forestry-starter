@@ -7,7 +7,7 @@ blocks:
   pill_text: Some text
   background_image: "/uploads/home-energy-rated.webp"
   style:
-    media_position: Left
+    media_position: Right
 - template: block-team
   staff:
   - src/content/profiles/john-smith.md
