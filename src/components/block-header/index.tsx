@@ -12,8 +12,8 @@ const BlockHeader = ({ content }: Content) => (
       <div
         className={`flex flex-col items-center h-full lg:${
           content.style.media_position === "Right"
-            ? "flex-row-reverse"
-            : "flex-row"
+            ? "flex-row"
+            : "flex-row-reverse"
         }`}
       >
         <div className="flex flex-col items-center justify-center w-full h-full lg:w-2/3 lg:items-start">
