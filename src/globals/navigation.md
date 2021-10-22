@@ -23,9 +23,8 @@ navigation:
 - link_section: Footer Navigation
   links:
   - name: Terms & Conditions
-    link:
-    - terms
-    link_name: ''
+    link: src/content/pages/404.md
+    link_name: Terms and Conditions
   name: Footer Navigation
 
 ---
