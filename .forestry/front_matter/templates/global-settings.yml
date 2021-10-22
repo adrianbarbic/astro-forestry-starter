@@ -18,14 +18,5 @@ fields:
   config:
     maxSize: 64
   label: Favicon
-- name: footer_text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Footer text
 pages:
 - src/globals/settings.json
