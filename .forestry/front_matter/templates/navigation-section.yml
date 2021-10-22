@@ -2,32 +2,6 @@
 label: Navigation
 hide_body: true
 fields:
-- name: primary_nav
-  type: field_group_list
-  fields:
-  - name: page_name
-    type: text
-    config:
-      required: true
-    label: Page name
-  - name: page_link
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: pages
-        file: 
-        path: 
-    label: Page link
-  config:
-    min: 
-    max: 
-    labelField: page_name
-  label: Primary nav
-  description: Add your header navigation here.
 - name: navigation
   type: field_group_list
   fields:
