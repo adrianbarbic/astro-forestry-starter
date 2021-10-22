@@ -20,9 +20,11 @@ fields:
       schema:
         format: markdown
     label: Description
-  - name: image
+  - name: open_graph_image
     type: file
     config:
       maxSize: 64
-    label: Image
+    label: Open Graph Image
+    description: This is the image that will appear when this page is shared to a
+      social media or similar platform.
   label: SEO
