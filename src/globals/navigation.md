@@ -10,6 +10,8 @@ primary_nav:
   page_link: src/content/pages/contact.md
 navigation:
 - links:
+  - link_name: About
+    link: src/content/pages/about.md
   - link_name: Home page
     link: src/content/pages/index.md
   link_section: Header Navigation
