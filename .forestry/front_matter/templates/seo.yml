@@ -25,6 +25,7 @@ fields:
     config:
       maxSize: 64
     label: Open Graph Image
-    description: This is the image that will appear when this page is shared to a
-      social media or similar platform.
+    description: 'This is the image that will appear when this page is shared to a
+      social media or similar platform. Image should be a minimum 1200w x 630h in
+      pixels. '
   label: SEO
