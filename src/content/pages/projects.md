@@ -14,5 +14,6 @@ seo:
   title: ''
   description: ''
   image: ''
+page_name: Projects
 
 ---
