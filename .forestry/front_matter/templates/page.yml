@@ -14,11 +14,11 @@ fields:
   type: boolean
   default: true
   label: Published
-- name: page_title
+- name: page_name
   type: text
   config:
     required: false
-  label: Page title
+  label: Page name
 - name: uri
   type: text
   config:
