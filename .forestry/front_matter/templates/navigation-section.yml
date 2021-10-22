@@ -31,11 +31,11 @@ fields:
 - name: navigation
   type: field_group_list
   fields:
-  - name: link_section
+  - name: name
     type: text
     config:
       required: false
-    label: Link Section
+    label: Name
   - name: links
     type: field_group_list
     fields:
