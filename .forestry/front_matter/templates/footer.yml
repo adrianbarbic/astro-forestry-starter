@@ -11,3 +11,5 @@ fields:
     schema:
       format: html
   label: Copyright Text
+pages:
+- src/globals/footer.md

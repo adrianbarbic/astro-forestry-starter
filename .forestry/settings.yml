@@ -43,7 +43,6 @@ sections:
 - type: document
   path: src/globals/footer.md
   label: Footer
-  match: "**/*"
 - type: document
   path: src/globals/settings.json
   label: Settings
