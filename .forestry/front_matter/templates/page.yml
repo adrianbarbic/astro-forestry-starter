@@ -31,6 +31,7 @@ fields:
   - block-projects
   - block-faqs
   - block-testimonials
+  - block-blog-posts
   - block-pricing
   - block-team
   config:

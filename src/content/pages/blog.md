@@ -10,6 +10,8 @@ blocks:
   heading: Blog page
   pill_text: View our blogs
   background_image: ''
+- template: block-blog-posts
+  heading: Blog posts heading
 seo:
   title: ''
   description: ''
