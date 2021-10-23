@@ -1,5 +1,5 @@
 ---
-label: Block - Blog Posts
+label: 'Block: Blog Posts'
 hide_body: true
 fields:
 - name: heading
