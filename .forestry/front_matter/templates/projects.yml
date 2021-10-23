@@ -60,3 +60,5 @@ fields:
     required: false
   label: Base path
   hidden: true
+pages:
+- src/content/projects/test-project.md
