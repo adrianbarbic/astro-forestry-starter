@@ -1,6 +1,6 @@
 ---
 published: true
-page_title: Projects!
+page_title: Projects
 uri: projects
 blocks:
 - template: block-header
@@ -17,6 +17,6 @@ seo:
   title: ''
   description: ''
   image: ''
-page_name: Projects!!
+page_name: Projects
 
 ---
