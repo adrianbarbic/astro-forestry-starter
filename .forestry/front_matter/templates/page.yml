@@ -48,3 +48,5 @@ fields:
   config: {}
   template: seo
   label: SEO
+pages:
+- src/content/pages/blog.md
