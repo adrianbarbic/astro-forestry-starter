@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/page.astro"
 base_uri: projects
 published: true
 name: Test project
