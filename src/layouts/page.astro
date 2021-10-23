@@ -6,6 +6,7 @@ import { BlockFaqs } from '../components/block-faqs/index.jsx';
 import { BlockHeader } from '../components/block-header';
 import { BlockPricing } from '../components/block-pricing';
 import { BlockProjects } from '../components/block-projects';
+import { BlockBlogPosts } from '../components/block-blog-posts';
 import { BlockTeam } from '../components/block-team';
 import { BlockTestimonials } from '../components/block-testimonials';
 
@@ -16,9 +17,10 @@ import * as path from 'node:path';
 const mds = Astro.fetchContent('../content/*/*.md');
 const allProfiles = mds.filter(md => path.dirname(md.file.pathname).endsWith('profiles'));
 const allProjects = mds.filter(md => path.dirname(md.file.pathname).endsWith('projects'));
+const allBlogPosts = mds.filter(md => path.dirname(md.file.pathname).endsWith('blog/posts'));
 
 const { content } = Astro.props;
-console.log('content: ', content);
+// console.log('content: ', content);
 ---
 
 <html lang="en">
@@ -56,6 +58,9 @@ console.log('content: ', content);
           break;
         case 'block-projects':
           return <BlockProjects content={item} allProjects={allProjects} />
+          break;
+        case 'block-blogposts':
+          return <BlockBlogPosts content={item} allBlogPosts={allBlogPosts} />
           break;
         default:
           return <p class="p-4 m-2 text-xl text-red-700 border border-red-300 bg-red-50">Block <strong>{item.template}</strong> missing from <strong>src/layouts/page.astro</strong></p>
