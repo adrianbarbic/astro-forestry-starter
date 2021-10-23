@@ -3,13 +3,6 @@ label: Projects
 hide_body: true
 display_field: name
 fields:
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Layout
-  hidden: true
-  default: "../layouts/page.astro"
 - name: base_uri
   type: text
   config:
