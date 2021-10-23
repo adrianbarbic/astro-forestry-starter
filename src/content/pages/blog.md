@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/page.astro"
 published: true
 page_name: Blog
 uri: blog
