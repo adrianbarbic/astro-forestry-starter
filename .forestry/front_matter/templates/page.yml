@@ -1,7 +1,7 @@
 ---
 label: Page
 hide_body: true
-display_field: page_title
+display_field: page_name
 fields:
 - name: layout
   type: text
