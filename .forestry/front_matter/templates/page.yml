@@ -3,13 +3,6 @@ label: Page
 hide_body: true
 display_field: page_name
 fields:
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Layout
-  hidden: true
-  default: "../layouts/page.astro"
 - name: published
   type: boolean
   default: true
