@@ -25,7 +25,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - page
+  - blog-posts
 - type: heading
   label: Team
 - type: directory
