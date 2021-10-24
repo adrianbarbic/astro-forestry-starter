@@ -1,6 +1,4 @@
-import { isEmpty } from "lodash";
-
-const BlockBlogPosts = ({ content, allBlogPosts }) => {
+const BlockBlogPosts = ({ allBlogPosts }) => {
   console.log("allBlogPosts: ", allBlogPosts);
   const blogPostsToShow = allBlogPosts.filter(
     (post) => post.published === true
