@@ -4,7 +4,7 @@ blocks:
 - template: block-header
   heading: 6 Star home energy ratings
   pill_text: Get a FREE quote!
-  background_image: "/uploads/home-energy-rated.webp"
+  background_image: "/uploads/inlight-homepage-hero.jpg"
   custom_style: false
   position_image: Left
   style:
