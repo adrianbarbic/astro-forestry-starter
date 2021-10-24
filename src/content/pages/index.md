@@ -2,7 +2,7 @@
 heading: Home
 blocks:
 - template: block-header
-  heading: 6 Star home energy ratings
+  heading: AI powered digital
   pill_text: Get a FREE quote!
   background_image: "/uploads/inlight-homepage-hero.jpg"
   custom_style: false
