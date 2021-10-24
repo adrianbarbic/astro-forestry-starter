@@ -7,5 +7,7 @@ blocks:
   heading: aaaaa
   pill_text: ssssss
   background_image: ''
+published: true
+page_name: Post Once
 
 ---
