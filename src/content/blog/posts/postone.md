@@ -9,5 +9,7 @@ blocks:
   background_image: ''
 published: true
 page_name: Post One
+name: Plog post one
+image: "/uploads/favicon-1.svg"
 
 ---
