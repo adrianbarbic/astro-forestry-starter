@@ -1,23 +1,10 @@
 import { isEmpty } from "lodash";
 
 const BlockBlogPosts = ({ content, allBlogPosts }) => {
-  const blogPostsToShow = allBlogPosts.filter((post) => {
-    const out = content.projects.filter((doc) => {
-      // const projectFile = project.file.pathname.split("src/")[1];
-      // const contentFile = doc.split("src/")[1];
-
-      // const link = doc.replace("src/content/", "");
-      // const newLink = link.replace(".md", "");
-
-      // project.link = newLink;
-      return post.active === true;
-    });
-    const output = isEmpty(out) ? null : out;
-
-    console.log("output: ", output);
-
-    return output;
-  });
+  console.log("allBlogPosts: ", allBlogPosts);
+  const blogPostsToShow = allBlogPosts.filter(
+    (post) => post.published === true
+  );
 
   return (
     <div className="bg-white">
@@ -32,7 +19,7 @@ const BlockBlogPosts = ({ content, allBlogPosts }) => {
                   className="object-cover object-center w-full h-full group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{post.name}</h3>
+              <h3 className="mt-4 text-sm text-gray-700">{post.heading}</h3>
             </a>
           ))}
         </div>

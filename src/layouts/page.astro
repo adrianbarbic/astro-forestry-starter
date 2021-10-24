@@ -14,7 +14,7 @@ import '../styles/global.css';
 
 import * as path from 'node:path';
 
-const mds = Astro.fetchContent('../content/*/*.md');
+const mds = Astro.fetchContent('../content/**/*.md');
 const allProfiles = mds.filter(md => path.dirname(md.file.pathname).endsWith('profiles'));
 const allProjects = mds.filter(md => path.dirname(md.file.pathname).endsWith('projects'));
 const allBlogPosts = mds.filter(md => path.dirname(md.file.pathname).endsWith('blog/posts'));
