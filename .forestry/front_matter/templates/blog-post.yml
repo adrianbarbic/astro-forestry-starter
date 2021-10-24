@@ -1,4 +1,42 @@
 ---
 label: Blog Post
 hide_body: true
-fields: []
+fields:
+- name: published
+  type: boolean
+  label: Published
+  default: true
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: uri
+  type: text
+  config:
+    required: false
+  label: URI
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - block-faqs
+  - block-testimonials
+  - block-pricing
+  - block-header
+  - block-team
+  - block-content-media
+  - block-projects
+  config:
+    min: 
+    max: 
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
