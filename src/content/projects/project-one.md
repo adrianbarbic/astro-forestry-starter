@@ -1,7 +1,7 @@
 ---
 active: true
 name: Eloque
-image: "/uploads/home-energy-rated.webp"
+image: "/uploads/eloque-project-tile.jpg"
 blocks:
 - template: block-content-media
   heading: This is the content media bock for the project
