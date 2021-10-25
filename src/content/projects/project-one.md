@@ -1,5 +1,4 @@
 ---
-active: true
 name: Eloque
 image: "/uploads/eloque-project-tile.jpg"
 blocks:

@@ -10,7 +10,7 @@ const BlockProjects = ({ content, allProjects }) => {
       const newLink = link.replace(".md", "");
 
       project.link = newLink;
-      return projectFile === contentFile && project.active === true;
+      return projectFile === contentFile && project.published === true;
     });
     const output = isEmpty(out) ? null : out;
 
