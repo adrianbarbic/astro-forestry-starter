@@ -1,13 +1,13 @@
 ---
 active: true
-name: Project One
+name: Eloque
 image: "/uploads/home-energy-rated.webp"
 blocks:
 - template: block-content-media
   heading: This is the content media bock for the project
   text_area: "<p>This is the content media bock for the text area</p>"
 published: true
-uri: project-one
+uri: eloque
 base_path: projects
 seo:
   title: Title
