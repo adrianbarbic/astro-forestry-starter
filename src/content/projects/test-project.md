@@ -4,7 +4,10 @@ published: true
 name: Mercedes
 uri: mercedes
 image: "/uploads/mercedes.jpg"
-blocks: []
+blocks:
+- template: block-content-media
+  heading: This is the Merceded project
+  text_area: "<p>This is the content area of the Mercedes project.</p>"
 seo:
   title: ''
   description: ''
