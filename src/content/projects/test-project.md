@@ -1,9 +1,9 @@
 ---
 base_uri: projects
 published: true
-name: Test project
-uri: test-project
-image: ''
+name: Mercedes
+uri: mercedes
+image: "/uploads/mercedes.jpg"
 blocks: []
 seo:
   title: ''
