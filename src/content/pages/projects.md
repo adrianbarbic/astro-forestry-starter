@@ -11,8 +11,8 @@ blocks:
     media_position: Right
 - template: block-projects
   projects:
-  - src/content/projects/test-project.md
   - src/content/projects/project-one.md
+  - src/content/projects/test-project.md
 seo:
   title: ''
   description: ''
