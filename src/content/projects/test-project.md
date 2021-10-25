@@ -12,6 +12,6 @@ seo:
   title: ''
   description: ''
   open_graph_image: ''
-base_path: 'projects'
+base_path: ''
 
 ---
