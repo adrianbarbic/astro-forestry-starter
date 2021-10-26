@@ -34,6 +34,7 @@ fields:
   - block-blog-posts
   - block-pricing
   - block-team
+  - block-contact-form
   config:
     min: 
     max: 
