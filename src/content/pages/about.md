@@ -5,7 +5,7 @@ blocks:
 - template: block-header
   heading: This is the heading for the about page
   pill_text: Some text
-  background_image: "/uploads/austin-distel-rxpthowuvge-unsplash.jpg"
+  background_image: "/uploads/campaign-creators-gmsnxqiljp4-unsplash.jpg"
   style:
     media_position: Right
 - template: block-team
