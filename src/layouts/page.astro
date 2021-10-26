@@ -9,6 +9,7 @@ import { BlockProjects } from '../components/block-projects';
 import { BlockBlogPosts } from '../components/block-blog-posts';
 import { BlockTeam } from '../components/block-team';
 import { BlockTestimonials } from '../components/block-testimonials';
+import { BlockContactForm } from '../components/block-contact-form';
 
 import '../styles/global.css';
 
@@ -61,6 +62,9 @@ const { content } = Astro.props;
           break;
         case 'block-blog-posts':
           return <BlockBlogPosts content={item} allBlogPosts={allBlogPosts} />
+          break;
+        case 'block-contact-form':
+          return <BlockContactForm />
           break;
         default:
           return <p class="p-4 m-2 text-xl text-red-700 border border-red-300 bg-red-50">Block <strong>{item.template}</strong> missing from <strong>src/layouts/page.astro</strong></p>
