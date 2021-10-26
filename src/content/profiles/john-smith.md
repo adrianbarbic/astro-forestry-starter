@@ -6,5 +6,6 @@ active: true
 position: Web Developer
 linkedin_url: https://www.linkedin.com
 twitter_url: https://www.twitter.com
+published: true
 
 ---
