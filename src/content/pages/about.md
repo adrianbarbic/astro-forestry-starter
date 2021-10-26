@@ -5,7 +5,7 @@ blocks:
 - template: block-header
   heading: This is the heading for the about page
   pill_text: Some text
-  background_image: "/uploads/home-energy-rated.webp"
+  background_image: "/uploads/austin-distel-rxpthowuvge-unsplash.jpg"
   style:
     media_position: Right
 - template: block-team
