@@ -3,6 +3,8 @@ uri: contact
 heading: Contact
 blocks:
 - template: block-content-media
+- template: block-contact-form
+  heading: Contact form
 page_title: Contact
 page_description: sadf
 draft: true
