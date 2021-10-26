@@ -1,4 +1,9 @@
 ---
 label: 'Block: Contact Form'
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
