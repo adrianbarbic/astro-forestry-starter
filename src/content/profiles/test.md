@@ -1,7 +1,7 @@
 ---
-name: Philip Fry
+name: Philip J Fry
 bio: "<p>test</p>"
-photo: "/uploads/1064214_595972673758181_543552976_o.jpg"
+photo: "/uploads/screen-shot-2021-10-26-at-5-24-39-pm.png"
 position: Web Developer
 active: true
 
