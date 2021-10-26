@@ -9,6 +9,7 @@ fields:
     min: 
     max: 
     source:
-      type: pages
+      type: documents
       section: profiles
+      file: src/content/profiles/erlich-bachman.md
   label: Staff
