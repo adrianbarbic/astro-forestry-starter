@@ -6,7 +6,7 @@ const BlockTeam = ({ content, allProfiles }) => {
       const profileFile = profile.file.pathname.split("src/")[1];
       const contentFile = doc.split("src/")[1];
 
-      return profileFile === contentFile && profile.active === true;
+      return profileFile === contentFile && profile.published === true;
     });
 
     const output = isEmpty(out) ? null : out;
