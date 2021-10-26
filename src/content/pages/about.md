@@ -5,13 +5,14 @@ blocks:
 - template: block-header
   heading: This is the heading for the about page
   pill_text: Some text
-  background_image: "/uploads/home-energy-rated.webp"
+  background_image: "/uploads/campaign-creators-gmsnxqiljp4-unsplash.jpg"
   style:
     media_position: Right
 - template: block-team
   staff:
-  - src/content/profiles/john-smith.md
+  - src/content/profiles/erlich-bachman.md
   - src/content/profiles/test.md
+  - src/content/profiles/john-smith.md
   tag: []
 uri: about
 seo:
