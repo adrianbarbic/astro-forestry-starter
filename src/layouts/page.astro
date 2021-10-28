@@ -18,10 +18,11 @@ import * as path from 'node:path';
 const mds = Astro.fetchContent('../content/**/*.md');
 const allProfiles = mds.filter(md => path.dirname(md.file.pathname).endsWith('profiles'));
 const allProjects = mds.filter(md => path.dirname(md.file.pathname).endsWith('projects'));
-const allBlogPosts = mds.filter(md => path.dirname(md.file.pathname).endsWith('blog/posts'));
-
+const allBlogPosts = mds.filter(md => path.dirname(md.file.pathname).endsWith('blog'));
 const { content } = Astro.props;
-// console.log('content: ', content);
+console.log(Astro.props)
+
+
 ---
 
 <html lang="en">

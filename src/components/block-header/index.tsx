@@ -1,5 +1,4 @@
 import { Content } from "./types";
-
 const BlockHeader = ({ content }: Content) => (
   <section
     className="relative w-full bg-top bg-cover md:bg-center"
@@ -26,7 +25,7 @@ const BlockHeader = ({ content }: Content) => (
         </div>
         <div className="w-full max-w-sm mt-20 lg:mt-0 lg:w-1/3">
           <div className="relative">
-            <div className="relative z-10 h-auto p-8 pt-6 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7">
+            {/* <div className="relative z-10 h-auto p-8 pt-6 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7">
               <h2 className="mb-6 text-2xl font-bold">Get a quote</h2>
               <div className="relative block mb-4">
                 <input
@@ -57,7 +56,7 @@ const BlockHeader = ({ content }: Content) => (
                   Sign Up
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
