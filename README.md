@@ -2,11 +2,11 @@
 
 > 🧑‍🚀 A starter template to get you up and running.
 
-Tech stack: 
-Astro 
-Forestry.io 
-Typescript 
-Tailwind 
+Tech stack:  
+Astro  
+Forestry.io  
+Typescript  
+Tailwind  
 
 Features:
 
