@@ -1,6 +1,12 @@
-# Astro + Forestry + Typescript + Tailwind
+# Astro + Forestry Starter
 
 > 🧑‍🚀 A starter template to get you up and running.
+
+Tech stack: 
+Astro 
+Forestry.io 
+Typescript 
+Tailwind 
 
 Features:
 
