@@ -3,7 +3,7 @@ heading: Home
 blocks:
 - template: block-header
   heading: A digital medial company like no other.
-  pill_text: Get a FREE quote!
+  pill_text: Not hotdog
   background_image: "/uploads/silicon_valley_opener2.jpg"
   custom_style: false
   position_image: Left
