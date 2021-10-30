@@ -2,7 +2,7 @@
 heading: Home
 blocks:
 - template: block-header
-  heading: A digital incubator for brilliant minds.
+  heading: A digital incubator for brilliant tech.
   pill_text: ''
   background_image: "/uploads/silicon_valley_opener2.jpg"
   custom_style: false
