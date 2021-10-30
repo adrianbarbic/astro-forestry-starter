@@ -4,7 +4,7 @@ blocks:
 - template: block-header
   heading: AI powered digital
   pill_text: Get a FREE quote!
-  background_image: "/uploads/inlight-homepage-hero.jpg"
+  background_image: "/uploads/silicon_valley_opener2.jpg"
   custom_style: false
   position_image: Left
   style:
