@@ -16,9 +16,11 @@ const BlockHeader = ({ content }: Content) => (
         }`}
       >
         <div className="flex flex-col items-center justify-center w-full h-full lg:w-2/3 lg:items-start">
-          <p className="inline-block w-auto px-3 py-1 mb-5 text-xs font-medium text-white uppercase bg-green-700 rounded-full bg-gradient-to-br">
-            {content.pill_text}
-          </p>
+          {content.pill_text && (
+            <p className="inline-block w-auto px-3 py-1 mb-5 text-xs font-medium text-white uppercase bg-green-700 rounded-full bg-gradient-to-br">
+              {content.pill_text}
+            </p>
+          )}
           <h1 className="text-6xl font-extrabold tracking-tight text-center text-white lg:text-left xl:pr-32">
             {content.heading}
           </h1>
