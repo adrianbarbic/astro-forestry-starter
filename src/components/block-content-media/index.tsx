@@ -30,6 +30,8 @@ const BlockContentMedia = ({ content }: Content) => {
               className="w-full h-full ml-4 text-purple-100"
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
+              style="text: "
+              style={{ color: content.image?.background_color || "#EDE9FE" }}
             >
               <path
                 fill="currentColor"

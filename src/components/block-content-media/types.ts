@@ -5,6 +5,7 @@ export interface Content {
 export interface Image {
   image: string,
   alt_text: string,
+  background_color: string,
 }
 
 export interface Data {

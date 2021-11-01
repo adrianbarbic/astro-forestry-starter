@@ -30,4 +30,9 @@ fields:
     config:
       required: false
     label: Alt text
+  - name: background_color
+    type: color
+    config:
+      color_format: [Hex]
+    label: Background color
   label: Image
