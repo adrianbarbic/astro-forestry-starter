@@ -29,5 +29,5 @@ fields:
 - name: background_color
   type: color
   config:
-    color_format: [Hex]
+    color_format: Hex
   label: Background color
