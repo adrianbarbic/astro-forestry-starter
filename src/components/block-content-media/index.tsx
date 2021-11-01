@@ -39,6 +39,9 @@ const BlockContentMedia = ({ content }: Content) => (
           <img
             src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2850&amp;h=1603&amp;q=80"
             className="z-10 object-cover w-full h-full"
+            width="2850"
+            height="1603"
+            alt="Inside the cafe"
           />
         </div>
       </div>
