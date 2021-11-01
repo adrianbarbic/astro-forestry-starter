@@ -8,7 +8,7 @@ const BlockContentMedia = ({ content }: Content) => (
           {content.heading}
         </h1>
         <p className="relative z-20 block mt-6 text-base text-gray-500 xl:text-xl sm:text-center lg:text-left">
-          {content.body}
+          <div dangerouslySetInnerHTML={{ __html: content.body }} />
         </p>
         {content.button_url && (
           <div className="relative flex mt-4">
