@@ -16,3 +16,18 @@ fields:
     schema:
       format: html-blocks
   label: Body
+- name: image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: alt_text
+    type: text
+    config:
+      required: false
+    label: Alt text
+  label: Image
