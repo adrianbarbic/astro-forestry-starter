@@ -19,6 +19,7 @@ blocks:
   image:
     image: "/uploads/cafe-image.jpeg"
     alt_text: Inside the cafe
+    background_color: "#B95252"
 page_title: Homepage
 page_description: insight page description
 uri: HOME
