@@ -15,9 +15,7 @@ blocks:
   text_area: <p>This is some awesome content as <a href="" title="" target="_blank">well</a>!</p>
   body: "<p>Pitch churn rate network effects channels focus ownership prototype equity.
     Deployment stock social proof niche market low hanging fruit rockstar crowdsource
-    business-to-business virality ownership release. Prototype agile development funding
-    client user experience launch party first mover advantage burn rate social proof
-    startup. Market marketing network effects hackathon launch party client.</p>"
+    business-to-business virality ownership release.</p>"
 page_title: Homepage
 page_description: insight page description
 uri: HOME
