@@ -25,5 +25,6 @@ published: true
 page_name: Homepage
 seo:
   title: Aviato - The highly rated tech incubator
+  description: 'Aviato - The incubator that is most likely to see you succeed. '
 
 ---
