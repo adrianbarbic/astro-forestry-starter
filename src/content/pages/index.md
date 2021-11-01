@@ -23,5 +23,7 @@ create_own_page: true
 draft: true
 published: true
 page_name: Homepage
+seo:
+  title: Aviato - The highly rated tech incubator
 
 ---
