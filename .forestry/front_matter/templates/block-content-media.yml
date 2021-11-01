@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Heading
-- name: text_area
+- name: body
   type: textarea
   default: ''
   config:
@@ -15,4 +15,4 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-  label: Text area
+  label: Body
