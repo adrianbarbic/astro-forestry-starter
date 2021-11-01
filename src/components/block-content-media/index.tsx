@@ -40,11 +40,11 @@ const BlockContentMedia = ({ content }: Content) => {
           </div>
           <div className="relative overflow-hidden rounded-md shadow-2xl cursor-pointer group">
             <img
-              src={content.image.image}
+              src={content.image?.image}
               className="z-10 object-cover w-full h-full"
               width="2850"
               height="1603"
-              alt={content.image.alt_text}
+              alt={content.image?.alt_text}
             />
           </div>
         </div>
