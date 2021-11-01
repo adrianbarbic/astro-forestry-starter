@@ -27,10 +27,9 @@ const BlockContentMedia = ({ content }: Content) => {
         <div className="relative w-full px-5 rounded-lg cursor-pointer lg:w-1/2 group xl:px-0">
           <div className="absolute top-0 left-0 w-11/12 -mt-20 opacity-50">
             <svg
-              className="w-full h-full ml-4 text-purple-100"
+              className="w-full h-full ml-4"
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
-              style="text: "
               style={{ color: content.image?.background_color || "#EDE9FE" }}
             >
               <path
