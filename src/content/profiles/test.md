@@ -1,9 +1,12 @@
 ---
-name: Philip J Fry
-bio: "<p>test</p>"
-photo: "/uploads/screen-shot-2021-10-26-at-5-24-39-pm.png"
-position: Web Developer
+name: Jìan-Yáng
+bio: "<p>Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel
+  and business incubator, Aviato.</p>"
+photo: "/uploads/jian.jpg"
+position: Developer
 active: true
 published: true
+linkedin_url: https://www.linkedin.com
+twitter_url: https://www.twitter.com
 
 ---
