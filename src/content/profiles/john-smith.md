@@ -1,9 +1,9 @@
 ---
-name: John Smith
-bio: "<p>This is the bio of one John Smith. Gun developer.</p>"
-photo: "/uploads/v3_0569942.jpg"
+name: Richard Hendricks
+bio: "<p>Richard Hendricks was the CEO and founder of Pied Piper as well as PiperNet,</p>"
+photo: "/uploads/richard.jpg"
 active: true
-position: Web Developer
+position: CTO
 linkedin_url: https://www.linkedin.com
 twitter_url: https://www.twitter.com
 published: true
