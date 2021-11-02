@@ -1,10 +1,11 @@
 ---
 published: true
 name: Erlich Bachman
-position: Co-founder
-bio: ''
-photo: "/uploads/screen-shot-2021-10-26-at-5-35-52-pm.png"
-linkedin_url: ''
-twitter_url: ''
+position: Founder
+bio: "<p>Erlich Bachman is an arrogant entrepreneur who founded an innovation incubator
+  in his home after the purchase of his airfare collator Aviato.</p>"
+photo: "/uploads/erlich.jpg"
+linkedin_url: https://www.linkedin.com
+twitter_url: https://www.twitter.com
 
 ---
