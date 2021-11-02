@@ -30,7 +30,7 @@ const BlockContentMedia = ({ content }: Content) => {
               className="w-full h-full ml-4"
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
-              style={{ color: content.image?.background_color || "#EDE9FE" }}
+              style={{ color: content.background_color || "#EDE9FE" }}
             >
               <path
                 fill="currentColor"
@@ -41,11 +41,11 @@ const BlockContentMedia = ({ content }: Content) => {
           </div>
           <div className="relative overflow-hidden rounded-md shadow-2xl cursor-pointer group">
             <img
-              src={content.image?.image}
+              src={content.image}
               className="z-10 object-cover w-full h-full"
               width="2850"
               height="1603"
-              alt={content.image?.alt_text}
+              alt={content.alt_text}
             />
           </div>
         </div>
