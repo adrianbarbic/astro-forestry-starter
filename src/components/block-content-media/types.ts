@@ -8,6 +8,6 @@ export interface Data {
   button_text: string,
   button_url,
   image: string,
-  alt_text: string,
-  background_color: string,
+  image_alt_text: string,
+  image_background_color: string,
 }

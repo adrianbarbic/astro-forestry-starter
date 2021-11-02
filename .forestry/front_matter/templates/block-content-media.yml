@@ -21,12 +21,12 @@ fields:
   config:
     maxSize: 64
   label: Image
-- name: alt_text
+- name: image_alt_text
   type: text
   config:
     required: false
   label: Alt text
-- name: background_color
+- name: image_background_color
   type: color
   config:
     color_format: Hex

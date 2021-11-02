@@ -30,7 +30,7 @@ const BlockContentMedia = ({ content }: Content) => {
               className="w-full h-full ml-4"
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
-              style={{ color: content.background_color || "#EDE9FE" }}
+              style={{ color: content.image_background_color || "#EDE9FE" }}
             >
               <path
                 fill="currentColor"
@@ -45,7 +45,7 @@ const BlockContentMedia = ({ content }: Content) => {
               className="z-10 object-cover w-full h-full"
               width="2850"
               height="1603"
-              alt={content.alt_text}
+              alt={content.image_alt_text}
             />
           </div>
         </div>
