@@ -25,9 +25,9 @@ fields:
   type: text
   config:
     required: false
-  label: Alt text
+  label: Image alt text
 - name: image_background_color
   type: color
   config:
     color_format: Hex
-  label: Background color
+  label: Image background color
