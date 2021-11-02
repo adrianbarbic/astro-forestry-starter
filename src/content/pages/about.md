@@ -11,8 +11,8 @@ blocks:
 - template: block-team
   staff:
   - src/content/profiles/erlich-bachman.md
-  - src/content/profiles/test.md
-  - src/content/profiles/john-smith.md
+  - src/content/profiles/richard-hendricks.md
+  - src/content/profiles/jian-yang.md
   tag: []
 uri: about
 seo:
