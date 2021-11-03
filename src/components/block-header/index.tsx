@@ -21,7 +21,7 @@ const BlockHeader = ({ content }: Content) => (
               {content.pill_text}
             </p>
           )}
-          <h1 className="text-6xl font-extrabold tracking-tight text-center text-white xl:pr-32">
+          <h1 className="text-6xl font-extrabold tracking-tight text-center text-white">
             {content.heading}
           </h1>
         </div>
