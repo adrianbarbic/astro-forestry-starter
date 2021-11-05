@@ -13,8 +13,12 @@ blocks:
   pill_text: Design/UX/Development
   background_image: "/uploads/mercedes_header_190218_234948.jpg"
 - template: block-content-media
-  heading: This is the Merceded project
+  heading: This is the Mercedes project
   text_area: "<p>This is the content area of the Mercedes project.</p>"
+  body: "<p>This is the body from the Mercedes project</p>"
+  image: "/uploads/cafe-image.jpeg"
+  image_alt_text: This is some text from the Mercedes project
+  image_background_color: ''
 seo:
   title: ''
   description: ''
