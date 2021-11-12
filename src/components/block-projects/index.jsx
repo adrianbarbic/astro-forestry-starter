@@ -28,6 +28,8 @@ const BlockProjects = ({ content, allProjects }) => {
                   src={project.image}
                   alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
                   class="w-full h-full object-center object-cover group-hover:opacity-75"
+                  width="1200"
+                  height="1200"
                 />
               </div>
               <h3 class="mt-4 text-sm text-gray-700">{project.name}</h3>

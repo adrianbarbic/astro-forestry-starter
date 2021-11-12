@@ -3,7 +3,7 @@ base_uri: projects
 published: true
 name: Mercedes
 uri: mercedes
-image: "/uploads/mercedes.jpg"
+image: "/uploads/mercedes.webp"
 blocks:
 - template: block-header
   style:

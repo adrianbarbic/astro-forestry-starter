@@ -1,6 +1,6 @@
 ---
 name: Eloque
-image: "/uploads/eloque-project-tile.jpg"
+image: "/uploads/eloque-project-tile.webp"
 blocks:
 - template: block-header
   style:
