@@ -14,6 +14,8 @@ const BlockBlogPosts = ({ allBlogPosts }) => {
                   src={post.image}
                   alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
                   className="object-cover object-center w-full h-full group-hover:opacity-75"
+                  width="300"
+                  height="300"
                 />
               </div>
               <p className="mt-4 text-sm text-gray-700">{post.name}</p>
