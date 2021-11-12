@@ -16,7 +16,7 @@ const BlockBlogPosts = ({ allBlogPosts }) => {
                   className="object-cover object-center w-full h-full group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{post.name}</h3>
+              <p className="mt-4 text-sm text-gray-700">{post.name}</p>
             </a>
           ))}
         </div>
