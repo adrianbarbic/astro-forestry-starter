@@ -13,7 +13,7 @@ blocks:
 published: true
 page_name: Post One
 name: Blog post one
-image: "/uploads/favicon-1.svg"
+image: "/uploads/jian.webp"
 seo:
   title: This is the about page title seo
   description: This is the about page description seo
