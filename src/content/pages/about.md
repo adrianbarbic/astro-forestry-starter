@@ -1,6 +1,4 @@
 ---
-page_title: About
-page_description: about
 blocks:
 - template: block-header
   heading: This is the heading for the about page
@@ -18,8 +16,6 @@ uri: about
 seo:
   title: This is the about page title seo
   description: This is the about page description seo
-draft: true
-live: true
 published: true
 page_name: About
 

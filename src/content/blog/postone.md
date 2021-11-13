@@ -1,6 +1,4 @@
 ---
-page_title: Post title
-page_description: Post description
 uri: postone
 base_path: blog
 blocks:

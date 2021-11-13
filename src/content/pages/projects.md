@@ -1,6 +1,5 @@
 ---
 published: true
-page_title: Projects
 uri: projects
 blocks:
 - template: block-projects
