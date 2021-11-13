@@ -22,8 +22,6 @@ const allProfiles = mds.filter(md => path.dirname(md.file.pathname).endsWith('pr
 const allProjects = mds.filter(md => path.dirname(md.file.pathname).endsWith('projects'));
 const allBlogPosts = mds.filter(md => path.dirname(md.file.pathname).endsWith('blog'));
 const { content } = Astro.props;
-console.log(Astro.props)
-
 
 ---
 
@@ -76,6 +74,5 @@ console.log(Astro.props)
     </article>
 
     <FooterSection />
-
   </body>
 </html>
