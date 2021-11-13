@@ -9,7 +9,7 @@ blocks:
     background_color: "#CD5656"
   heading: Blog page
   pill_text: View our blogs
-  background_image: "/uploads/bg_statement.jpg"
+  background_image: "/uploads/bg_statement.webp"
 - template: block-blog-posts
   heading: Blog posts heading
 seo:

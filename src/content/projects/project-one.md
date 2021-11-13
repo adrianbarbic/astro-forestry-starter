@@ -7,7 +7,7 @@ blocks:
     media_position: Right
   heading: Building VicTrack's vision from concept to 'Eloque' & beyond!
   pill_text: Design / Development
-  background_image: "/uploads/eloque-hero.jpg"
+  background_image: "/uploads/eloque-hero.webp"
 - template: block-content-media
   heading: This is the content media bock for the project
   text_area: "<p>This is the content media bock for the text area</p>"

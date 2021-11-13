@@ -11,7 +11,7 @@ blocks:
     background_color: ''
   heading: The Mercedes-Benz Affordability Calculator
   pill_text: Design/UX/Development
-  background_image: "/uploads/mercedes_header_190218_234948.jpg"
+  background_image: "/uploads/mercedes_header_190218_234948.webp"
 - template: block-content-media
   heading: This is the Mercedes project
   text_area: "<p>This is the content area of the Mercedes project.</p>"

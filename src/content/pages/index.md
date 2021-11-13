@@ -4,7 +4,7 @@ blocks:
 - template: block-header
   heading: A digital incubator for brilliant tech.
   pill_text: ''
-  background_image: "/uploads/silicon_valley_opener2.jpg"
+  background_image: "/uploads/silicon_valley_opener2.webp"
   custom_style: false
   position_image: Left
   style:
