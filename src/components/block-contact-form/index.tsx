@@ -26,6 +26,7 @@ const BlockContactForm = () => (
             action="#"
             method="POST"
             className="grid grid-cols-1 mt-9 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+            data-netlify="true"
           >
             <div>
               <label
