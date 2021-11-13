@@ -6,7 +6,7 @@ import data from '../globals/settings.json';
 const path = Astro.request.url.pathname;
 const [content] = Astro.fetchContent('../globals/navigation.md');
 
-// The second param must match what is set it the admin.
+// Second param must match what is set it the admin.
 const headerNavigation = navigationLinks(content, 'Header Navigation');
 
 ---
@@ -24,6 +24,7 @@ const headerNavigation = navigationLinks(content, 'Header Navigation');
         </span>
       </a>
       <nav class="flex-wrap items-center hidden mb-5 text-base sm:block md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
+        <!-- TODO: Clean this up, use regex -->
         {headerNavigation[0].map((item) => {
           const link = item.link.replace("src/content/pages", "");
           const newLink = link.replace("src/pages", "");
