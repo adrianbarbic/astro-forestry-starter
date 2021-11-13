@@ -4,7 +4,6 @@ bio: "<p>Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker 
   and business incubator, Aviato.</p>"
 photo: "/uploads/jian.webp"
 position: Developer
-active: true
 published: true
 linkedin_url: https://www.linkedin.com
 twitter_url: https://www.twitter.com
