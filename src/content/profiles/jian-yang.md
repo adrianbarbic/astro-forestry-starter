@@ -2,7 +2,7 @@
 name: Jìan-Yáng
 bio: "<p>Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel
   and business incubator, Aviato.</p>"
-photo: "/uploads/jian.jpg"
+photo: "/uploads/jian.webp"
 position: Developer
 active: true
 published: true
