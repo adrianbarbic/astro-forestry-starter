@@ -13,10 +13,5 @@ fields:
   config:
     required: true
   label: Email
-- name: favicon
-  type: file
-  config:
-    maxSize: 64
-  label: Favicon
 pages:
 - src/globals/settings.json
