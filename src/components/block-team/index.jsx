@@ -37,7 +37,9 @@ const BlockTeam = ({ content, allProfiles }) => {
                   <img
                     className="w-40 h-40 mx-auto rounded-full xl:w-56 xl:h-56"
                     src={person.photo}
-                    alt=""
+                    alt={person.name}
+                    width="160"
+                    height="160"
                   />
                   <div className="space-y-2">
                     <div className="space-y-1 text-lg font-medium leading-6">
