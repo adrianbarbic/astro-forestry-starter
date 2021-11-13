@@ -16,7 +16,7 @@ blocks:
   heading: This is the Mercedes project
   text_area: "<p>This is the content area of the Mercedes project.</p>"
   body: "<p>This is the body from the Mercedes project</p>"
-  image: "/uploads/cafe-image.jpeg"
+  image: "/uploads/cafe-image.webp"
   image_alt_text: This is some text from the Mercedes project
   image_background_color: ''
 seo:

@@ -16,7 +16,7 @@ blocks:
   body: "<p>Pitch churn rate network effects channels focus ownership prototype equity.
     Deployment stock social proof niche market low hanging fruit rockstar crowdsource
     business-to-business virality ownership release.</p>"
-  image: "/uploads/cafe-image.jpeg"
+  image: "/uploads/cafe-image.webp"
   alt_text: Inside the cafe
   background_color: "#B95252"
   image_alt_text: Photo of cafe
