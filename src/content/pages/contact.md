@@ -6,5 +6,8 @@ blocks:
   heading: Contact form
 published: true
 page_name: Contact
+seo:
+  title: Contact
+  description: Come and say hi
 
 ---
