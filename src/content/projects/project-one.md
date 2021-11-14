@@ -18,6 +18,7 @@ published: true
 uri: eloque
 base_path: projects
 seo:
-  title: Title
+  title: Eloque project
+  description: This is the Eloque project page
 
 ---
