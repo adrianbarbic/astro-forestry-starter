@@ -20,8 +20,8 @@ blocks:
   image_alt_text: This is some text from the Mercedes project
   image_background_color: ''
 seo:
-  title: ''
-  description: ''
+  title: Mercedes project
+  description: The is the Mercedes project
   open_graph_image: ''
 base_path: projects
 
