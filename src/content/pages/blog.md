@@ -13,8 +13,8 @@ blocks:
 - template: block-blog-posts
   heading: Blog posts heading
 seo:
-  title: ''
-  description: ''
+  title: Thoughts
+  description: This is a blog with our thoughts
   open_graph_image: ''
 
 ---
