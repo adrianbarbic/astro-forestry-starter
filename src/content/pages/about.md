@@ -15,7 +15,7 @@ blocks:
 uri: about
 seo:
   title: About
-  description: This is the about page description seo
+  description: All about us
 published: true
 page_name: About
 
