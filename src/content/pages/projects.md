@@ -7,8 +7,8 @@ blocks:
   - src/content/projects/project-one.md
   - src/content/projects/test-project.md
 seo:
-  title: ''
-  description: ''
+  title: Projects
+  description: See all of our projects
   image: ''
 page_name: Projects
 
