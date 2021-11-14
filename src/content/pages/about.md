@@ -14,7 +14,7 @@ blocks:
   tag: []
 uri: about
 seo:
-  title: This is the about page title seo
+  title: About
   description: This is the about page description seo
 published: true
 page_name: About
