@@ -4,7 +4,7 @@ base_path: blog
 blocks:
 - template: block-header
   heading: 'Introducing Astro: Ship Less JavaScript'
-  pill_text: ssssss
+  pill_text: ''
   background_image: ''
   style:
     media_position: Right
