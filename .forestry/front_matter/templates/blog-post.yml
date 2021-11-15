@@ -32,6 +32,7 @@ fields:
   - block-header
   - block-team
   - block-content-media
+  - block-content
   - block-projects
   config:
     min: 

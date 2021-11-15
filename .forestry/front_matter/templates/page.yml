@@ -28,6 +28,7 @@ fields:
   template_types:
   - block-header
   - block-content-media
+  - block-content
   - block-projects
   - block-faqs
   - block-testimonials
