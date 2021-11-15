@@ -5,7 +5,7 @@ blocks:
 - template: block-header
   heading: 'Introducing Astro: Ship Less JavaScript'
   pill_text: ''
-  background_image: ''
+  background_image: "/uploads/hero.webp"
   style:
     media_position: Right
 - template: block-content-media
