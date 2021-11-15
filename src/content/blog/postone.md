@@ -5,7 +5,7 @@ blocks:
 - template: block-header
   heading: 'Introducing Astro: Ship Less JavaScript'
   pill_text: ''
-  background_image: ''
+  background_image: "/uploads/hero.webp"
   style:
     media_position: Right
 - template: block-content-media
@@ -32,7 +32,7 @@ blocks:
     There are still some months to go before an official 1.0 release, but there are
     already several fast sites built with Astro in production today. We would love
     your early feedback as we move towards a v1.0 release later this year.</p>'
-  heading: 'Introducing Astro: Ship Less JavaScript'
+  heading: ''
 published: true
 page_name: Post One
 name: 'Introducing Astro: Ship Less JavaScript'
