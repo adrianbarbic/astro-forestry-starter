@@ -2,6 +2,7 @@
 import NavigationSection from '../components/navigation-section.astro';
 import FooterSection from '../components/footer-section/index.astro';
 import { BlockContentMedia } from '../components/block-content-media';
+import { BlockContent } from '../components/block-content';
 import { BlockFaqs } from '../components/block-faqs';
 import { BlockHeader } from '../components/block-header';
 import { BlockPricing } from '../components/block-pricing';
@@ -11,7 +12,7 @@ import { BlockTeam } from '../components/block-team';
 import { BlockTestimonials } from '../components/block-testimonials';
 import { BlockContactForm } from '../components/block-contact-form';
 
-import data from '../globals/settings.json'; 
+import data from '../globals/settings.json';
 
 import '../styles/global.css';
 
@@ -47,6 +48,9 @@ const pageTitle = content.seo?.title ? `${content.seo?.title} - ${data.company_n
           break;
         case 'block-content-media':
           return <BlockContentMedia content={item} />
+          break;
+        case 'block-content':
+          return <BlockContent content={item} />
           break;
         case 'block-faqs':
           return <BlockFaqs content={item} />

@@ -17,6 +17,7 @@
     "workspaceRoot": "../.."
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
     "lodash": "^4.17.21"
   }
 }
