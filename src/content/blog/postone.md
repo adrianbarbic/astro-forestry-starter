@@ -3,7 +3,7 @@ uri: postone
 base_path: blog
 blocks:
 - template: block-header
-  heading: This is the blog post header!
+  heading: 'Introducing Astro: Ship Less JavaScript'
   pill_text: ssssss
   background_image: ''
   style:
