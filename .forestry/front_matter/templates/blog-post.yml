@@ -1,6 +1,7 @@
 ---
 label: Blog Post
 hide_body: true
+display_field: name
 fields:
 - name: published
   type: boolean
