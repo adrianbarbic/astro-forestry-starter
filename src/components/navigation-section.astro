@@ -11,38 +11,34 @@ const headerNavigation = navigationLinks(content, 'Header Navigation');
 
 ---
 
-<section class="w-full px-8 text-gray-700 bg-white">
-  <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-    <div class="relative flex flex-col md:flex-row">
-      <a
-        href="/"
-        class="flex items-center font-medium text-gray-900 active sm:mb-5 lg:w-auto lg:items-center lg:justify-center md:mb-0"
-        aria-current="page"
-      >
-        <span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">
-          {data.company_name}<span class="text-green-500">.</span>
-        </span>
-      </a>
-      <nav class="flex-wrap items-center hidden mb-5 text-base sm:block md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
-        <!-- TODO: Clean this up, use regex -->
-        {headerNavigation[0].map((item) => {
-          const link = item.link.replace("src/content/pages", "");
-          const newLink = link.replace("src/pages", "");
-          const newnewLink = newLink.replace("index.md", "");
-          const finalLink = newnewLink.replace(".md", "");
-          return (
-            <a
-              href={finalLink}
-              class={`mr-5 leading-6 text-gray-600 active hover:text-gray-900 ${
-                path === item.link ? "font-bold" : "font-medium"
-              }`}
-              aria-current="page"
-            >
-              {item.link_name}
+<section class="relative py-2">
+    <div class="flex items-center justify-between h-20 px-8 mx-auto max-w-7xl">
+
+        <a href="#_" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-gray-900 select-none">
+            {data.company_name}<span class="text-green-500">.</span>
+        </a>
+
+        <nav class="items-center justify-center hidden space-x-8 text-gray-900 md:flex">
+            {headerNavigation[0].map((item) => {
+              const link = item.link.replace("src/content/pages", "");
+              const newLink = link.replace("src/pages", "");
+              const newnewLink = newLink.replace("index.md", "");
+              const finalLink = newnewLink.replace(".md", "");
+              return (
+                <a href={finalLink} class="relative inline-block text-base font-bold text-gray-700 transition duration-150 ease">
+                <span class="block">{item.link_name}</span>
+               
             </a>
-          );
-        })}
-      </nav>
+              );
+            })}
+        </nav>
+
+        <div class="flex items-center justify-center h-full text-gray-900 md:hidden">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
+            </svg>
+        </div>
+
     </div>
-  </div>
 </section>
+
