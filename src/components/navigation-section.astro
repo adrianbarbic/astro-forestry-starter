@@ -38,7 +38,15 @@ const headerNavigation = navigationLinks(content, 'Header Navigation');
             </svg>
         </button>
         <div class="fixed top-0 z-50 hidden w-full p-2 js-mobile-menu">
-            <div class="p-5 bg-gray-100 rounded">
+            <div class="justify-between p-5 bg-gray-100 rounded">
+                <a href="/" class="relative z-10 flex self-stretch w-auto px-1 text-2xl font-extrabold leading-none text-gray-900 select-none">
+                    {data.company_name}<span class="text-green-500">.</span>
+                </a>
+                <button class="flex items-center justify-center h-full px-8 text-gray-900 md:hidden js-hide-mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
+                    </svg>
+                </button>
                 {headerNavigation[0].map((item) => {
                 const link = item.link.replace("src/content/pages", "");
                 const newLink = link.replace("src/pages", "");
@@ -50,11 +58,6 @@ const headerNavigation = navigationLinks(content, 'Header Navigation');
                 </a>
                 );
                 })}
-                <button class="js-hide-mobile-menu-button">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
-                    </svg>
-                </button>
             </div>
         </div>
     </div>
