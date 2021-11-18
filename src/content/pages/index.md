@@ -2,7 +2,7 @@
 heading: Home
 blocks:
 - template: block-header
-  heading: A digital incubator for brilliant tech.
+  heading: An Astro and Forestry Starter Template
   pill_text: ''
   background_image: "/uploads/silicon_valley_opener2.webp"
   custom_style: false
