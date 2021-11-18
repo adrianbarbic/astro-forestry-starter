@@ -13,7 +13,7 @@ const headerNavigation = navigationLinks(content, 'Header Navigation');
 
 <section class="relative">
     <div class="flex items-center justify-between h-20 mx-auto max-w-7xl">
-        <div class="pr-8">
+        <div class="flex items-center justify-between w-full pr-8">
             <a href="/" class="relative z-10 flex self-stretch w-auto px-8 text-2xl font-extrabold leading-none text-gray-900 select-none">
                 {data.company_name}<span class="text-green-500">.</span>
             </a>
@@ -37,7 +37,7 @@ const headerNavigation = navigationLinks(content, 'Header Navigation');
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
             </svg>
         </button>
-        <div class="fixed top-0 z-50 hidden w-full p-2 js-mobile-menu">
+        <div class="absolute top-0 z-50 hidden w-full p-2 js-mobile-menu">
             <div class="bg-gray-100 rounded ">
                 <div class="flex justify-between py-5 mx-auto bg-gray-100 rounded">
                     <a href="/" class="relative z-10 flex self-stretch w-auto px-6 text-2xl font-extrabold leading-none text-gray-900 select-none">
