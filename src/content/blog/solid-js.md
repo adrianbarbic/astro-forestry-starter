@@ -8,8 +8,8 @@ blocks:
   heading: SolidJS
   body: "<p>This is the text</p>"
 seo:
-  title: ''
-  description: ''
+  title: SolidJS
+  description: This is the description for solidJS
   open_graph_image: ''
 
 ---
