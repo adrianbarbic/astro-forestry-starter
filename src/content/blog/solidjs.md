@@ -2,7 +2,7 @@
 base_path: blog
 published: true
 name: SolidJs
-uri: solidjs
+uri: solid-js
 image: "/uploads/solid-js.webp"
 blocks:
 - template: block-content
