@@ -1,4 +1,5 @@
 ---
+base_path: blog
 published: true
 name: SolidJs
 uri: solidjs
