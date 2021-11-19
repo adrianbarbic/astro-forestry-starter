@@ -50,4 +50,4 @@ fields:
   template: seo
   label: SEO
 pages:
-- src/content/blog/solidjs.md
+- src/content/blog/solid-js.md
