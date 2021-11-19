@@ -51,3 +51,4 @@ fields:
   label: SEO
 pages:
 - src/content/blog/solid-js.md
+- src/content/blog/svelte.md
