@@ -1,7 +1,7 @@
 ---
 published: true
 name: SolidJs
-uri: solid-js
+uri: solidjs
 image: "/uploads/solid-js.webp"
 blocks:
 - template: block-content
