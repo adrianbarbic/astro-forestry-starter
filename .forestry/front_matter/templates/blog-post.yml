@@ -3,6 +3,13 @@ label: Blog Post
 hide_body: true
 display_field: name
 fields:
+- name: base_path
+  type: text
+  config:
+    required: false
+  label: Base path
+  hidden: true
+  default: blog
 - name: published
   type: boolean
   label: Published
