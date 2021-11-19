@@ -12,6 +12,9 @@ blocks:
   background_image: "/uploads/svelte.webp"
   heading: Svelte
   pill_text: ''
+- template: block-content
+  heading: Svelte intro
+  body: "<p>This is some text</p>"
 seo:
   title: ''
   description: ''
