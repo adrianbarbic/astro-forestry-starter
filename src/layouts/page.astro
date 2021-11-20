@@ -41,7 +41,7 @@ const pageTitle = content.seo?.title ? `${content.seo?.title} - ${data.company_n
     <NavigationSection uri={content.uri} />
 
     <article class="article">
-    {content.blocks.map((item) => {
+    {content.blocks?.map((item) => {
       switch(item.template) {
         case 'block-header':
           return <BlockHeader content={item} />
