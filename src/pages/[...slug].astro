@@ -2,8 +2,13 @@
 export async function getStaticPaths() {
   const allContent = Astro.fetchContent('../content/**/*.md');
 
-  return allContent.map((content) => {
-    if(content.uri === "HOME" || content.uri === "404" || content.published !== true) return false
+  const filteredPages = allContent.map((content => {
+    if(content.uri !== "HOME" || content.uri !== "404" || content.published === true) {
+      return content
+    }
+  }))
+
+  return filteredPages.map((content) => {
     const uri = content.base_path ? `${content.base_path}/${content.uri}` : content.uri;
 
     return {
