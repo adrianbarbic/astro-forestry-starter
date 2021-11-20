@@ -1,4 +1,4 @@
-import { compact, isEmpty } from "lodash";
+import { compact, isEmpty } from "lodash-es";
 
 const BlockTeam = ({ content, allProfiles }) => {
   const foo = allProfiles.filter((profile) => {
