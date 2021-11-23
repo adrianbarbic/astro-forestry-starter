@@ -47,12 +47,6 @@ fields:
   config: {}
   template: seo
   label: SEO
-- name: base_path
-  type: text
-  config:
-    required: false
-  label: Base path
-  hidden: true
 pages:
 - src/content/projects/only-golf.md
 - src/content/projects/project-three.md

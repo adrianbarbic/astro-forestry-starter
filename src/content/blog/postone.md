@@ -1,6 +1,6 @@
 ---
 uri: postone
-base_path: blog
+base_uri: blog
 blocks:
 - template: block-header
   heading: 'Introducing Astro: Ship Less JavaScript'

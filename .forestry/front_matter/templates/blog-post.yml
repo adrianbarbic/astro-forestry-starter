@@ -3,7 +3,7 @@ label: Blog Post
 hide_body: true
 display_field: name
 fields:
-- name: base_path
+- name: base_uri
   type: text
   config:
     required: false

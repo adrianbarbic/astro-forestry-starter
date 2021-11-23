@@ -11,7 +11,7 @@ export async function getStaticPaths() {
   }))
 
   return filteredPages.map((content) => {
-    const uri = content.base_path ? `${content.base_path}/${content.uri}` : content.uri;
+    const uri = content.base_uri ? `${content.base_uri}/${content.uri}` : content.uri;
 
     return {
       params: { slug: uri },

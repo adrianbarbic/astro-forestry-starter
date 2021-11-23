@@ -16,7 +16,7 @@ blocks:
   image_alt_text: This is some text from the Eloque project
 published: true
 uri: uptron
-base_path: projects
+base_uri: projects
 seo:
   title: Uptron project
   description: This is the Uptron project page

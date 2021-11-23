@@ -23,6 +23,5 @@ seo:
   title: Mercedes project
   description: The is the Mercedes project
   open_graph_image: ''
-base_path: projects
 
 ---

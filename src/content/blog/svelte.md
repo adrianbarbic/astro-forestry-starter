@@ -1,5 +1,5 @@
 ---
-base_path: blog
+base_uri: blog
 published: true
 name: Svelte
 uri: svelte
