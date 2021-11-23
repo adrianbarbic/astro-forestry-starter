@@ -13,9 +13,8 @@ blocks:
 - template: block-content-media
   heading: Jump in Forestry and update me
   text_area: <p>This is some awesome content as <a href="" title="" target="_blank">well</a>!</p>
-  body: "<p>Pitch churn rate network effects channels focus ownership prototype equity.
-    Deployment stock social proof niche market low hanging fruit rockstar crowdsource
-    business-to-business virality ownership release.</p>"
+  body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vos autem cum
+    perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere.</p>"
   image: "/uploads/cafe-image.webp"
   alt_text: Inside the cafe
   background_color: "#B95252"
