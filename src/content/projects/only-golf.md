@@ -13,9 +13,10 @@ blocks:
   heading: Pro Shop for Only Golf
   pill_text: Golfing
 - template: block-content-media
-  body: "<p></p>"
-  heading: ''
-  image: ''
+  body: "<p>You can update all the info on this page through Forestry.io and it saves
+    to Github.</p>"
+  heading: This is the Only Golf Project page
+  image: "/uploads/cafe-image.webp"
   image_alt_text: ''
   image_background_color: ''
 - template: block-content
