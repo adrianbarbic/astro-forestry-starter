@@ -54,5 +54,6 @@ fields:
   label: Base path
   hidden: true
 pages:
+- src/content/projects/only-golf.md
 - src/content/projects/project-three.md
 - src/content/projects/test-project.md
