@@ -18,7 +18,7 @@ published: true
 uri: uptron
 base_path: projects
 seo:
-  title: Upturn project
-  description: This is the Upturn project page
+  title: Uptron project
+  description: This is the Uptron project page
 
 ---
