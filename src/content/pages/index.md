@@ -11,7 +11,7 @@ blocks:
     media_position: Right
     background_color: "#ECECEC"
 - template: block-content-media
-  heading: Jump in Forestry and update me!
+  heading: Jump in Forestry and update me
   text_area: <p>This is some awesome content as <a href="" title="" target="_blank">well</a>!</p>
   body: "<p>Pitch churn rate network effects channels focus ownership prototype equity.
     Deployment stock social proof niche market low hanging fruit rockstar crowdsource
