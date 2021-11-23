@@ -20,20 +20,33 @@ const BlockProjects = ({ content, allProjects }) => {
   return (
     <div className="bg-white">
       <div className="max-w-2xl px-4 py-16 mx-auto sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 mt-6 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           {projectsToShow.map((project) => (
-            <a href={`/projects/${project.uri}`} className="group">
-              <div className="w-full overflow-hidden bg-gray-200 rounded-lg aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8">
+            <div key={project.name} className="relative group">
+              <div className="overflow-hidden bg-gray-100 rounded-lg aspect-w-4 aspect-h-3">
                 <img
                   src={project.image}
-                  alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
-                  className="object-cover object-center w-full h-full group-hover:opacity-75"
-                  width="1200"
-                  height="1200"
+                  alt={project.name}
+                  className="object-cover object-center"
                 />
+                <div
+                  className="flex items-end p-4 opacity-0 group-hover:opacity-100"
+                  aria-hidden="true"
+                >
+                  <div className="w-full px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white bg-opacity-75 rounded-md backdrop-filter backdrop-blur">
+                    View Project
+                  </div>
+                </div>
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{project.name}</h3>
-            </a>
+              <div className="flex items-center justify-between mt-4 space-x-8 text-base font-medium text-gray-900">
+                <h3>
+                  <a href={`/projects/${project.uri}`}>
+                    <span aria-hidden="true" className="absolute inset-0" />
+                    {project.name}
+                  </a>
+                </h3>
+              </div>
+            </div>
           ))}
         </div>
       </div>
