@@ -9,7 +9,7 @@ blocks:
   pill_text: Design / Development
   background_image: "/uploads/project-one-large.png"
 - template: block-content-media
-  heading: This is the content media bock for the project
+  heading: This is the content media block
   text_area: "<p>This is the content media bock for the text area</p>"
   image: "/uploads/cafe-image.webp"
   body: '<h1>Qua tu etiam inprudens utebare non numquam.</h1><p>Lorem ipsum dolor
