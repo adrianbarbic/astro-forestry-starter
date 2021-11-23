@@ -1,17 +1,17 @@
 ---
 base_uri: projects
 published: true
-name: Mercedes
-uri: mercedes
-image: "/uploads/mercedes.webp"
+name: DeliverFast
+uri: deliver-fast
+image: "/uploads/project-two.webp"
 blocks:
 - template: block-header
   style:
     media_position: Right
     background_color: ''
-  heading: The Mercedes-Benz Affordability Calculator
+  heading: The DeliverFast platform
   pill_text: Design/UX/Development
-  background_image: "/uploads/mercedes_header_190218_234948.webp"
+  background_image: "/uploads/project-two-large.png"
 - template: block-content-media
   heading: This is the Mercedes project
   text_area: "<p>This is the content area of the Mercedes project.</p>"
