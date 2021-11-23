@@ -4,7 +4,7 @@ blocks:
 - template: block-header
   heading: An Astro + Forestry Starter
   pill_text: ''
-  background_image: "/uploads/silicon_valley_opener2.webp"
+  background_image: "/uploads/silicon-valley.webp"
   custom_style: false
   position_image: Left
   style:
