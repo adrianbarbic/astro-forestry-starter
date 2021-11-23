@@ -12,20 +12,22 @@ blocks:
   heading: This is the content media block
   text_area: "<p>This is the content media bock for the text area</p>"
   image: "/uploads/cafe-image.webp"
-  body: '<h1>Qua tu etiam inprudens utebare non numquam.</h1><p>Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit. Vos autem cum perspicuis dubia debeatis
-    illustrare, dubiis perspicua conamini tollere. Etenim semper illud extra est,
-    quod arte comprehenditur. Laboro autem non sine causa; Duo Reges: constructio
-    interrete. Ex quo intellegitur officium medium quiddam esse, quod neque in bonis
-    ponatur neque in contrariis. Id enim volumus, id contendimus, ut officii fructus
-    sit ipsum officium. At modo dixeras nihil in istis rebus esse, quod interesset.</p><ul><li><p>Theophrastum
-    tamen adhibeamus ad pleraque, dum modo plus in virtute teneamus, quam ille tenuit,
-    firmitatis et roboris.</p></li><li><p>Nam memini etiam quae nolo, oblivisci non
-    possum quae volo.</p></li></ul><ol><li><p>-, sed ut hoc iudicaremus, non esse
-    in iis partem maximam positam beate aut secus vivendi.</p></li><li><p>An quod
-    ita callida est, ut optime possit architectari voluptates?</p></li><li><p>Sed
-    ad haec, nisi molestum est, habeo quae velim.</p></li><li><p>Fortitudinis quaedam
-    praecepta sunt ac paene leges, quae effeminari virum vetant in dolore.</p></li></ol><p>Aut,
+  body: "<p></p>"
+  image_alt_text: This is some text from the Uptron project
+- template: block-content
+  body: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vos autem cum
+    perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere. Etenim
+    semper illud extra est, quod arte comprehenditur. Laboro autem non sine causa;
+    Duo Reges: constructio interrete. Ex quo intellegitur officium medium quiddam
+    esse, quod neque in bonis ponatur neque in contrariis. Id enim volumus, id contendimus,
+    ut officii fructus sit ipsum officium. At modo dixeras nihil in istis rebus esse,
+    quod interesset.</p><ul><li><p>Theophrastum tamen adhibeamus ad pleraque, dum
+    modo plus in virtute teneamus, quam ille tenuit, firmitatis et roboris.</p></li><li><p>Nam
+    memini etiam quae nolo, oblivisci non possum quae volo.</p></li></ul><ol><li><p>-,
+    sed ut hoc iudicaremus, non esse in iis partem maximam positam beate aut secus
+    vivendi.</p></li><li><p>An quod ita callida est, ut optime possit architectari
+    voluptates?</p></li><li><p>Sed ad haec, nisi molestum est, habeo quae velim.</p></li><li><p>Fortitudinis
+    quaedam praecepta sunt ac paene leges, quae effeminari virum vetant in dolore.</p></li></ol><p>Aut,
     Pylades cum sis, dices te esse Orestem, ut moriare pro amico? <a href="http://loripsum.net/">Aliter
     enim nosmet ipsos nosse non possumus.</a> Quamquam tu hanc copiosiorem etiam soles
     dicere. Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem
@@ -41,7 +43,7 @@ blocks:
     sit, sapiens ut relinquat. Ita relinquet duas, de quibus etiam atque etiam consideret.
     Ubi ut eam caperet aut quando? At, illa, ut vobis placet, partem quandam tuetur,
     reliquam deserit. <a href="http://loripsum.net/">Negare non possum.</a></p>'
-  image_alt_text: This is some text from the Eloque project
+  heading: Qua tu etiam inprudens utebare non numquam.
 published: true
 uri: uptron
 base_uri: projects
