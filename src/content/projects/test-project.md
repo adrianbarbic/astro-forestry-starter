@@ -13,9 +13,9 @@ blocks:
   pill_text: Design/UX/Development
   background_image: "/uploads/project-two-large.png"
 - template: block-content-media
-  heading: This is the Mercedes project
+  heading: This is the DeliverFast project
   text_area: "<p>This is the content area of the Mercedes project.</p>"
-  body: "<p>This is the body from the Mercedes project</p>"
+  body: "<p>This is the body from the DeliverFast project</p>"
   image: "/uploads/cafe-image.webp"
   image_alt_text: This is some text from the Mercedes project
   image_background_color: ''
