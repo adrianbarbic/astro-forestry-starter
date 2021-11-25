@@ -1,5 +1,5 @@
 ---
-name: KIA EV6
+name: KIA EV6 microsite
 image: "/uploads/kia-ev6.png"
 blocks:
 - template: block-header
