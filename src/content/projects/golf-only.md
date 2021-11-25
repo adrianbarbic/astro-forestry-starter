@@ -15,7 +15,7 @@ blocks:
 - template: block-content-media
   body: "<p>You can update all the info on this page through Forestry.io and it saves
     to Github.</p>"
-  heading: This is the Only Golf Project page
+  heading: This is the Golf Only Project page
   image: "/uploads/cafe-image.webp"
   image_alt_text: ''
   image_background_color: ''
