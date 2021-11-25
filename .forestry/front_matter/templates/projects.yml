@@ -49,6 +49,6 @@ fields:
   template: seo
   label: SEO
 pages:
-- src/content/projects/only-golf.md
+- src/content/projects/golf-only.md
 - src/content/projects/project-three.md
 - src/content/projects/test-project.md
