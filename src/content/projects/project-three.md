@@ -11,7 +11,7 @@ blocks:
     background_color: ''
   heading: The NFT collection marketplace
   pill_text: WTF is an NFT?
-  background_image: "/uploads/project-three-large.jpg"
+  background_image: "/uploads/2021_nyr_20447_0001_001_beeple_everydays_the_first_5000_days034733_-0.webp"
 - template: block-content
   body: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In schola desinis.
     Ita ne hoc quidem modo paria peccata sunt. Sed tamen enitar et, si minus multa
