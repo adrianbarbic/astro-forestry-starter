@@ -11,7 +11,7 @@ blocks:
 - template: block-content-media
   heading: This is the content media block
   text_area: "<p>This is the content media bock for the text area</p>"
-  image: "/uploads/cafe-image.webp"
+  image: "/uploads/kiaev6.webp"
   body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vos autem cum
     perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere. Etenim
     semper illud extra est, quod arte comprehenditur.</p>"
