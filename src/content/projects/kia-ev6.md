@@ -1,6 +1,6 @@
 ---
 name: KIA EV6 microsite
-image: "/uploads/kia-microsite.webp"
+image: "/uploads/kia-ev6-microsite.png"
 blocks:
 - template: block-header
   style:
