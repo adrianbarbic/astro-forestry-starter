@@ -1,6 +1,6 @@
 ---
 name: KIA EV6
-image: "/uploads/project-one.webp"
+image: "/uploads/kia-ev6.png"
 blocks:
 - template: block-header
   style:
