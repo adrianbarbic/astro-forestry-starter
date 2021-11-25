@@ -1,8 +1,8 @@
 ---
 base_uri: projects
 published: true
-name: Only Golf
-uri: only-golf
+name: Golf Only
+uri: golf-only
 image: "/uploads/project-four.webp"
 blocks:
 - template: block-header
