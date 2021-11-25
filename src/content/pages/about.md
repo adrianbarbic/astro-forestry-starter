@@ -1,8 +1,8 @@
 ---
 blocks:
 - template: block-header
-  heading: This is the heading for the about page
-  pill_text: Some text
+  heading: About us
+  pill_text: Add some text here
   background_image: "/uploads/meeting.webp"
   style:
     media_position: Right
