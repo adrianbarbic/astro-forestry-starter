@@ -10,7 +10,7 @@ blocks:
     media_position: Right
     background_color: ''
   background_image: "/uploads/project-four-large.png"
-  heading: Pro Shop for Only Golf
+  heading: Pro Shop for Golf Only
   pill_text: Golfing
 - template: block-content-media
   body: "<p>You can update all the info on this page through Forestry.io and it saves
