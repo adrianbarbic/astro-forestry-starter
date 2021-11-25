@@ -10,7 +10,7 @@ blocks:
     media_position: Right
     background_color: ''
   background_image: "/uploads/hero-banner-full-width-jaws-full-toe-2560x1000.webp"
-  heading: Pro Shop for Golf Only
+  heading: Shopify for Golf Only
   pill_text: Golfing
 - template: block-content-media
   body: "<p>You can update all the info on this page through Forestry.io and it saves
