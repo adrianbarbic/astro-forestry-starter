@@ -9,7 +9,7 @@ blocks:
   style:
     media_position: Right
     background_color: ''
-  background_image: "/uploads/project-four-large.png"
+  background_image: "/uploads/hero-banner-full-width-jaws-full-toe-2560x1000.webp"
   heading: Pro Shop for Golf Only
   pill_text: Golfing
 - template: block-content-media
