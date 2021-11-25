@@ -8,7 +8,7 @@ blocks:
     media_position: Right
     background_color: "#CD5656"
   heading: Blog page
-  pill_text: View our blogs
+  pill_text: View our posts
   background_image: "/uploads/bg_statement.webp"
 - template: block-blog-posts
   heading: Blog posts heading
