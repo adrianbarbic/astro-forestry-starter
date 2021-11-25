@@ -1,7 +1,7 @@
 ---
 base_uri: projects
 published: true
-name: Golf Only
+name: Golf Only Shopify Store
 uri: golf-only
 image: "/uploads/project-four.webp"
 blocks:
