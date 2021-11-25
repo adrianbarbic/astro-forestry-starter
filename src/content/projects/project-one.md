@@ -7,7 +7,7 @@ blocks:
     media_position: Right
   heading: Building and full turnkey solution
   pill_text: Design / Development
-  background_image: "/uploads/project-one-large.png"
+  background_image: "/uploads/kia-ev6-review-2021-13.webp"
 - template: block-content-media
   heading: This is the content media block
   text_area: "<p>This is the content media bock for the text area</p>"
