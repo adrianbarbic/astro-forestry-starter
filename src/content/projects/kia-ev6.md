@@ -1,11 +1,11 @@
 ---
-name: Uptron
+name: KIA EV6
 image: "/uploads/project-one.webp"
 blocks:
 - template: block-header
   style:
     media_position: Right
-  heading: Building and full turnkey solution
+  heading: KIA EV6 Microsite
   pill_text: Design / Development
   background_image: "/uploads/kia-ev6-review-2021-13.webp"
 - template: block-content-media
@@ -47,7 +47,7 @@ blocks:
     reliquam deserit. <a href="http://loripsum.net/">Negare non possum.</a></p>'
   heading: Qua tu etiam inprudens utebare non numquam.
 published: true
-uri: uptron
+uri: kia-ev6
 base_uri: projects
 seo:
   title: Uptron project
