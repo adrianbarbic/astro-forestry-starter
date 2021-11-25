@@ -10,7 +10,7 @@ blocks:
     media_position: Right
     background_color: ''
   heading: The NFT collection marketplace
-  pill_text: WTF is an NFT?
+  pill_text: WTF is a NFT?
   background_image: "/uploads/2021_nyr_20447_0001_001_beeple_everydays_the_first_5000_days034733_-0.webp"
 - template: block-content
   body: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In schola desinis.
