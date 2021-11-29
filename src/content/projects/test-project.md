@@ -47,8 +47,8 @@ blocks:
     M.</p></li><li><p>Expectoque quid ad id, quod quaerebam, respondeas.</p></li></ul>'
   heading: ''
 seo:
-  title: Mercedes project
-  description: The is the Mercedes project
+  title: DeliverFast
+  description: DeliverFast
   open_graph_image: ''
 
 ---

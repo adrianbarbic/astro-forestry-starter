@@ -50,7 +50,7 @@ published: true
 uri: kia-ev6
 base_uri: projects
 seo:
-  title: Uptron project
-  description: This is the Uptron project page
+  title: KIA EV6 Microsite
+  description: KIA EV6 Microsite
 
 ---

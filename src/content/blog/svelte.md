@@ -38,8 +38,8 @@ blocks:
     already several fast sites built with Astro in production today. We would love
     your early feedback as we move towards a v1.0 release later this year.</p>'
 seo:
-  title: ''
-  description: ''
+  title: Svelte
+  description: Svelte
   open_graph_image: ''
 
 ---
