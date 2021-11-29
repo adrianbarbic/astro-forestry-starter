@@ -47,8 +47,8 @@ blocks:
     M.</p></li><li><p>Expectoque quid ad id, quod quaerebam, respondeas.</p></li></ul>'
   heading: ''
 seo:
-  title: ''
-  description: ''
+  title: Golf Only Shopify Store
+  description: Golf Only Shopify Store
   open_graph_image: ''
 
 ---
