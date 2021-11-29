@@ -40,8 +40,8 @@ blocks:
     M.</p></li><li><p>Expectoque quid ad id, quod quaerebam, respondeas.</p></li></ul>'
   heading: ''
 seo:
-  title: ''
-  description: ''
+  title: The NFT collection marketplace
+  description: The NFT collection marketplace
   open_graph_image: ''
 
 ---
