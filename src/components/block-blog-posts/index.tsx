@@ -16,11 +16,13 @@ const BlockBlogPosts = ({ allBlogPosts }) => {
               className="flex flex-col overflow-hidden rounded-lg shadow-lg"
             >
               <div className="flex-shrink-0">
-                <a href={`/blog/${post.uri}`}>
+                <a href={`/blog/${post.uri}`} aria-label={post.name}>
                   <img
                     className="object-cover w-full h-48"
                     src={post.image}
-                    alt=""
+                    alt={post.name}
+                    width="1200"
+                    height="780"
                   />
                 </a>
               </div>
@@ -45,7 +47,7 @@ const BlockBlogPosts = ({ allBlogPosts }) => {
                       <img
                         className="w-10 h-10 rounded-full"
                         src={post.image}
-                        alt=""
+                        alt="Philip Fry"
                       />
                     </a>
                   </div>
