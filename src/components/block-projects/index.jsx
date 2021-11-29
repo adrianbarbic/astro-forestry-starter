@@ -28,6 +28,8 @@ const BlockProjects = ({ content, allProjects }) => {
                   src={project.image}
                   alt={project.name}
                   className="object-cover object-center"
+                  width="1600"
+                  height="1200"
                 />
                 <div
                   className="flex items-end p-4 opacity-0 group-hover:opacity-100"
