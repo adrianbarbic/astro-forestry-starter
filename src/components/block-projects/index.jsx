@@ -5,10 +5,7 @@ const BlockProjects = ({ content, allProjects }) => {
     const out = content.projects.filter((doc) => {
       const projectFile = project.file.pathname.split("src/")[1];
       const contentFile = doc.split("src/")[1];
-
-      const link = doc.replace("src/content/", "");
-      const newLink = link.replace(".md", "");
-
+      const newLink = doc.replace(/^src\/|content\/|.md/g, "");
       project.link = newLink;
       return projectFile === contentFile && project.published === true;
     });
