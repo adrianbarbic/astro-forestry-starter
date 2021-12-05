@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@astrojs/renderer-react": "^0.3.1",
-    "astro": "  0.21.10",
+    "astro": "0.21.6",
     "prettier": "^2.5.1",
     "tailwindcss": "^2.2.19"
   },
