@@ -8,15 +8,15 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "@astrojs/renderer-react": "^0.4.1",
-    "astro": "^0.22.13",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "prettier": "^2.5.1",
-    "tailwindcss": "^3.0.15"
+    "@astrojs/renderer-react": "0.4.0",
+    "astro": "0.22.9",
+    "autoprefixer": "10.4.2",
+    "postcss": "8.4.5",
+    "prettier": "2.5.1",
+    "tailwindcss": "3.0.13"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.0",
-    "lodash-es": "^4.17.21"
+    "@tailwindcss/typography": "0.5.0",
+    "lodash-es": "4.17.21"
   }
 }
