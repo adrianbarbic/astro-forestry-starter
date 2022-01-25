@@ -3,10 +3,10 @@
 > 🧑‍🚀 A starter template to get you up and running.
 
 Tech stack:  
-Astro  
-Forestry.io  
-Typescript  
-Tailwind  
+- Astro  
+- Forestry.io  
+- Typescript  
+- Tailwind  
 
 ## 🚀 Getting setup
 
