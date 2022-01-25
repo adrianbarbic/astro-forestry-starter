@@ -8,16 +8,6 @@ Forestry.io
 Typescript  
 Tailwind  
 
-Features:
-
-- [x] Add pages
-- [x] Add team members
-- [x] Add projects
-- [x] Add 404 page
-
-Todo:
-- [ ] Add blog setup
-
 ## 🚀 Getting setup
 
 All commands are run from the root of the project, from a terminal:
