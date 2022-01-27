@@ -3,20 +3,10 @@
 > 🧑‍🚀 A starter template to get you up and running.
 
 Tech stack:  
-Astro  
-Forestry.io  
-Typescript  
-Tailwind  
-
-Features:
-
-- [x] Add pages
-- [x] Add team members
-- [x] Add projects
-- [x] Add 404 page
-
-Todo:
-- [ ] Add blog setup
+- Astro  
+- Forestry.io  
+- Typescript  
+- Tailwind  
 
 ## 🚀 Getting setup
 
