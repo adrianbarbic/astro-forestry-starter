@@ -13,6 +13,7 @@ import { BlockTestimonials } from '../components/block-testimonials';
 import { BlockContactForm } from '../components/block-contact-form';
 
 import data from '../globals/settings.json';
+import '../styles/global.css';
 
 import * as path from 'node:path';
 
@@ -32,9 +33,6 @@ const pageTitle = content.seo?.title ? `${content.seo?.title} - ${data.company_n
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="description" content={content.seo?.description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style global>
-      @import "../styles/global.css";
-    </style>
   </head>
 
   <body>
