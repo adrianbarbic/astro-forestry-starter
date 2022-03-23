@@ -14,7 +14,7 @@
   }
   ```
 */
-import { Content } from "./types";
+import type { Content } from "./types";
 
 const BlockContent = ({ content }: Content) => (
   <div className="relative py-16 overflow-hidden bg-white">

@@ -1,4 +1,6 @@
-const BlockBlogPosts = ({ allBlogPosts }) => {
+import type { AllBlogPostProps } from "./types";
+
+const BlockBlogPosts = ({ allBlogPosts }: AllBlogPostProps) => {
   const blogPostsToShow = allBlogPosts.filter(
     (post) => post.published === true
   );
