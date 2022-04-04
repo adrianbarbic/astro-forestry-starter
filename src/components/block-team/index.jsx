@@ -40,6 +40,7 @@ const BlockTeam = ({ content, allProfiles }) => {
                     alt={person.name}
                     width="160"
                     height="160"
+                    loading="lazy"
                   />
                   <div className="space-y-2">
                     <div className="space-y-1 text-lg font-medium leading-6">

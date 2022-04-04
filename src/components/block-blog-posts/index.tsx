@@ -25,6 +25,7 @@ const BlockBlogPosts = ({ allBlogPosts }: AllBlogPostProps) => {
                     alt={post.name}
                     width="1200"
                     height="780"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -50,6 +51,7 @@ const BlockBlogPosts = ({ allBlogPosts }: AllBlogPostProps) => {
                         className="w-10 h-10 rounded-full"
                         src={post.image}
                         alt="Philip Fry"
+                        loading="lazy"
                       />
                     </a>
                   </div>

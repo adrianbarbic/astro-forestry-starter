@@ -43,6 +43,7 @@ const BlockContentMedia = ({ content }: Content) => (
             width="2850"
             height="1603"
             alt={content.image_alt_text}
+            loading="lazy"
           />
         </div>
       </div>

@@ -8,6 +8,7 @@ const BlockContactForm = () => (
           alt=""
           width="934"
           height="224"
+          loading="lazy"
         />
       </div>
     </div>
