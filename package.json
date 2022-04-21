@@ -8,7 +8,7 @@
     "build": "astro build --experimental-static-build"
   },
   "devDependencies": {
-    "@astrojs/react": "0.0.2",
+    "@astrojs/react": "0.1.1",
     "@tailwindcss/typography": "0.5.2",
     "@types/react": "^17.0.43",
     "astro": "0.25.4",
