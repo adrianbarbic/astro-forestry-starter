@@ -12,7 +12,7 @@
     "@tailwindcss/typography": "0.5.2",
     "@types/react": "^17.0.43",
     "astro": "0.25.4",
-    "autoprefixer": "10.4.4",
+    "autoprefixer": "10.4.7",
     "lodash-es": "4.17.21",
     "postcss": "8.4.12",
     "prettier": "^2.6.1",
