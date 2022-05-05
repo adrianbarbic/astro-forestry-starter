@@ -10,9 +10,9 @@ const [content] = Astro.fetchContent('../globals/navigation.md');
 const headerNavigation = navigationLinks(content, 'Header Navigation');
 const headerLinks = headerNavigation[0].map((item: any) => {
   const link = item.link.replace(/^src\/|content\/|pages\/|index|.md/g, "")
-  return { link: `/${link}`, name: item.link_name };
+  return { link: item.link_name === 'Home' ? '/' : `/${link}/`, name: item.link_name };
 })
-
+console.log('headerLinks: ', headerLinks);
 ---
 
 <section class="relative">
