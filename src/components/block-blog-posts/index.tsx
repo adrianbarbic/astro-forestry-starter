@@ -1,7 +1,6 @@
 import type { AllBlogPostProps } from "./types";
 
 const BlockBlogPosts = ({ allBlogPosts }: AllBlogPostProps) => {
-  console.log("allBlogPosts22222: ", allBlogPosts);
   const blogPostsToShow = allBlogPosts.filter(
     (post) => post.frontmatter.published === true
   );
@@ -15,7 +14,7 @@ const BlockBlogPosts = ({ allBlogPosts }: AllBlogPostProps) => {
         <div className="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
           {blogPostsToShow.map((post) => (
             <div
-              key={post.name}
+              key={post.frontmatter.name}
               className="flex flex-col overflow-hidden rounded-lg shadow-lg"
             >
               <div className="flex-shrink-0">

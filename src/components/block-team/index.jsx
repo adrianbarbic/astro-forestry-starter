@@ -1,7 +1,6 @@
 import { compact, isEmpty } from "lodash-es";
 
 const BlockTeam = ({ content, allProfiles }) => {
-  console.log("content, allProfiles: ", content, allProfiles);
   const foo = allProfiles.filter((profile) => {
     const out = content.staff.filter((doc) => {
       const profileFile = profile.file.split("src/")[1];
