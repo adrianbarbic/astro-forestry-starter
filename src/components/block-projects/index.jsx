@@ -6,7 +6,7 @@ const BlockProjects = ({ content, allProjects }) => {
       const projectFile = project.file.split("src/")[1];
       const contentFile = doc.split("src/")[1];
       const newLink = doc.replace(/^src\/|content\/|.md/g, "");
-      project.link = newLink;
+      project.frontmatter.link = newLink;
       return (
         projectFile === contentFile && project.frontmatter.published === true
       );
@@ -21,7 +21,7 @@ const BlockProjects = ({ content, allProjects }) => {
       <div className="max-w-2xl px-4 py-16 mx-auto sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="grid grid-cols-1 mt-6 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           {projectsToShow.map((project) => (
-            <div key={project.name} className="relative group">
+            <div key={project.frontmatter.name} className="relative group">
               <div className="overflow-hidden bg-gray-100 rounded-lg aspect-w-4 aspect-h-3">
                 <img
                   src={project.frontmatter.image}
