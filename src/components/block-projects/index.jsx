@@ -42,7 +42,7 @@ const BlockProjects = ({ content, allProjects }) => {
               </div>
               <div className="flex items-center justify-between mt-4 space-x-8 text-base font-medium text-gray-900">
                 <h3>
-                  <a href={`/projects/${project.frontmatter.uri}`}>
+                  <a href={`/projects/${project.frontmatter.uri}/`}>
                     <span aria-hidden="true" className="absolute inset-0" />
                     {project.frontmatter.name}
                   </a>

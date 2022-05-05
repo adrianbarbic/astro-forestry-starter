@@ -10,7 +10,7 @@ const [content] = await Astro.glob('../globals/navigation.md');
 const headerNavigation = navigationLinks(content.frontmatter, 'Header Navigation');
 const headerLinks = headerNavigation[0].map((item: any) => {
   const link = item.link.replace(/^src\/|content\/|pages\/|index|.md/g, "")
-  return { link: `/${link}`, name: item.link_name };
+  return { link: `/${link}/`, name: item.link_name };
 })
 
 ---
