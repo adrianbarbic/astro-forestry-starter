@@ -1,17 +1,17 @@
 ---
 export async function getStaticPaths() {
-  const allContent = Astro.fetchContent('../content/**/*.md');
+  const allContent = await Astro.glob('../content/**/*.md');
 
   const filteredPages = allContent.filter((content => {
-    if(content.uri === "HOME" || content.uri === "404" || content.published !== true || !content.uri) {
+    if(content.frontmatter.uri === "HOME" || content.frontmatter.uri === "404" || content.frontmatter.published !== true || !content.frontmatter.uri) {
       return false
     }
 
     return true
-  }))
+  }));
 
   return filteredPages.map((content) => {
-    const uri = content.base_uri ? `${content.base_uri}/${content.uri}` : content.uri;
+    const uri = content.frontmatter.base_uri ? `${content.frontmatter.base_uri}/${content.frontmatter.uri}` : content.frontmatter.uri;
 
     return {
       params: { slug: uri },
@@ -24,4 +24,4 @@ import PageLayout from '../layouts/page.astro'
 const { content } = Astro.props;
 ---
 
-<PageLayout content={content} />
+<PageLayout content={content.frontmatter} />

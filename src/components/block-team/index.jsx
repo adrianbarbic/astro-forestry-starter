@@ -3,10 +3,12 @@ import { compact, isEmpty } from "lodash-es";
 const BlockTeam = ({ content, allProfiles }) => {
   const foo = allProfiles.filter((profile) => {
     const out = content.staff.filter((doc) => {
-      const profileFile = profile.file.pathname.split("src/")[1];
+      const profileFile = profile.file.split("src/")[1];
       const contentFile = doc.split("src/")[1];
 
-      return profileFile === contentFile && profile.published === true;
+      return (
+        profileFile === contentFile && profile.frontmatter.published === true
+      );
     });
 
     const output = isEmpty(out) ? null : out;
@@ -36,21 +38,23 @@ const BlockTeam = ({ content, allProfiles }) => {
                 <div className="space-y-6">
                   <img
                     className="w-40 h-40 mx-auto rounded-full xl:w-56 xl:h-56"
-                    src={person.photo}
-                    alt={person.name}
+                    src={person.frontmatter.photo}
+                    alt={person.frontmatter.name}
                     width="160"
                     height="160"
                     loading="lazy"
                   />
                   <div className="space-y-2">
                     <div className="space-y-1 text-lg font-medium leading-6">
-                      <h3>{person.name}</h3>
-                      <p className="text-indigo-600">{person.role}</p>
+                      <h3>{person.frontmatter.name}</h3>
+                      <p className="text-indigo-600">
+                        {person.frontmatter.role}
+                      </p>
                     </div>
                     <ul role="list" className="flex justify-center space-x-5">
                       <li>
                         <a
-                          href={person.twitter_url}
+                          href={person.frontmatter.twitter_url}
                           className="text-gray-400 hover:text-gray-500"
                         >
                           <span className="sr-only">Twitter</span>
@@ -66,7 +70,7 @@ const BlockTeam = ({ content, allProfiles }) => {
                       </li>
                       <li>
                         <a
-                          href={person.linkedin_url}
+                          href={person.frontmatter.linkedin_url}
                           className="text-gray-400 hover:text-gray-500"
                         >
                           <span className="sr-only">LinkedIn</span>

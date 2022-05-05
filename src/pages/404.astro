@@ -1,7 +1,7 @@
 ---
 import PageLayout from '../layouts/page.astro'
-const [content] = Astro.fetchContent('../content/pages/404.md');
+const [content] = await Astro.glob('../content/pages/404.md');
 ---
 
-<PageLayout content={content} />
+<PageLayout content={content.frontmatter} />
 
