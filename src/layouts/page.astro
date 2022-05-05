@@ -15,15 +15,22 @@ import { BlockContactForm } from '../components/block-contact-form';
 import data from '../globals/settings.json';
 import '../styles/global.css';
 
-import * as path from 'node:path';
+// import * as path from 'node:path';
 
-const mds = Astro.fetchContent('../content/**/*.md');
-const allProfiles = mds.filter(md => path.dirname(md.file.pathname).endsWith('profiles'));
-const allProjects = mds.filter(md => path.dirname(md.file.pathname).endsWith('projects'));
-const allBlogPosts = mds.filter(md => path.dirname(md.file.pathname).endsWith('blog'));
+const mds = await Astro.glob('../content/**/*.md');
+ mds.filter(md => console.log('md: ', md.file));
+
+const allProfiles = mds.filter(md => md.file.includes('/src/content/profiles/'));
+console.log('allProfiles!!: ', allProfiles);
+const allProjects = mds.filter(md => md.file.includes('/src/content/projects/'));
+console.log('proallProjectsjects!!: ', allProjects);
+const allBlogPosts = mds.filter(md => md.file.includes('/src/content/blog/'));
+console.log('allBlogPosts!!: ', allBlogPosts);
+// const allProjects = mds.filter(md => path.dirname(md.file.pathname).endsWith('projects'));
+// const allBlogPosts = mds.filter(md => path.dirname(md.file.pathname).endsWith('blog'));
 const { content } = Astro.props;
 
-const pageTitle = content.seo?.title ? `${content.seo?.title} - ${data.company_name}` : data.company_name;
+const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?.title} - ${data.company_name}` : data.company_name;
 
 ---
 
@@ -31,7 +38,7 @@ const pageTitle = content.seo?.title ? `${content.seo?.title} - ${data.company_n
   <head>
     <title>{pageTitle}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="description" content={content.seo?.description} />
+    <meta name="description" content={content.frontmatter?.seo?.description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
   </head>

@@ -3,11 +3,13 @@ import { isEmpty } from "lodash-es";
 const BlockProjects = ({ content, allProjects }) => {
   const projectsToShow = allProjects.filter((project) => {
     const out = content.projects.filter((doc) => {
-      const projectFile = project.file.pathname.split("src/")[1];
+      const projectFile = project.file.split("src/")[1];
       const contentFile = doc.split("src/")[1];
       const newLink = doc.replace(/^src\/|content\/|.md/g, "");
       project.link = newLink;
-      return projectFile === contentFile && project.published === true;
+      return (
+        projectFile === contentFile && project.frontmatter.published === true
+      );
     });
     const output = isEmpty(out) ? null : out;
 
@@ -22,8 +24,8 @@ const BlockProjects = ({ content, allProjects }) => {
             <div key={project.name} className="relative group">
               <div className="overflow-hidden bg-gray-100 rounded-lg aspect-w-4 aspect-h-3">
                 <img
-                  src={project.image}
-                  alt={project.name}
+                  src={project.frontmatter.image}
+                  alt={project.frontmatter.name}
                   className="object-cover object-center"
                   width="1600"
                   height="1200"
@@ -40,9 +42,9 @@ const BlockProjects = ({ content, allProjects }) => {
               </div>
               <div className="flex items-center justify-between mt-4 space-x-8 text-base font-medium text-gray-900">
                 <h3>
-                  <a href={`/projects/${project.uri}`}>
+                  <a href={`/projects/${project.frontmatter.uri}`}>
                     <span aria-hidden="true" className="absolute inset-0" />
-                    {project.name}
+                    {project.frontmatter.name}
                   </a>
                 </h3>
               </div>

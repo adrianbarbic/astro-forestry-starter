@@ -4,10 +4,10 @@ import data from '../globals/settings.json';
 
 
 const path = Astro.request.url.pathname;
-const [content] = Astro.fetchContent('../globals/navigation.md');
+const [content] = await Astro.glob('../globals/navigation.md');
 
 // Second param must match what is set it the admin.
-const headerNavigation = navigationLinks(content, 'Header Navigation');
+const headerNavigation = navigationLinks(content.frontmatter, 'Header Navigation');
 const headerLinks = headerNavigation[0].map((item: any) => {
   const link = item.link.replace(/^src\/|content\/|pages\/|index|.md/g, "")
   return { link: `/${link}`, name: item.link_name };
