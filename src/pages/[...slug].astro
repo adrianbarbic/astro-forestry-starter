@@ -10,6 +10,7 @@ export async function getStaticPaths() {
     return true
   }));
 
+
   return filteredPages.map((content) => {
     const uri = content.frontmatter.base_uri ? `${content.frontmatter.base_uri}/${content.frontmatter.uri}` : content.frontmatter.uri;
 
@@ -24,4 +25,4 @@ import PageLayout from '../layouts/page.astro'
 const { content } = Astro.props;
 ---
 
-<PageLayout content={content.frontmatter} />
+<PageLayout content={content} />

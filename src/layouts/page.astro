@@ -39,7 +39,7 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
     <NavigationSection uri={content.uri} />
 
     <article class="article">
-    {content.blocks?.map((item) => {
+    {content.frontmatter.blocks?.map((item) => {
       switch(item.template) {
         case 'block-header':
           return <BlockHeader content={item} />
