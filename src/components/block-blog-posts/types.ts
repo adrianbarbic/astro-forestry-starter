@@ -5,6 +5,10 @@ export type BlogPostProps = {
   image: string;
 };
 
+export type BlogPostsFrontmatter = {
+  frontmatter: BlogPostProps;
+};
+
 export type AllBlogPostProps = {
-  allBlogPosts: BlogPostProps[];
+  allBlogPosts: BlogPostsFrontmatter[];
 };
