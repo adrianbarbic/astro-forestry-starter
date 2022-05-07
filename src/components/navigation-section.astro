@@ -21,7 +21,7 @@ const headerLinks = headerNavigation[0].map((item: any) => {
         {data.company_name}<span class="text-green-500">.</span>
       </a>
 
-      <nav class="items-center justify-center hidden space-x-8 text-gray-900 md:flex">
+      <nav class="items-center justify-center hidden space-x-8 text-gray-900 md:flex" hx-boost="true">
         {headerLinks.map((item: any) => (
         <a href={item.link} class="relative inline-block text-base font-bold text-gray-700 transition duration-150 ease">
           <span class="text-black link link-underline link-underline-black">{item.name}</span>
