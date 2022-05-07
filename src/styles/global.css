@@ -21,3 +21,10 @@
   background-size: 100% 3px;
   background-position: 0 100%;
 }
+
+.container:not(:first-child) {
+  display: none;
+}
+.container:not(:first-child) {
+  display: block;
+}
