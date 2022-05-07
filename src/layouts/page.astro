@@ -35,8 +35,10 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
   </head>
 
   <body>
-    <NavigationSection uri={content.uri} />
-
+    <div class="container">
+      <NavigationSection uri={content.uri} />
+    </div>
+    <div class="container">
     <article class="article">
     {content.frontmatter?.blocks?.map((item) => {
       switch(item.template) {
@@ -77,5 +79,6 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
     </article>
 
     <FooterSection />
+    </div>
   </body>
 </html>
