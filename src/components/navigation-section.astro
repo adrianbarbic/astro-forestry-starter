@@ -23,7 +23,7 @@ const headerLinks = headerNavigation[0].map((item: any) => {
 
       <nav class="items-center justify-center hidden space-x-8 text-gray-900 md:flex">
         {headerLinks.map((item: any) => (
-        <a hx-boost="true" href={item.link} class="relative inline-block text-base font-bold text-gray-700 transition duration-150 ease">
+        <a href={item.link} class="relative inline-block text-base font-bold text-gray-700 transition duration-150 ease">
           <span class="text-black link link-underline link-underline-black">{item.name}</span>
         </a>
         ))}
@@ -47,7 +47,7 @@ const headerLinks = headerNavigation[0].map((item: any) => {
           </button>
         </div>
         {headerLinks.map((item: any) => (
-        <a hx-boost="true" href={item.link} class="block px-8 py-4 text-base font-bold text-gray-700 transition duration-150 blockrelative ease">
+        <a href={item.link} class="block px-8 py-4 text-base font-bold text-gray-700 transition duration-150 blockrelative ease">
           {item.name}
         </a>
         ))}

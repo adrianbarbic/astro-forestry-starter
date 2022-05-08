@@ -33,7 +33,6 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
     <meta name="description" content={content.frontmatter?.seo?.description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
-    <script src="https://unpkg.com/htmx.org@1.7.0" integrity="sha384-EzBXYPt0/T6gxNp0nuPtLkmRpmDBbjg6WmCUZRLXBBwYYmwAUxzlSGej0ARHX0Bo" crossorigin="anonymous" defer></script>
     <link rel="prefetch" href="/uploads/2021_nyr_20...4733_-O.webp" />
     <link rel="prefetch" href="/uploads/astro.webp" />
     <link rel="prefetch" href="/uploads/bg_statement.webp" />
@@ -69,7 +68,7 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
 
   <body>
       <NavigationSection uri={content.uri} />
-    <article class="article" hx-boost="true">
+    <article class="article">
     {content.frontmatter?.blocks?.map((item) => {
       switch(item.template) {
         case 'block-header':
