@@ -67,9 +67,9 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
     <link rel="prefetch" href="/uploads/svelte.webp" />
   </head>
 
-  <body hx-boost="true">
+  <body>
       <NavigationSection uri={content.uri} />
-    <article class="article">
+    <article class="article" hx-boost="true">
     {content.frontmatter?.blocks?.map((item) => {
       switch(item.template) {
         case 'block-header':
