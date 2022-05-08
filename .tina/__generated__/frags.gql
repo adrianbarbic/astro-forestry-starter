@@ -1,0 +1,16 @@
+fragment PostParts on Post {
+  title
+  date
+  draft
+  body
+}
+
+fragment TeamParts on Team {
+  published
+  name
+  position
+  bio
+  photo
+  linkedin_url
+  twitter_url
+}
