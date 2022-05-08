@@ -33,7 +33,7 @@ const BlockTeam = ({ content, allProfiles }) => {
             role="list"
             className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
           >
-            {foo.map((person) => (
+            {foo?.map((person) => (
               <li key={person.name}>
                 <div className="space-y-6">
                   <img
