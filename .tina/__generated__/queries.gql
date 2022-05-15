@@ -1,6 +1,6 @@
-query post($relativePath: String!) {
-  post(relativePath: $relativePath) {
-    _sys {
+query getPostDocument($relativePath: String!) {
+  getPostDocument(relativePath: $relativePath) {
+    sys {
       filename
       basename
       breadcrumbs
@@ -9,17 +9,19 @@ query post($relativePath: String!) {
       extension
     }
     id
-    ...PostParts
+    data {
+      ...PostParts
+    }
   }
 }
 
-query postConnection {
-  postConnection {
+query getPostList {
+  getPostList {
     totalCount
     edges {
       node {
         id
-        _sys {
+        sys {
           filename
           basename
           breadcrumbs
@@ -27,15 +29,17 @@ query postConnection {
           relativePath
           extension
         }
-        ...PostParts
+        data {
+          ...PostParts
+        }
       }
     }
   }
 }
 
-query team($relativePath: String!) {
-  team(relativePath: $relativePath) {
-    _sys {
+query getTeamDocument($relativePath: String!) {
+  getTeamDocument(relativePath: $relativePath) {
+    sys {
       filename
       basename
       breadcrumbs
@@ -44,17 +48,19 @@ query team($relativePath: String!) {
       extension
     }
     id
-    ...TeamParts
+    data {
+      ...TeamParts
+    }
   }
 }
 
-query teamConnection {
-  teamConnection {
+query getTeamList {
+  getTeamList {
     totalCount
     edges {
       node {
         id
-        _sys {
+        sys {
           filename
           basename
           breadcrumbs
@@ -62,7 +68,48 @@ query teamConnection {
           relativePath
           extension
         }
-        ...TeamParts
+        data {
+          ...TeamParts
+        }
+      }
+    }
+  }
+}
+
+query getPagesDocument($relativePath: String!) {
+  getPagesDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...PagesParts
+    }
+  }
+}
+
+query getPagesList {
+  getPagesList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...PagesParts
+        }
       }
     }
   }

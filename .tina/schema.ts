@@ -1,4 +1,5 @@
 import { defineSchema } from "@tinacms/cli";
+import { blockContent } from "../src/components/block-content/schema";
 
 export default defineSchema({
   collections: [
@@ -72,6 +73,30 @@ export default defineSchema({
           type: "string",
           label: "Twitter Url",
           name: "twitter_url",
+        },
+      ],
+    },
+    {
+      label: "Pages",
+      name: "pages",
+      path: "content/pages",
+      fields: [
+        {
+          type: "boolean",
+          label: "Published",
+          name: "published",
+        },
+        {
+          type: "string",
+          label: "Name",
+          name: "page_name",
+        },
+        {
+          label: "Page Blocks",
+          name: "page_blocks",
+          type: "object",
+          list: true,
+          templates: [blockContent],
         },
       ],
     },

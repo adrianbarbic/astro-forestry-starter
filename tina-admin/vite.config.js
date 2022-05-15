@@ -12,6 +12,6 @@ export default defineConfig({
   },
   plugins: [react()],
   build: {
-    outDir: "../public/admin",
+    outDir: "../static/admin",
   },
 });

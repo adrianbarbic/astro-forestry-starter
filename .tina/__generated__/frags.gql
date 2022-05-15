@@ -14,3 +14,15 @@ fragment TeamParts on Team {
   linkedin_url
   twitter_url
 }
+
+fragment PagesParts on Pages {
+  published
+  page_name
+  page_blocks {
+    __typename
+    ... on PagesPage_blocksBlock_content {
+      heading
+      body
+    }
+  }
+}
