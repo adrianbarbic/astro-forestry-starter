@@ -1,9 +1,13 @@
 import type { AllBlogPostProps } from "./types";
+// import { useStore } from "@nanostores/react";
+import { counter } from "../../store/counter.js";
+import { persistentAtom } from "@nanostores/persistent";
 
 const BlockBlogPosts = ({ allBlogPosts }: AllBlogPostProps) => {
   const blogPostsToShow = allBlogPosts.filter(
     (post) => post.frontmatter.published === true
   );
+  const count = persistentAtom("locale", "en");
 
   return (
     <div className="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -41,6 +45,7 @@ const BlockBlogPosts = ({ allBlogPosts }: AllBlogPostProps) => {
                     <p className="text-xl font-semibold text-gray-900">
                       {post.frontmatter.name}
                     </p>
+                    <p>{count.value}</p>
                     <p className="mt-3 text-base text-gray-500">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Velit facilis asperiores porro quaerat doloribus, eveniet

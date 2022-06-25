@@ -1,5 +1,4 @@
-import { defineSchema } from "@tinacms/cli";
-import { blockContent } from "../src/components/block-content/schema";
+import { defineSchema, defineConfig } from "@tinacms/cli";
 
 export default defineSchema({
   collections: [
@@ -35,48 +34,6 @@ export default defineSchema({
       ],
     },
     {
-      label: "Team",
-      name: "team",
-      path: "content/team",
-      fields: [
-        {
-          type: "boolean",
-          label: "Published",
-          name: "published",
-        },
-        {
-          type: "string",
-          label: "Name",
-          name: "name",
-        },
-        {
-          type: "string",
-          label: "Position",
-          name: "position",
-        },
-        {
-          type: "rich-text",
-          label: "Bio",
-          name: "bio",
-        },
-        {
-          type: "string",
-          label: "Photo",
-          name: "photo",
-        },
-        {
-          type: "string",
-          label: "Linkedin Url",
-          name: "linkedin_url",
-        },
-        {
-          type: "string",
-          label: "Twitter Url",
-          name: "twitter_url",
-        },
-      ],
-    },
-    {
       label: "Pages",
       name: "pages",
       path: "content/pages",
@@ -91,14 +48,16 @@ export default defineSchema({
           label: "Name",
           name: "page_name",
         },
-        {
-          label: "Page Blocks",
-          name: "page_blocks",
-          type: "object",
-          list: true,
-          templates: [blockContent],
-        },
       ],
     },
   ],
+});
+
+export const config = defineConfig({
+  apiURL,
+  mediaStore: async () => {
+    // Load media store dynamically so it only loads in edit mode
+    const pack = await import("next-tinacms-cloudinary");
+    return pack.TinaCloudCloudinaryMediaStore;
+  },
 });

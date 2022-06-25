@@ -1,6 +1,7 @@
 ---
 person:
-  - name: Hello
+  - name: fgasfas
     position: Judith Black
+    bio: ''
 ---
 

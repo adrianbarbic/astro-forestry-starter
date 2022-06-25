@@ -41,7 +41,7 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
     {content.frontmatter?.blocks?.map((item) => {
       switch(item.template) {
         case 'block-header':
-          return <BlockHeader content={item} />
+          return <BlockHeader content={item} client:visible />
           break;
         case 'block-content-media':
           return <BlockContentMedia content={item} />
@@ -65,7 +65,7 @@ const pageTitle = content.frontmatter?.seo?.title ? `${content.frontmatter?.seo?
           return <BlockProjects content={item} allProjects={allProjects} />
           break;
         case 'block-blog-posts':
-          return <BlockBlogPosts content={item} allBlogPosts={allBlogPosts} />
+          return <BlockBlogPosts content={item} allBlogPosts={allBlogPosts} client:visible />
           break;
         case 'block-contact-form':
           return <BlockContactForm />

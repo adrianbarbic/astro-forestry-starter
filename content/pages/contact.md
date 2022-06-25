@@ -1,10 +1,8 @@
 ---
+title: safasdfdasfasfdsafsadfadsfa
 published: true
+date: "2022-01-11T14:28:45.000Z"
 page_name: Contact
-page_blocks:
-  - heading: hi
-    body: |
-      fasd
-    _template: block_content
 ---
 
+hi
