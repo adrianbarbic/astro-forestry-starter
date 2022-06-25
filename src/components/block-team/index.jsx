@@ -1,4 +1,4 @@
-import { compact, isEmpty } from "lodash-es";
+import { isEmpty } from "lodash-es";
 
 const BlockTeam = ({ content, allProfiles }) => {
   const foo = allProfiles.filter((profile) => {
@@ -34,7 +34,7 @@ const BlockTeam = ({ content, allProfiles }) => {
             className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
           >
             {foo?.map((person) => (
-              <li key={person.name}>
+              <li key={person.frontmatter.name}>
                 <div className="space-y-6">
                   <img
                     className="w-40 h-40 mx-auto rounded-full xl:w-56 xl:h-56"
