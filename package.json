@@ -8,10 +8,10 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "@astrojs/react": "^0.2.0",
+    "@astrojs/react": "^3.0.0",
     "@tailwindcss/typography": "0.5.2",
     "@types/react": "^18.0.14",
-    "astro": "^1.0.0-beta.56",
+    "astro": "^4.0.0",
     "autoprefixer": "^10.4.7",
     "lodash-es": "4.17.21",
     "postcss": "^8.4.13",
